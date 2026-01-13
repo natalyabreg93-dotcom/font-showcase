@@ -1,169 +1,104 @@
-/* Основные настройки страницы */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+    background-color: #f7f7f7;
     color: #333;
-    line-height: 1.6;
 }
 
 header {
-    background-color: #fff;
     text-align: center;
-    padding: 40px 20px;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 30px;
+    padding: 50px 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    color: #1a1a1a;
-}
+header h1 { margin: 0; font-size: 2.5rem; }
+header p { color: #666; margin-top: 10px; }
 
-header p {
-    color: #666;
-    font-size: 1.1rem;
-}
-
-/* Контейнер для сетки и сайдбара */
 .main-container {
     display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1300px;
+    margin: 30px auto;
     gap: 30px;
     padding: 0 20px;
 }
 
-/* Сетка товаров (левая часть) */
 .product-grid {
     flex: 3;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 25px;
+    gap: 30px;
 }
 
-/* Карточка товара */
 .product-card {
     background: #fff;
-    border: 1px solid #eee;
-    border-radius: 12px;
     padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    transition: transform 0.3s ease;
 }
 
-.product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-}
+.product-card:hover { transform: translateY(-5px); }
+.product-card img { max-width: 100%; border-radius: 8px; margin-bottom: 15px; }
 
 .badge {
+    display: inline-block;
     background: #f0f0f0;
-    color: #555;
-    font-size: 11px;
+    padding: 3px 10px;
+    font-size: 0.75rem;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 4px 10px;
     border-radius: 20px;
-    display: inline-block;
-    margin-bottom: 15px;
-    align-self: center;
+    margin-bottom: 10px;
 }
 
-.product-card h3 {
-    margin: 10px 0;
-    font-size: 1.3rem;
-    color: #222;
-}
-
-.product-card p {
-    font-size: 0.95rem;
-    color: #777;
-    margin-bottom: 20px;
-}
-
-/* Кнопка купить */
 .buy-button {
     display: block;
+    margin-top: 15px;
+    padding: 12px;
     background-color: #2ecc71;
     color: white;
     text-decoration: none;
-    padding: 12px;
-    border-radius: 8px;
+    border-radius: 6px;
     font-weight: bold;
-    transition: background 0.3s;
 }
 
-.buy-button:hover {
-    background-color: #27ae60;
-}
-
-/* Боковая панель (правая часть) */
-.sidebar {
-    flex: 1;
-    min-width: 300px;
-}
-
+.sidebar { flex: 1; min-width: 300px; }
 .banner-container {
     background: #fff;
     padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #eee;
     position: sticky;
     top: 20px;
+    border-radius: 12px;
     text-align: center;
 }
+.banner-container img { max-width: 100%; border-radius: 8px; }
 
-.banner-container h3 {
-    margin-top: 0;
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-}
-
-/* Финальная кнопка внизу */
-.final-cta {
-    text-align: center;
-    padding: 60px 20px;
-    margin-top: 40px;
-    background: #fff;
-    border-top: 1px solid #eee;
-}
-
+.final-cta { text-align: center; padding: 40px; }
 .main-link-btn {
-    display: inline-block;
-    background-color: #1a1a1a;
+    background: #1a1a1a;
     color: #fff;
-    padding: 18px 40px;
-    font-size: 1.1rem;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 50px;
-    font-weight: bold;
-    transition: background 0.3s;
+    border-radius: 30px;
+    font-size: 1.1rem;
 }
 
-.main-link-btn:hover {
-    background-color: #ff5a5f;
+.pagination { text-align: center; padding: 40px; }
+.page-link {
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    color: #333;
+    border-radius: 4px;
 }
+.page-link.active { background: #ff5a5f; color: white; border-color: #ff5a5f; }
 
-footer {
-    text-align: center;
-    padding: 30px;
-    color: #999;
-    font-size: 0.9rem;
-}
+footer { text-align: center; padding: 30px; color: #999; }
 
-/* Адаптивность для мобилок */
-@media (max-width: 900px) {
-    .main-container {
-        flex-direction: column;
-    }
-    .sidebar {
-        order: -1; /* Баннер сверху на мобильных */
-        min-width: auto;
-    }
+@media (max-width: 1000px) {
+    .main-container { flex-direction: column; }
+    .sidebar { order: -1; }
 }
