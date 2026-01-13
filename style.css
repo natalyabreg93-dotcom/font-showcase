@@ -1,0 +1,169 @@
+/* Основные настройки страницы */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #1a1a1a;
+}
+
+header p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Контейнер для сетки и сайдбара */
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+/* Сетка товаров (левая часть) */
+.product-grid {
+    flex: 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+/* Карточка товара */
+.product-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.badge {
+    background: #f0f0f0;
+    color: #555;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+.product-card p {
+    font-size: 0.95rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Кнопка купить */
+.buy-button {
+    display: block;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #27ae60;
+}
+
+/* Боковая панель (правая часть) */
+.sidebar {
+    flex: 1;
+    min-width: 300px;
+}
+
+.banner-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    position: sticky;
+    top: 20px;
+    text-align: center;
+}
+
+.banner-container h3 {
+    margin-top: 0;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Финальная кнопка внизу */
+.final-cta {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 40px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.main-link-btn {
+    display: inline-block;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 18px 40px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.main-link-btn:hover {
+    background-color: #ff5a5f;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Адаптивность для мобилок */
+@media (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .sidebar {
+        order: -1; /* Баннер сверху на мобильных */
+        min-width: auto;
+    }
+}
