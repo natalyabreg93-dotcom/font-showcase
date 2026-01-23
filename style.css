@@ -1,232 +1,243 @@
-/* 1. Основные настройки и шрифты */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Общие стили и сброс настроек */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
 }
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Шапка сайта */
 header {
     background-color: #fff;
+    padding: 40px 20px;
     text-align: center;
-    padding: 50px 20px;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
 }
 
 header h1 {
-    margin: 0;
     font-size: 2.5rem;
-    color: #1a1a1a;
-    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
 }
 
 header p {
     color: #666;
     font-size: 1.1rem;
-    margin-top: 10px;
 }
 
-/* 2. Контейнер для сетки и сайдбара */
+/* Основной контейнер */
 .main-container {
+    max-width: 1200px;
+    margin: 30px auto;
     display: flex;
-    max-width: 1300px;
-    margin: 0 auto;
     gap: 30px;
     padding: 0 20px;
 }
 
-/* 3. Сетка товаров (Левая часть) */
+/* Сетка товаров */
 .product-grid {
     flex: 3;
     display: grid;
-    /* Создаем эффект изобилия через плотную сетку  */
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 25px;
 }
 
-/* 4. Карточка товара (Премиальный стиль) */
+/* Карточка товара */
 .product-card {
     background: #fff;
-    border: 1px solid #eee;
-    border-radius: 12px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    position: relative;
 }
 
 .product-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .product-card img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
-.badge {
-    background: #f0f0f0;
-    color: #555;
-    font-size: 11px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 4px 12px;
-    border-radius: 20px;
-    display: inline-block;
-    margin-bottom: 15px;
-    align-self: center;
+    display: block;
 }
 
 .product-card h3 {
-    margin: 10px 0;
-    font-size: 1.25rem;
-    color: #222;
+    padding: 15px 15px 5px;
+    font-size: 1.2rem;
 }
 
 .product-card p {
-    font-size: 0.95rem;
+    padding: 0 15px 15px;
+    font-size: 0.9rem;
     color: #777;
-    margin-bottom: 20px;
+    flex-grow: 1;
 }
 
-/* 5. Кнопки CTA (Призыв к действию)  */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ff5a5f;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Кнопки */
 .buy-button {
     display: block;
-    background-color: #2ecc71; /* Зеленый цвет для стимуляции клика */
-    color: white;
+    text-align: center;
+    background: #ff5a5f;
+    color: #fff;
     text-decoration: none;
-    padding: 14px;
-    border-radius: 8px;
+    padding: 12px;
+    margin: 0 15px 15px;
+    border-radius: 5px;
     font-weight: bold;
     transition: background 0.3s;
 }
 
 .buy-button:hover {
-    background-color: #27ae60;
+    background: #e0484d;
 }
 
-/* 6. Боковая панель и Баннеры  */
+/* Боковая панель */
 .sidebar {
     flex: 1;
-    min-width: 300px;
 }
 
 .banner-container {
     background: #fff;
     padding: 20px;
-    border-radius: 12px;
-    border: 1px solid #eee;
-    position: sticky;
-    top: 20px;
+    border-radius: 10px;
     text-align: center;
-}
-
-.banner-container h3 {
-    margin-top: 0;
-    font-size: 1.1rem;
-    color: #444;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .banner-container img {
     max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
-/* 7. Финальная кнопка внизу страницы  */
+/* Финальный призыв к действию */
 .final-cta {
     text-align: center;
-    padding: 50px 20px;
-    margin-top: 40px;
-    background: #fff;
-    border-top: 1px solid #eee;
+    margin: 50px 0;
 }
 
 .main-link-btn {
     display: inline-block;
-    background-color: #1a1a1a;
+    padding: 15px 30px;
+    background: #222;
     color: #fff;
-    padding: 18px 45px;
-    font-size: 1.1rem;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 30px;
+    font-size: 1.1rem;
     font-weight: bold;
-    transition: all 0.3s;
+    transition: background 0.3s;
 }
 
 .main-link-btn:hover {
-    background-color: #ff5a5f;
-    transform: scale(1.05);
+    background: #444;
 }
 
-/* 8. Навигация по страницам */
-.pagination {
-    text-align: center;
-    padding: 20px 0 60px;
-    background-color: #fff;
+/* НОВАЯ НАВИГАЦИЯ (КАТЕГОРИИ) */
+.main-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
 }
 
-.page-label {
+.nav-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.category-title {
     font-weight: bold;
-    margin-right: 15px;
-    color: #888;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: #aaa;
+    letter-spacing: 1px;
 }
 
-.page-link {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border: 1px solid #ddd;
+.nav-group {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-item {
     text-decoration: none;
-    color: #333;
-    border-radius: 6px;
+    padding: 8px 18px;
+    background: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    color: #555;
+    font-size: 0.9rem;
     transition: all 0.3s;
 }
 
-.page-link.active {
-    background-color: #ff5a5f;
+.nav-item:hover {
+    background: #ff5a5f;
     color: white;
     border-color: #ff5a5f;
+    transform: translateY(-2px);
 }
 
-.page-link:hover:not(.active) {
-    background-color: #f4f4f4;
+.nav-item.active {
+    background: #ff5a5f;
+    color: white;
+    border-color: #ff5a5f;
+    box-shadow: 0 4px 10px rgba(255, 90, 95, 0.3);
 }
 
-/* 9. Футер */
+.nav-item.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+    background: #eee;
+}
+
+/* Подвал */
 footer {
     text-align: center;
-    padding: 40px;
-    color: #999;
+    padding: 40px 20px;
+    color: #888;
     font-size: 0.9rem;
-    background: #f9f9f9;
 }
 
-/* 10. Адаптивность для мобильных устройств */
-@media (max-width: 1024px) {
+/* Адаптивность для мобильных */
+@media (max-width: 900px) {
     .main-container {
         flex-direction: column;
-        padding: 0 15px;
     }
-
-    .sidebar {
-        order: 2; /* Сайдбар перемещается под товары */
-        min-width: 100%;
-        margin-top: 30px;
-    }
-
     .product-grid {
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-        gap: 20px;
+        order: 1;
+    }
+    .sidebar {
+        order: 2;
     }
 }
 
@@ -234,17 +245,8 @@ footer {
     header h1 {
         font-size: 1.8rem;
     }
-
-    .product-grid {
-        grid-template-columns: 1fr; /* Одна колонка для максимального фокуса */
-    }
-
-    .buy-button {
-        padding: 16px; /* Крупная кнопка для удобного нажатия пальцем */
-        font-size: 1.1rem;
-    }
-    
-    .page-link {
-        padding: 12px 18px; /* Увеличенные кнопки пагинации */
+    .main-navigation {
+        flex-direction: column;
+        gap: 20px;
     }
 }
