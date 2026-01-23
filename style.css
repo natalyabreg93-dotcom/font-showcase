@@ -133,7 +133,7 @@ header p {
     margin-top: 15px;
 }
 
-/* Финальный призыв к действию */
+/* Финальный призыв к действию (Исправлено) */
 .final-cta {
     text-align: center;
     margin: 50px 0;
@@ -141,18 +141,22 @@ header p {
 
 .main-link-btn {
     display: inline-block;
-    padding: 15px 30px;
-    background: #222;
+    padding: 18px 40px;
+    background: #3498db; /* Красивый голубой */
     color: #fff;
     text-decoration: none;
-    border-radius: 30px;
-    font-size: 1.1rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
     font-weight: bold;
-    transition: background 0.3s;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Плавный пружинистый эффект */
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
 }
 
 .main-link-btn:hover {
-    background: #444;
+    background: #2ecc71; /* Сочный зеленый */
+    transform: scale(1.1); /* Увеличение на 10% */
+    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+    color: #fff;
 }
 
 /* НОВАЯ НАВИГАЦИЯ (КАТЕГОРИИ) */
