@@ -1,4 +1,4 @@
-/* [cite: 12] Общие стили и сброс настроек */
+/* Общие стили и сброс настроек */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,13 +6,13 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; [cite: 13]
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f4f4f4;
 }
 
-/* [cite: 14] Шапка сайта */
+/* Шапка сайта */
 header {
     background-color: #fff;
     padding: 40px 20px;
@@ -20,126 +20,146 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
+/* СТИЛЬ ДЛЯ ВЕРХНЕГО БАННЕРА (1.jpg, 2.jpg и т.д.) */
+.header-banner {
+    width: 100%;
+    max-width: 1160px; /* Идеально под сетку */
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto 25px;
+    display: block;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
 header h1 {
-    font-size: 2.5rem; [cite: 15]
+    font-size: 2.5rem;
     margin-bottom: 10px;
     color: #222;
 }
 
 header p {
     color: #666;
-    font-size: 1.1rem; [cite: 16]
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* [cite: 16] Основной контейнер */
+/* Основной контейнер */
 .main-container {
     max-width: 1200px;
     margin: 30px auto;
     display: flex;
     gap: 30px;
-    padding: 0 20px; [cite: 17]
+    padding: 0 20px;
 }
 
-/* [cite: 17] Сетка товаров */
+/* Сетка товаров */
 .product-grid {
     flex: 3;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 25px; [cite: 18]
+    gap: 25px;
 }
 
-/* [cite: 18] Карточка товара */
+/* Карточка товара */
 .product-card {
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); [cite: 19]
-    transition: transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
 .product-card:hover {
-    transform: translateY(-5px); [cite: 20]
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
 }
 
 .product-card img {
     width: 100%;
     height: auto;
-    display: block; [cite: 21]
+    display: block;
 }
 
 .product-card h3 {
     padding: 15px 15px 5px;
-    font-size: 1.2rem; [cite: 22]
+    font-size: 1.2rem;
 }
 
 .product-card p {
     padding: 0 15px 15px;
     font-size: 0.9rem;
     color: #777;
-    flex-grow: 1; [cite: 23]
+    flex-grow: 1;
 }
 
+/* Бейдж (теперь зеленый) */
 .badge {
     position: absolute;
     top: 10px;
     left: 10px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.95);
     padding: 5px 10px;
-    border-radius: 5px; [cite: 24]
+    border-radius: 5px;
     font-size: 0.7rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #2ecc71; /* Изменено на зеленый для гармонии */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    color: #2ecc71; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/*  КНОПКИ У ШРИФТОВ (ОБНОВЛЕНО: СОЧНЫЙ ЗЕЛЕНЫЙ) */
+/* КНОПКА У ШРИФТА (ОБНОВЛЕНО: ЗЕЛЕНАЯ) */
 .buy-button {
     display: block;
     text-align: center;
-    background: #2ecc71; /* Сочный зеленый вместо красного */
+    background: #2ecc71; 
     color: #fff;
     text-decoration: none;
     padding: 12px;
-    margin: 0 15px 15px; [cite: 26]
+    margin: 0 15px 15px;
     border-radius: 8px;
     font-weight: bold;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 6px rgba(46, 204, 113, 0.2);
 }
 
 .buy-button:hover {
-    background: #27ae60; [cite: 27]
+    background: #27ae60;
     transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(46, 204, 113, 0.3);
+    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3);
 }
 
-/* [cite: 27] БОКОВАЯ ПАНЕЛЬ (ОБНОВЛЕНО: ОТСТУПЫ ДЛЯ БАННЕРОВ) */
+/* БОКОВАЯ ПАНЕЛЬ С БАННЕРАМИ */
 .sidebar {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Расстояние между баннерами */
+    gap: 25px; /* Чтобы баннеры не слипались */
 }
 
 .banner-container {
     background: #fff;
     padding: 20px;
-    border-radius: 10px; [cite: 28]
+    border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.banner-container img {
-    max-width: 100%;
-    border-radius: 5px;
-    margin-top: 15px; [cite: 29]
+.banner-container h3 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #444;
 }
 
-/* [cite: 30] ФИНАЛЬНАЯ КНОПКА (ОБНОВЛЕНО: ИНТЕРАКТИВ И ЦВЕТ) */
+.banner-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* НИЖНИЙ ПРИЗЫВ (БОЛЬШАЯ КНОПКА) */
 .final-cta {
     text-align: center;
     margin: 50px 0;
@@ -147,32 +167,32 @@ header p {
 
 .main-link-btn {
     display: inline-block;
-    padding: 18px 40px;
-    background: #2ecc71; /* Сочный зеленый вместо голубого */
+    padding: 18px 45px;
+    background: #2ecc71; 
     color: #fff;
     text-decoration: none;
     border-radius: 50px;
     font-size: 1.2rem;
-    font-weight: bold; [cite: 31, 32]
+    font-weight: bold;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3); [cite: 33]
+    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.3);
 }
 
 .main-link-btn:hover {
     background: #27ae60;
-    transform: scale(1.1); [cite: 34]
-    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
-    color: #fff; [cite: 35]
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(46, 204, 113, 0.4);
+    color: #fff;
 }
 
-/* [cite: 35] НОВАЯ НАВИГАЦИЯ (КАТЕГОРИИ) */
+/* НАВИГАЦИЯ (КАТЕГОРИИ) */
 .main-navigation {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding: 40px 20px;
-    background: #fff; [cite: 36]
+    background: #fff;
     border-top: 1px solid #eee;
     margin-top: 20px;
 }
@@ -181,7 +201,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px; [cite: 37]
+    gap: 12px;
 }
 
 .category-title {
@@ -189,7 +209,7 @@ header p {
     text-transform: uppercase;
     font-size: 0.75rem;
     color: #aaa;
-    letter-spacing: 1px; [cite: 38]
+    letter-spacing: 1px;
 }
 
 .nav-group {
@@ -201,36 +221,36 @@ header p {
 
 .nav-item {
     text-decoration: none;
-    padding: 8px 18px; [cite: 39]
+    padding: 8px 18px;
     background: #f8f8f8;
     border: 1px solid #ddd;
     border-radius: 25px;
     color: #555;
     font-size: 0.9rem;
-    transition: all 0.3s; [cite: 40]
+    transition: all 0.3s;
 }
 
 .nav-item:hover {
-    background: #2ecc71; /* Зеленый при наведении */
+    background: #2ecc71;
     color: white;
     border-color: #2ecc71;
     transform: translateY(-2px);
 }
 
 .nav-item.active {
-    background: #2ecc71; /* Активный пункт тоже зеленый */
+    background: #2ecc71;
     color: white;
     border-color: #2ecc71;
-    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3); [cite: 41]
+    box-shadow: 0 4px 10px rgba(46, 204, 113, 0.3);
 }
 
 .nav-item.disabled {
     opacity: 0.4;
-    pointer-events: none; [cite: 42]
+    pointer-events: none;
     background: #eee;
 }
 
-/* [cite: 43] Подвал */
+/* Подвал */
 footer {
     text-align: center;
     padding: 40px 20px;
@@ -238,22 +258,26 @@ footer {
     font-size: 0.9rem;
 }
 
-/* [cite: 44] Адаптивность для мобильных */
+footer a:hover {
+    color: #2ecc71;
+}
+
+/* Адаптивность */
 @media (max-width: 900px) {
     .main-container {
         flex-direction: column;
     }
     .product-grid {
-        order: 1; [cite: 45]
+        order: 1;
     }
     .sidebar {
-        order: 2; [cite: 46]
+        order: 2;
     }
 }
 
 @media (max-width: 600px) {
     header h1 {
-        font-size: 1.8rem; [cite: 47]
+        font-size: 1.8rem;
     }
     .main-navigation {
         flex-direction: column;
