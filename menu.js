@@ -31,6 +31,13 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page9.html" class="${currentPath === 'page9.html' ? 'active' : ''}">SVG Cut Files</a>
                     </div>
                 </div>
+
+                <div class="nav-group">
+                    <button class="group-btn">Activities ▾</button>
+                    <div class="dropdown-content">
+                        <a href="page10.html" class="${currentPath === 'page10.html' ? 'active' : ''}">Coloring Pages</a>
+                    </div>
+                </div>
             </div>
         </nav>
     `;
