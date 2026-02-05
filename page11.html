@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Planner Stickers | Aesthetic Digital & Printable Bundles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu-placeholder"></div>
+
+    <header class="hero-section" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('image/banner11.jpg');">
+        <h1>Aesthetic Planner Stickers</h1>
+        <p>Your Ultimate Library of Digital & Printable Sticker Bundles.</p>
+    </header>
+
+    <main class="container">
+        <section class="intro-text">
+            <h2>Transform Your Planning Experience</h2>
+            <p>Explore our massive collection of <strong>Kawaii Stickers</strong>, <strong>Functional Icons</strong>, and <strong>GoodNotes Bundles</strong>. Perfect for aesthetic journals and digital planning.</p>
+        </section>
+
+        <div class="product-grid" id="stickers-grid"></div>
+    </main>
+
+    <script src="menu.js"></script>
+    <script>
+        const stickers = [
+            { title: "Colorful Macarons Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2023/02/01/Colorful-Macarons-Stickers-Graphics-59533815-580x387.png", link: "https://www.creativefabrica.com/product/colorful-macarons-stickers/ref/10996753/" },
+            { title: "Pastel Rainbow Happy Planner Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2025/03/26/Pastel-rainbow-Happy-Planner-stickers-Graphics-118799801-1-1-580x435.jpg", link: "https://www.creativefabrica.com/product/pastel-rainbow-happy-planner-stickers/ref/10996753/" },
+            { title: "Retro Colored Happy Planner Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2025/03/26/Retro-colored-Happy-Planner-stickers-Graphics-118799486-1-1-580x435.jpg", link: "https://www.creativefabrica.com/product/retro-colored-happy-planner-stickers/ref/10996753/" },
+            { title: "Sea Shell Printable Sticker Sheet", img: "https://www.creativefabrica.com/wp-content/uploads/2024/05/06/Sea-Shell-Printable-Sticker-Sheet-Graphics-97019661-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/sea-shell-printable-sticker-sheet/ref/10996753/" },
+            { title: "Happy Days Cute Sticker Pack", img: "https://www.creativefabrica.com/wp-content/uploads/2025/12/07/Happy-Days-Cute-Sticker-Pack-Graphics-137304093-1-1-580x380.jpg", link: "https://www.creativefabrica.com/product/happy-days-cute-sticker-pack/ref/10996753/" },
+            { title: "Cartoon Cactuses Cute Sticker Pack Png", img: "https://www.creativefabrica.com/wp-content/uploads/2021/05/30/Cartoon-cactuses-cute-sticker-pack-png-Graphics-12673566-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/cartoon-cactuses-cute-sticker-pack-png/ref/10996753/" },
+            { title: "Plaid Functional Planner Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2022/11/13/Plaid-functional-planner-stickers-Graphics-46387334-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/plaid-functional-planner-stickers/ref/10996753/" },
+            { title: "Sunflower Functional Planner Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2023/03/24/Sunflower-Functional-Planner-Stickers-Graphics-65190229-1-1-580x387.png", link: "https://www.creativefabrica.com/product/sunflower-functional-planner-stickers/ref/10996753/" },
+            { title: "70 Kawaii Stationery Procreate Stamps", img: "https://www.creativefabrica.com/wp-content/uploads/2025/12/07/70-Kawaii-Stationery-Procreate-Stamps-Graphics-137281931-1-1-580x387.png", link: "https://www.creativefabrica.com/product/70-kawaii-stationery-procreate-stamps/ref/10996753/" },
+            { title: "Pink Halloween Scrapbooking Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2022/09/12/Pink-Halloween-Scrapbooking-Stickers-Graphics-38333480-1-1-580x435.png", link: "https://www.creativefabrica.com/product/pink-halloween-scrapbooking-stickers/ref/10996753/" },
+            { title: "Hyperlinked IPad Planner Bundle", img: "https://www.creativefabrica.com/wp-content/uploads/2025/08/18/Hyperlinked-iPad-Planner-Bundle-Graphics-128760018-1-1-580x387.png", link: "https://www.creativefabrica.com/product/hyperlinked-ipad-planner-bundle/ref/10996753/" },
+            { title: "Digital Planner Blue 2025 & Undated", img: "https://www.creativefabrica.com/wp-content/uploads/2025/05/25/Digital-Planner-Blue-2025-Undated-Graphics-122844400-1-1-580x387.png", link: "https://www.creativefabrica.com/product/digital-planner-blue-2025-undated-3/ref/10996753/" },
+            { title: "Halloween Vintage Sticker Bundle PNG", img: "https://www.creativefabrica.com/wp-content/uploads/2025/09/12/Halloween-Vintage-Sticker-Bundle-PNG-Graphics-130606227-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/halloween-vintage-sticker-bundle-png/ref/10996753/" },
+            { title: "Mega PNG Sticker Bundle", img: "https://www.creativefabrica.com/wp-content/uploads/2022/08/21/Mega-PNG-sticker-bundle-Sticker-Bundle-Graphics-36733176-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/mega-png-sticker-bundle-sticker-bundle/ref/10996753/" },
+            { title: "Kawaii Cute Potted Plant Sticker Bundle", img: "https://www.creativefabrica.com/wp-content/uploads/2024/08/02/Kawaii-Cute-Potted-Plant-Sticker-Bundle-Graphics-103038926-1-1-580x387.png", link: "https://www.creativefabrica.com/product/kawaii-cute-potted-plant-sticker-bundle-2/ref/10996753/" },
+            { title: "Coffee Quotes Printable Sticker Bundle", img: "https://www.creativefabrica.com/wp-content/uploads/2025/06/27/Coffee-Quotes-Printable-Sticker-Bundle-Graphics-124980611-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/coffee-quotes-printable-sticker-bundle/ref/10996753/" },
+            { title: "Digital Washi Tape", img: "https://www.creativefabrica.com/wp-content/uploads/2025/02/09/Digital-Washi-Tape-Digital-Planner-Graphics-115599228-1-1-580x387.png", link: "https://www.creativefabrica.com/product/digital-washi-tape-digital-planner/ref/10996753/" },
+            { title: "Weekly Planner Undated", img: "https://www.creativefabrica.com/wp-content/uploads/2024/06/07/Weekly-Planner-Undated-Graphics-99213429-1-1-580x411.png", link: "https://www.creativefabrica.com/product/weekly-planner-undated-2/ref/10996753/" },
+            { title: "Exams Planner Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2018/10/Exams-Planner-Stickers-Student-Planner-Stickers-Exam-Reminder-Planner-Icons-by-Happy-Printables-Club-580x387.jpg", link: "https://www.creativefabrica.com/product/exams-planner-stickers-student-planner-stickers-exam-reminder-planner-icons/ref/10996753/" },
+            { title: "Class Planner Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2018/10/Class-Planner-Stickers-Student-Planner-Stickers-Class-Reminder-Stickers-Kawaii-Planner-by-Shadaan-Alam-580x387.jpg", link: "https://www.creativefabrica.com/product/class-planner-stickers-student-planner-stickers-class-reminder-stickers-kawaii-planner-stickers/ref/10996753/" },
+            { title: "UglyCute Highland Cow Seasonal Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2025/12/03/UglyCute-Highland-Cow-Seasonal-Stickers-Graphics-136975346-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/uglycute-highland-cow-seasonal-stickers-2/ref/10996753/" },
+            { title: "Seasonal Stickers Bundle", img: "https://www.creativefabrica.com/wp-content/uploads/2022/08/08/Seasonal-Stickers-Bundle-Bundles-35771173-1.png", link: "https://www.creativefabrica.com/product/seasonal-stickers-bundle/ref/10996753/" },
+            { title: "Retro Sticker Bundles Free Download", img: "https://www.creativefabrica.com/wp-content/uploads/2023/06/22/Retro-sticker-bundles-free-download-Graphics-72750798-1-1-580x386.jpg", link: "https://www.creativefabrica.com/product/retro-sticker-bundles-free-download/ref/10996753/" },
+            { title: "Free Self Love Sticker", img: "https://www.creativefabrica.com/wp-content/uploads/2023/12/31/Free-Self-Love-Sticker-Graphics-87464381-1-1-580x386.jpg", link: "https://www.creativefabrica.com/product/free-self-love-sticker/ref/10996753/" },
+            { title: "Farmhouse Pumpkins Pre-cropped Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2022/09/27/Farmhouse-Pumpkins-Precropped-Stickers-Graphics-39427116-1-1-580x387.jpg", link: "https://www.creativefabrica.com/product/farmhouse-pumpkins-pre-cropped-stickers/ref/10996753/" },
+            { title: "Color Line Drawing Pre-cropped Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2024/05/21/color-line-drawing-precropped-stickers-Graphics-98066164-1-1-580x386.jpg", link: "https://www.creativefabrica.com/product/color-line-drawing-pre-cropped-stickers/ref/10996753/" },
+            { title: "Goodnotes Pre-cropped Stickers", img: "https://www.creativefabrica.com/wp-content/uploads/2023/11/01/Goodnotes-Precropped-Stickers-Graphics-82984585-1-1-580x394.jpeg", link: "https://www.creativefabrica.com/product/goodnotes-pre-cropped-stickers/ref/10996753/" },
+            { title: "Pre-Cropped Stickers for GoodNotes", img: "https://www.creativefabrica.com/wp-content/uploads/2023/03/28/PreCropped-Stickers-for-GoodNotes-Graphics-65518261-1-1-580x386.jpg", link: "https://www.creativefabrica.com/product/pre-cropped-stickers-for-goodnotes/ref/10996753/" },
+            { title: "Cute Positivity Print Sticker Svg Bundle", img: "https://www.creativefabrica.com/wp-content/uploads/2025/02/04/Cute-Positivity-Print-Sticker-Svg-Bundle-Graphics-31234160-580x386.jpg", link: "https://www.creativefabrica.com/product/cute-positivity-print-sticker-svg-bundle/ref/10996753/" },
+            { title: "Valentine's Day Cute Sticker Pack", img: "https://www.creativefabrica.com/wp-content/uploads/2024/02/02/Valentines-Day-Cute-Sticker-Pack-Graphics-90040459-1-1-580x386.jpg", link: "https://www.creativefabrica.com/product/valentines-day-cute-sticker-pack/ref/10996753/" }
+        ];
+
+        const grid = document.getElementById('stickers-grid');
+        stickers.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'product-card';
+            card.innerHTML = `
+                <img src="${item.img}" alt="${item.title}" loading="lazy">
+                <h3>${item.title}</h3>
+                <a href="${item.link}" target="_blank" class="btn">View Bundle</a>
+            `;
+            grid.appendChild(card);
+        });
+    </script>
+</body>
+</html>
