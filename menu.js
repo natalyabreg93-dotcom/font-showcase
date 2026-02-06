@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page7.html" class="${currentPath === 'page7.html' ? 'active' : ''}">Social Media</a>
                         <a href="page8.html" class="${currentPath === 'page8.html' ? 'active' : ''}">KDP Interiors</a>
                         <a href="page11.html" class="${currentPath === 'page11.html' ? 'active' : ''}">Planner Stickers</a>
+                        <a href="page12.html" class="${currentPath === 'page12.html' ? 'active' : ''}">Digital Paper</a>
                     </div>
                 </div>
 
