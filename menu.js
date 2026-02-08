@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <button class="group-btn">Activities ▾</button>
                     <div class="dropdown-content">
                         <a href="page10.html" class="${currentPath === 'page10.html' ? 'active' : ''}">Coloring Pages</a>
+                        <a href="page14.html" class="${currentPath === 'page14.html' ? 'active' : ''}">Crochet Patterns</a>
                     </div>
                 </div>
             </div>
