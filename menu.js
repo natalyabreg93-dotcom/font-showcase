@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <button class="group-btn">Graphics ▾</button>
                     <div class="dropdown-content">
                         <a href="page9.html" class="${currentPath === 'page9.html' ? 'active' : ''}">SVG Cut Files</a>
+                        <a href="page15.html" class="${currentPath === 'page15.html' ? 'active' : ''}">Tumbler Wraps</a>
                     </div>
                 </div>
 
