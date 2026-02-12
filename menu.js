@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Подключаем базу товаров
     const script = document.createElement('script');
     script.src = '/products.js';
     document.head.appendChild(script);
@@ -47,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="dropdown-content">
                         <a href="/page10.html" class="${currentPath === 'page10.html' ? 'active' : ''}">Coloring Pages</a>
                         <a href="/page14.html" class="${currentPath === 'page14.html' ? 'active' : ''}">Crochet Patterns</a>
+                        <a href="/page17.html" class="${currentPath === 'page17.html' ? 'active' : ''}">Greeting Cards</a>
                     </div>
                 </div>
 
@@ -66,7 +66,6 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(() => {
         const input = document.getElementById('searchInput');
         const resultsBox = document.getElementById('searchResults');
-
         if(input) {
             input.addEventListener('input', function(e) {
                 const query = e.target.value.trim();
@@ -74,13 +73,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     resultsBox.style.display = 'none';
                     return;
                 }
-
                 if (typeof filterProducts !== 'undefined') {
                     const results = filterProducts(query);
                     displayResults(results, resultsBox);
                 }
             });
-
             document.addEventListener('click', function(e) {
                 if (!input.contains(e.target) && !resultsBox.contains(e.target)) {
                     resultsBox.style.display = 'none';
