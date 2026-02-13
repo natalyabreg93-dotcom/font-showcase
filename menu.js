@@ -47,8 +47,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="/page10.html" class="${currentPath === 'page10.html' ? 'active' : ''}">Coloring Pages</a>
                         <a href="/page14.html" class="${currentPath === 'page14.html' ? 'active' : ''}">Crochet Patterns</a>
                         <a href="/page17.html" class="${currentPath === 'page17.html' ? 'active' : ''}">Greeting Cards</a>
-                    </div>
+                        <a href="/page18.html" class="${currentPath === 'page18.html' ? 'active' : ''}">Paper Box DIY</a>
                 </div>
+            </div>
 
                 <div class="search-box">
                     <input type="text" id="searchInput" class="search-input" placeholder="Search products...">
