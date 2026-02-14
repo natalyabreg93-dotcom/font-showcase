@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="/page9.html" class="${currentPath === 'page9.html' ? 'active' : ''}">SVG Cut Files</a>
                         <a href="/page15.html" class="${currentPath === 'page15.html' ? 'active' : ''}">Tumbler Wraps</a>
                         <a href="/page16.html" class="${currentPath === 'page16.html' ? 'active' : ''}">Retro POD Designs</a>
+                        <a href="/page19.html" class="${currentPath === 'page19.html' ? 'active' : ''}">Laser Cut Files</a> 
                     </div>
                 </div>
 
