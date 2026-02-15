@@ -1405,6 +1405,546 @@ const products = [
         "link": "/page16.html"
     },
     {
+        "name": "Birthday Card Template",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/26/Birthday-Card-Template-Graphics-91918383-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Cake & Colors Birthday",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/16/Birthday-card-template-with-cake-and-col-Graphics-93379777-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Small Business Thanks",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/29/8-Small-Business-Thank-You-Cards-Bundle-Graphics-85274396-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Elegant Wedding Card",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/07/21/Wedding-Card-Graphics-34558418-1-1-580x386.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Snowflake Christmas Card",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2020/09/30/Snowflake-Christmas-Card-template-Graphics-5769411-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Photo Christmas Template",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/11/14/Photo-Christmas-Card-Template-Canva-Graphics-46596281-1-1-580x435.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Food Pun Valentine Bundle",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/17/Food-Pun-Valentines-Day-Card-Bundle-Graphics-114065356-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Mother's Day Card Bundle",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/25/Mothers-Day-Bundle-Graphics-29588920-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Fathers Day SVG Pack",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/23/Fathers-day-card-svg-for-Cricut-Graphics-58670673-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Bigfoot Dad Shit PNG",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/19/Bigfoot-Doin-Dad-Shit-Png-Graphics-99977076-1-1-580x441.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Monster Papers Set",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2018/09/Monster-Papers-by-AMBillustrations-580x386.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Minimalist Birthday Set",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/12/18/Minimalist-birthday-card-set-Graphics-86568392-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Baby Shower Card Pack",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/12/Baby-Shower-Card-PrintableBirthday-Card-Graphics-95358244-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Congrats Graduation SVG",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/26/Congrats-Graduation-Card-SVG-3D-SVG-140954176-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Get Well Soon Cards",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/08/30/Get-Well-Soon-Cards-I-Get-Well-Soon-Card-Graphics-104887868-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Printable Anniversary Card",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/12/17/Digital-Printable-Anniversary-Card-Graphics-86525742-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Digital Greeting Card 5x7",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/12/Printable-Digital-Greeting-Card-5x7-Graphics-81396253-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Business Christmas Card",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2021/08/06/Business-Christmas-Postcard-Graphics-15554722-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Pastel Snow Stationery",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/26/Pastel-gradient-snow-Holiday-stationery-Graphics-82575548-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Mother's Day PNG Card",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/21/Mothers-Day-Cute-Card-Design-PNG-Graphics-95915305-1-1-580x386.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Best Mom in the World",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2020/06/05/Cute-card-design-best-mom-in-the-world-Graphics-4280627-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Business Christmas v2",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2021/08/06/Business-Christmas-Postcard-Graphics-15554699-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Best Mum Card PNG",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/08/Best-mum-card-png-Mothers-day-card-Graphics-95107531-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Happy Birthday Cards",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/27/Happy-Birthday-Printable-Greeting-Cards-Graphics-79205117-580x435.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Birthday Digital Papers",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/09/Happy-Birthday-printable-digital-papers-Graphics-99335995-1-1-580x387.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Congrats & Best Wishes",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/04/10/Congratulations-and-Best-Wishes-Text-PNG-Graphics-119644466-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Flower Thank You Design",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/11/Editable-Flower-Thank-You-Card-Design-Graphics-76679911-1-1-580x414.png",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Mother's Day JPG Set",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/25/Happy-Mothers-Day-Printable-Cards-JPG-Graphics-96256598-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Happy Birthday Bundle",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/27/Happy-Birthday-Printable-Greeting-Cards-Graphics-112670678-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Adorable Cat Cards",
+        "category": "Instant Download Greeting Cards & Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/27/Adorable-cats-printable-greeting-cards-Graphics-65453508-1-1-580x387.jpg",
+        "link": "/page17.html"
+    },
+    {
+        "name": "Envelope Flap Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/07/Envelope-Flap-Cardboard-Box-Packaging-Graphics-141937377-1-1-580x386.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Cake Box Template",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/27/Cake-Box-Template-Graphics-131746239-1-1-580x386.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Sunflower SVG Bundle",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/21/Sunflower-Paper-Flower-Template-SVG-Bund-Graphics-84593672-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Giant Rose Template",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2021/12/29/Giant-Rose-Paper-Flower-Template-Graphics-22520563-1-1-580x386.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Flower Template Bundle",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/11/Paper-Flower-Template-Bundle-Graphics-32176448-1-1-580x387.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Gift Wrapping for Him",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/01/Gift-wrapping-ideas-for-him-Graphics-96646316-1-1-580x387.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Dog Plush Box Pattern",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/30/DIY-Gift-Box-Dog-Plush-Pattern-Graphics-134304433-1-1-580x386.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Bottle Hanging Favor",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/21/Bottle-Hanging-Favor-Box-Template-Graphics-58444903-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Snowdrops Rectangular",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/29/Snowdrops-Rectangular-Favor-Box-Template-Graphics-92141586-1-1-580x387.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Cute Lying Bear 3D",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/18/Cute-Lying-Bear-DIY-3D-Papercraft-3D-SVG-140324560-1-1-580x387.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Pillow Box Pack",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/07/22/Pillow-Box-Template-Pillow-Pack-Graphics-34643291-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Heart Window Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/21/Jewelry-Box-Heart-Shape-Window-Box-Graphics-138345208-1-1-580x435.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Ornate Laser-Cut Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/29/LaserCut-Ornate-Jewelry-Box-Template-Graphics-127205305-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Hexagon Box Template",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/14/Hexagon-Box-Template-Graphics-36176518-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Bottle Packaging Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/20/Paper-box-template-for-packaging-bottle-Graphics-70077257-1-1-580x410.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Gift Box SVG Set",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/05/14/Box-svg-Box-template-svg-Gift-box-svg-Graphics-30542656-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Bear DIY Gift Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/26/Animal-Box-Bear-DIY-Gift-Box-Graphics-140974467-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Mandala Lid Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/02/Printable-Lid-Box-MandalaPattern-dieline-Graphics-123322456-1-1-580x435.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Match Box Template",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/10/11/Match-box-packaging-design-template-Graphics-41165071-3-580x386.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Kraft Paper Box Styles",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/28/Kraft-Paper-Box-Cardboard-Box-Styles-Graphics-68319515-5-580x435.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Kraft Box Mockups",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/02/Kraft-Paper-Box-Mockup-Sets-Graphics-132141841-1-1-580x435.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Cricut Gift Box SVG",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/12/31/Gift-Box-Template-SVG-Cricut-Box-SVG-Graphics-55480371-1-1-580x384.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Packaging Stickers",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/10/19/Small-Business-Packaging-Stickers-Bundle-Graphics-42344778-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Mug Origami Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/21/11oz-Mug-Origami-Box-Template-Graphics-58444892-1-1-580x387.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "3D Unicorn Papercraft",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/27/Unicorn-3D-Papercraft-PDF-SVG-Cricut-Graphics-73145894-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Pumpkin Papercraft",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2021/09/29/Pumpkin-Papercraft-PDF-SVG-Template-Graphics-18056037-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Princess Wedding Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/09/Wedding-Favor-Box-Princess-Gift-Box-Graphics-32043442-1-1-580x387.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Classic Anthurium Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/05/Anthurium-Classic-Wedding-Favor-Box-3D-SVG-90259814-3-580x387.png",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Soap Packaging Box",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/02/06/Lemon-Soap-Box-Packaging-Design-Template-Graphics-36433950-3-580x386.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Flap Box Dieline",
+        "category": "DIY Gift Box Templates & Premium Paper Crafts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/07/Flap-Cardboard-Box-Dieline-Graphics-141938228-1-1-580x386.jpg",
+        "link": "/page18.html"
+    },
+    {
+        "name": "Geometric Panel Bundle",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/22/Ornamental-Geometric-Panel-Bundle-Laser-Cutting-131312149-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Oriental Jewelry Box",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/11/Laser-Cut-Jewelry-Box-in-Oriental-Style-Graphics-92995893-1-1-580x435.png",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Wedding Ring Box",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/01/Wedding-Ring-Box-Laser-Cut-Jewelry-Box-Laser-Cutting-136804809-1-1-580x387.png",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Cat Pair Cut Files",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2020/04/14/Cat-Pair-Vector-Cutting-Files-Graphics-3862245-1-1-580x386.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Planner Girl SVG",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/17/Planner-girl-SVG-vector-cutting-files-Graphics-38691152-1-1-580x386.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Candle House Bundle",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/09/Candle-House-Laser-Cut-Bundle-CNC-File-Laser-Cutting-142082452-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Wooden Lantern Set",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/04/Laser-Cut-Wooden-Lantern-SVG-Set-Laser-Cutting-139310645-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Mountain Lion Engrave",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/27/Mountain-Lion-Laser-Engrave-File-Graphics-122956655-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Christmas Deco House",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/25/CHRISTMAS-DECORATIVE-HOUSE-Home-Decor-Graphics-84944419-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Horse 3D Multilayer",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/05/HORSE-3D-Multilayer-Cut-File-Graphics-26488395-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Firefighter Coasters",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/26/Firefighter-Coasters-Laser-Cut-Bundle-Graphics-100462058-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Honeybee & Honeycomb",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/30/Honeybee-and-Honeycomb-Laser-Cut-Decor-Laser-Cutting-141321927-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Gift Jewelry Box SVG",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/07/09/Gift-jewelry-box-svg-dxf-files-for-laser-Graphics-33885117-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Bird Feeders SVG Pack",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/13/Bird-feeders-svg-dxf-files-for-laser-cut-Graphics-32274324-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Shark Mandala Multilayer",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/31/Multilayer-Mandala-SVG-Shark-Mandala-Graphics-59531771-1-1-580x387.png",
+        "link": "/page19.html"
+    },
+    {
+        "name": "3D Multilayer Mandala v5",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/05/23/3D-Multilayer-Mandala-SVG-Cut-File-Vol5-Graphics-31023308-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Bismillah Box Template",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/30/Bismillah-Laser-Cut-Box-Template-Laser-Cutting-141288647-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Board Game Box",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/08/Laser-Cut-Box-Template-for-Board-Games-Graphics-92813127-1-1-580x435.png",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Flip Up Lid Box",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/10/Laser-Cut-Box-Template-with-Flip-Up-Lid-Graphics-99394337-1-1-580x434.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Mini Cradle Laser File",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/10/03/Mini-Cradle-Digital-Laser-File-Download-Graphics-39966819-1-1-580x435.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Spring Gnome Bundle",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/02/Spring-Gnome-Bundle-Laser-Cut-Files-Laser-Cutting-136910307-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Earrings SVG Bundle",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/04/Bundle-Earrings-Laser-Cut-Files-Cute-Svg-Laser-Cutting-134762430-1-1-580x441.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Home Sweet Home Sign",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/14/Home-Sweet-Home-Laser-Cut-Files-Graphics-101883624-1-1-580x441.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Rattan Pattern SVG",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/12/23/Rattan-Pattern-Glowforge-SVG-files-227-Graphics-54154467-1-1-580x435.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Ornamental Laser Panel",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/26/Ornamental-Laser-Cut-Panel-Design-Graphics-114665820-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Blank Medal Patterns",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/08/20/Medal-Laser-Cut-Patterns-Blank-Medals-Graphics-104214173-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Kitchen Spatula SVG",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/13/Kitchen-Spatula-laser-cutting-svg-file-Graphics-72020404-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Garage Signs CNC Bundle",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/31/Garage-Signs-Bundle-Man-Cave-CNC-File-Graphics-119067423-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Summer Round Signs",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/04/21/Summer-Round-Signs-Laser-Cut-Bundle-CNC-Graphics-120348955-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
+        "name": "Ferris Wheel 3D Model",
+        "category": "Premium Laser Cut Files & Woodworking Plans",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/09/Wooden-Ferris-Wheel-Model-Laser-CutXmas-Laser-Cutting-132729458-1-1-580x387.jpg",
+        "link": "/page19.html"
+    },
+    {
         "name": "Modern Serif Branding Pack",
         "category": "25+ Professional Modern Serif Typography",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/18/Bold-Friends-Forever-Fonts-138131895-1-1-580x387.png",
@@ -1547,6 +2087,162 @@ const products = [
         "category": "25+ Professional Modern Serif Typography",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/31/12-Bold-Letter-Quote-Prints-for-Office-Graphics-123208103-1-1-580x387.jpg",
         "link": "/page2.html"
+    },
+    {
+        "name": "Zumba YouTube Thumbnail",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/28/Zumba-YouTube-Thumbnail-Template-Graphics-37225446-1-1-580x386.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Spa Salon Thumbnail",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/27/Spa-Salon-YouTube-Thumbnail-Template-Graphics-37181990-1-1-580x386.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "YouTube Thumbnail v16",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/04/Youtube-Thumbnail-Template-Graphics-96886380-1-1-580x363.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "YouTube Thumbnail v14",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/04/Youtube-Thumbnail-Template-Graphics-96886107-1-1-580x363.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Professional Blue Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/28/Blue-Profeesional-YouTube-Banner-design-Graphics-96453351-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Shoes Concept Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/06/Shoes-Concept-Youtube-Banner-design-Graphics-95013626-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Coloring Fitness Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/21/Coloring-Fitness-Youtube-Banner-Design-Graphics-79748206-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Canva Thumbnail Set",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/07/Canva-YouTube-Thumbnail-Templates-Graphics-98968903-580x387.png",
+        "link": "/page20.html"
+    },
+    {
+        "name": "YouTube Branding Kit",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/10/YouTube-Canva-Thumbnail-Branding-Kit-Graphics-38213421-1-1-580x359.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "20 Gaming Thumbnail Kit",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/01/17/20-Youtube-Gaming-Thumbnail-Kit-Graphics-23618363-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Eye-Catching Gaming",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/23/EyeCatching-Gaming-Thumbnail-Graphics-112422941-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "YouTube End Screen AE",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/23/Youtube-End-Screen-After-Effects-Graphics-79896847-1-1-580x386.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Sneakers YouTube Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/09/Sneakers-Youtube-Banner-Graphics-63701324-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Food & Travel Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/14/YouTube-Banner-for-Food-Travel-Graphics-113826259-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Business & Finance Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/20/Business-Finance-YouTube-banner-Graphics-102289392-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Card Box Template v1",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/01/Playing-Card-Box-Editable-Canva-Template-Graphics-139124286-1-1-580x387.png",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Card Box Template v2",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/09/Playing-Card-Box-Editable-Canva-Template-Graphics-139678109-1-1-580x387.png",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Photo Magnet Template",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/12/Photo-Magnet-Editable-Canva-Template-Graphics-137738221-1-1-580x386.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Professional Branding Kit",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/30/Professional-YouTube-Branding-Kit-Canva-Graphics-82831672-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Minimal Branding Kit",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/30/Minimal-Youtube-Branding-Kit-for-Canva-Graphics-65750110-1-1-580x386.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Beauty Blogger Kit",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/09/Beauty-blogger-Youtube-Branding-Kit-Graphics-66660621-1-1-580x386.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Vector Cover Action",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/08/Vector-Cover-Art-Photoshop-Action-Graphics-90526673-1-1-580x419.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Watercolor Cover Action",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/12/03/Watercolor-Cover-Art-Photoshop-Action-Graphics-85634339-1-1-580x419.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Podcast YouTube Covers",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/05/Podcast-YouTube-Covers-Graphics-37813902-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Agency YouTube Thumbnail",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/16/Creative-Agency-YouTube-Thumbnail-Graphics-113987803-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Education Thumbnail",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/11/Education-admission-youtube-thumbnail-Graphics-83796405-1-1-580x387.jpg",
+        "link": "/page20.html"
     },
     {
         "name": "Groovy Retro Font",
