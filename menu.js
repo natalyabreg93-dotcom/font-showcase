@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="/page11.html" class="${currentPath === 'page11.html' ? 'active' : ''}">Planner Stickers</a>
                         <a href="/page12.html" class="${currentPath === 'page12.html' ? 'active' : ''}">Digital Paper</a>
                         <a href="/page13.html" class="${currentPath === 'page13.html' ? 'active' : ''}">Logo Templates</a>
+                        <a href="/page20.html" class="${currentPath === 'page20.html' ? 'active' : ''}">YouTube Templates</a>
                     </div>
                 </div>
 
