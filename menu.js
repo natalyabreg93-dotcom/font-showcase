@@ -50,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="/page14.html" class="${currentPath === 'page14.html' ? 'active' : ''}">Crochet Patterns</a>
                         <a href="/page17.html" class="${currentPath === 'page17.html' ? 'active' : ''}">Greeting Cards</a>
                         <a href="/page18.html" class="${currentPath === 'page18.html' ? 'active' : ''}">Paper Box DIY</a>
+                        <a href="/page21.html" class="${currentPath === 'page21.html' ? 'active' : ''}">Paper Flowers</a>
                 </div>
             </div>
 
