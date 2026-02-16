@@ -4,69 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <title>CreativVault | 500+ Premium Digital Assets & Creative Resources</title>
+    <title>CreativVault | 500+ Premium Digital Assets</title>
     
     <link rel="icon" type="image/png" href="/image/favicon.png"> 
     <link rel="stylesheet" href="/style.css">
     
     <style>
-        /* Убираем пустое пространство сверху */
-        .hero-section {
-            background: #222;
-            color: white;
-            padding: 30px 20px 10px; /* Уменьшили отступы */
-            text-align: center;
+        /* Обнуляем отступы для чистого старта */
+        body { margin: 0; padding: 0; }
+
+        /* Полоска навигации — теперь это самый верх страницы */
+        .nav-placeholder {
+            padding: 15px 0;
+            background: #fff;
+            border-bottom: 1px solid #eee;
+            margin-bottom: 30px;
         }
-        .hero-section h1 { font-size: 36px; margin-bottom: 10px; }
-        .hero-section p { font-size: 16px; color: #aaa; margin-bottom: 15px; }
 
         .main-container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px; /* Уменьшили отступ до сетки */
+            padding: 0 20px;
         }
 
+        /* Идеальная сетка 4x5 */
         .category-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
+            margin-bottom: 50px;
         }
+
         .cat-card {
             text-decoration: none;
             color: #333;
             background: #fff;
-            border-radius: 10px;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            transition: all 0.3s ease;
+            border: 1px solid #efefef;
         }
-        .cat-card:hover { transform: translateY(-5px); }
-        .cat-card img { width: 100%; height: 180px; object-fit: cover; }
-        .cat-card span { display: block; padding: 12px; text-align: center; font-weight: bold; font-size: 14px; }
 
-        /* SEO Блок */
+        .cat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            border-color: #333;
+        }
+
+        .cat-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .cat-card span {
+            display: block;
+            padding: 15px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* SEO Блок внизу */
         .seo-section {
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 20px;
-            color: #555;
-            line-height: 1.6;
+            max-width: 900px;
+            margin: 60px auto 40px;
+            padding: 30px;
+            color: #666;
+            line-height: 1.8;
             border-top: 1px solid #eee;
+            font-size: 14px;
         }
-        .seo-section h2 { color: #222; font-size: 22px; margin-bottom: 15px; text-align: center; }
-        .seo-section p { margin-bottom: 15px; font-size: 15px; }
 
-        /* Баннеры внизу */
-        .bottom-ads {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-            flex-wrap: wrap;
-            background: #f9f9f9;
+        .seo-section h2 {
+            color: #222;
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: center;
         }
-        .bottom-ads img { max-width: 300px; height: auto; border-radius: 8px; }
 
+        /* Адаптивность */
         @media (max-width: 900px) { .category-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 600px) { .category-grid { grid-template-columns: 1fr; } }
     </style>
@@ -82,54 +103,53 @@
 </head>
 <body>
 
-    <header class="hero-section">
-        <h1>Explore 20 Premium Creative Niches</h1>
-        <p>Premium Fonts, SVGs, Templates, and DIY Crafts patterns.</p>
-        <div class="nav-placeholder"></div>
-    </header>
+    <div class="nav-placeholder"></div>
 
     <div class="main-container">
         <div class="category-grid">
-            <a href="/page1.html" class="cat-card"><img src="/image/cat-1.jpg"><span>Script Fonts</span></a>
-            <a href="/page2.html" class="cat-card"><img src="/image/cat-2.jpg"><span>Serif Fonts</span></a>
-            <a href="/page3.html" class="cat-card"><img src="/image/cat-3.jpg"><span>Retro Fonts</span></a>
-            <a href="/page4.html" class="cat-card"><img src="/image/cat-4.jpg"><span>Minimal Fonts</span></a>
-            <a href="/page5.html" class="cat-card"><img src="/image/cat-5.jpg"><span>Gothic Fonts</span></a>
-            <a href="/page6.html" class="cat-card"><img src="/image/cat-6.jpg"><span>Wedding Fonts</span></a>
-            <a href="/page7.html" class="cat-card"><img src="/image/cat-7.jpg"><span>Social Media</span></a>
-            <a href="/page8.html" class="cat-card"><img src="/image/cat-8.jpg"><span>KDP Interiors</span></a>
-            <a href="/page13.html" class="cat-card"><img src="/image/cat-9.jpg"><span>Logo Templates</span></a>
-            <a href="/page11.html" class="cat-card"><img src="/image/cat-10.jpg"><span>Planner Stickers</span></a>
-            <a href="/page12.html" class="cat-card"><img src="/image/cat-11.jpg"><span>Digital Paper</span></a>
-            <a href="/page20.html" class="cat-card"><img src="/image/cat-12.jpg"><span>YouTube Templates</span></a>
-            <a href="/page9.html" class="cat-card"><img src="/image/cat-13.jpg"><span>SVG Cut Files</span></a>
-            <a href="/page15.html" class="cat-card"><img src="/image/cat-14.jpg"><span>Tumbler Wraps</span></a>
-            <a href="/page16.html" class="cat-card"><img src="/image/cat-15.jpg"><span>POD Art Designs</span></a>
-            <a href="/page19.html" class="cat-card"><img src="/image/cat-16.jpg"><span>Laser Cut Files</span></a>
-            <a href="/page10.html" class="cat-card"><img src="/image/cat-17.jpg"><span>Coloring Pages</span></a>
-            <a href="/page14.html" class="cat-card"><img src="/image/cat-18.jpg"><span>Crochet Patterns</span></a>
-            <a href="/page17.html" class="cat-card"><img src="/image/cat-19.jpg"><span>Greeting Cards</span></a>
-            <a href="/page18.html" class="cat-card"><img src="/image/cat-20.jpg"><span>Paper Box DIY</span></a>
+            <a href="/page1.html" class="cat-card"><img src="/image/cat-1.jpg" alt="Script Fonts"><span>Script Fonts</span></a>
+            <a href="/page2.html" class="cat-card"><img src="/image/cat-2.jpg" alt="Serif Fonts"><span>Serif Fonts</span></a>
+            <a href="/page3.html" class="cat-card"><img src="/image/cat-3.jpg" alt="Retro Fonts"><span>Retro Fonts</span></a>
+            <a href="/page4.html" class="cat-card"><img src="/image/cat-4.jpg" alt="Minimal Fonts"><span>Minimal Fonts</span></a>
+            
+            <a href="/page5.html" class="cat-card"><img src="/image/cat-5.jpg" alt="Gothic Fonts"><span>Gothic Fonts</span></a>
+            <a href="/page6.html" class="cat-card"><img src="/image/cat-6.jpg" alt="Wedding Fonts"><span>Wedding Fonts</span></a>
+            <a href="/page7.html" class="cat-card"><img src="/image/cat-7.jpg" alt="Social Media"><span>Social Media</span></a>
+            <a href="/page8.html" class="cat-card"><img src="/image/cat-8.jpg" alt="KDP Interiors"><span>KDP Interiors</span></a>
+            
+            <a href="/page13.html" class="cat-card"><img src="/image/cat-9.jpg" alt="Logo Templates"><span>Logo Templates</span></a>
+            <a href="/page11.html" class="cat-card"><img src="/image/cat-10.jpg" alt="Planner Stickers"><span>Planner Stickers</span></a>
+            <a href="/page12.html" class="cat-card"><img src="/image/cat-11.jpg" alt="Digital Paper"><span>Digital Paper</span></a>
+            <a href="/page20.html" class="cat-card"><img src="/image/cat-12.jpg" alt="YouTube Templates"><span>YouTube Templates</span></a>
+            
+            <a href="/page9.html" class="cat-card"><img src="/image/cat-13.jpg" alt="SVG Cut Files"><span>SVG Cut Files</span></a>
+            <a href="/page15.html" class="cat-card"><img src="/image/cat-14.jpg" alt="Tumbler Wraps"><span>Tumbler Wraps</span></a>
+            <a href="/page16.html" class="cat-card"><img src="/image/cat-15.jpg" alt="POD Art Designs"><span>POD Art Designs</span></a>
+            <a href="/page19.html" class="cat-card"><img src="/image/cat-16.jpg" alt="Laser Cut Files"><span>Laser Cut Files</span></a>
+            
+            <a href="/page10.html" class="cat-card"><img src="/image/cat-17.jpg" alt="Coloring Pages"><span>Coloring Pages</span></a>
+            <a href="/page14.html" class="cat-card"><img src="/image/cat-18.jpg" alt="Crochet Patterns"><span>Crochet Patterns</span></a>
+            <a href="/page17.html" class="cat-card"><img src="/image/cat-19.jpg" alt="Greeting Cards"><span>Greeting Cards</span></a>
+            <a href="/page18.html" class="cat-card"><img src="/image/cat-20.jpg" alt="Paper Box DIY"><span>Paper Box DIY</span></a>
         </div>
     </div>
 
     <section class="seo-section">
         <h2>Your Premier Library for Premium Digital Assets</h2>
         <p>
-            Welcome to <strong>CreativVault</strong>, your ultimate digital marketplace for high-quality creative resources. We specialize in providing professional-grade assets designed to elevate your creative projects. Our library includes a wide range of <strong>Commercial Use Fonts</strong>, from elegant Scripts and classic Serifs to trendy Retro and Minimalist styles. 
+            Welcome to <strong>CreativVault</strong>, your ultimate digital marketplace for high-quality creative resources. We specialize in providing professional-grade assets designed to elevate your creative projects. Our library includes a wide range of <strong>Commercial Use Fonts</strong>, from elegant Scripts and classic Serifs to trendy Retro and Minimalist styles.
         </p>
         <p>
-            [cite_start]For crafters and makers, we offer precision-engineered <strong>SVG Cut Files</strong> for Cricut and Silhouette, as well as complex <strong>Laser Cut Templates</strong> for Glowforge and CNC machines[cite: 4, 8]. [cite_start]Our collection also features viral <strong>YouTube Thumbnail Kits</strong>[cite: 10, 11], <strong>Canva Social Media Templates</strong>, and professional <strong>KDP Journal Interiors</strong> to help you grow your brand or small business.
+            For crafters and makers, we offer precision-engineered <strong>SVG Cut Files</strong> for Cricut and Silhouette, as well as complex <strong>Laser Cut Templates</strong> for Glowforge and CNC machines. Our collection also features viral <strong>YouTube Thumbnail Kits</strong>, <strong>Canva Social Media Templates</strong>, and professional <strong>KDP Journal Interiors</strong> to help you grow your brand or small business.
         </p>
         <p>
-            [cite_start]Whether you are interested in <strong>DIY Paper Crafts</strong>[cite: 1, 2], <strong>Crochet Patterns</strong>, or <strong>Printable Coloring Pages</strong>, our curated niches are designed to save you time and spark your inspiration. Explore our 500+ digital assets and start creating today!
+            Whether you are interested in <strong>DIY Paper Crafts</strong>, <strong>Crochet Patterns</strong>, or <strong>Printable Coloring Pages</strong>, our curated niches are designed to save you time and spark your inspiration. Explore our 500+ digital assets and start creating today!
         </p>
     </section>
 
-    <section class="bottom-ads">
-        <a href="https://www.creativefabrica.com/freebies/ref/10996753/" target="_blank"><img src="https://www.creativefabrica.com/wp-content/uploads/2018/01/freebie-banners3-party-04.png" alt="Free Asset"></a>
-        <a href="https://www.creativefabrica.com/discount-deals/ref/10996753/" target="_blank"><img src="https://www.creativefabrica.com/wp-content/uploads/2018/10/discount-deals.gif" alt="Premium fonts"></a>
-    </section>
+    <footer style="text-align: center; padding: 20px; font-size: 12px; color: #999;">
+        &copy; 2026 CreativVault. All Rights Reserved.
+    </footer>
 
     <script src="/menu.js"></script>
 </body>
