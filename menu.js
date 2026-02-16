@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="nav-group">
                     <button class="group-btn">Fonts ▾</button>
                     <div class="dropdown-content">
-                        <a href="/index.html" class="${currentPath === 'index.html' ? 'active' : ''}">Script</a>
+                        <a href="/page1.html" class="${currentPath === 'page1.html' ? 'active' : ''}">Script</a>
                         <a href="/page2.html" class="${currentPath === 'page2.html' ? 'active' : ''}">Serif</a>
                         <a href="/page3.html" class="${currentPath === 'page3.html' ? 'active' : ''}">Retro</a>
                         <a href="/page4.html" class="${currentPath === 'page4.html' ? 'active' : ''}">Minimal</a>
