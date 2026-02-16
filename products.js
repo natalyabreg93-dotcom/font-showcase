@@ -4,145 +4,145 @@ const products = [
         "name": "Dancing Christmas Font",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/28/Dancing-Christmas-Fonts-85216429-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Dancing Christmas v2",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/09/07/Dancing-Christmas-Fonts-105413312-1-1-580x387.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Retroscript Typeface",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/13/Thilyan-Fonts-97485121-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Elegant Script Bundle",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/02/3428069/CF_ELEGANT.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Calligraphy Font Bundle",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/31/Calligraphy-Bundle-Fonts-102889194-1-1-580x387.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Wedding Script Collection",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/23/Valentine-Calligraphy-Script-Graphics-138494167-1-1-580x387.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Signature Font Bundle",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/31/Signature-Bundle-Fonts-102889059-1-1-580x387.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Boho Wedding Script",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/03/The-Mega-Font-Bundle-Bundles-129510145-1-2-1.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Feminine Calligraphy Set",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/07/Bridal-Parties-Fonts-78705216-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Modern Calligraphy Pack",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/02/07/Pack-your-bags-let-us-go-travel-Graphics-1-1-580x386.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Elegant Signature Collection",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/19/Elegant-signature-styles-collection-with-Graphics-135828889-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Romantic Wedding Calligraphy",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/08/Amonyca-Fonts-111572428-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Brush Script Bundle",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/20/Mom-no-matter-how-hard-life-gets-at-leas-Graphics-75027971-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Chic Script Typography",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/28/Certificate-of-Appreciation-Template-Graphics-138851697-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Casual Handwritten Font",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/30/Christmas-Fonts-43045161-580x392.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Flourished Wedding Typeface",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/07/Pemberley-Fonts-107365012-15-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Cursive Branding Font",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/02/06/Yellow-Ramen-Fonts-115429808-1-1-580x387.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Aesthetic Script Pack",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/29/Antique-Sunflower-Digital-Paper-Graphics-138919441-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Minimalist Calligraphy",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/02/Minimalist-Calligraphy-Line-Patterns-Graphics-26325526-1-1-580x388.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Luxury Stationery Script",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/25/Monalisa-Fonts-124810638-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Heart Connection Script",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/05/For-Bestie-Fonts-56407447-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Stylish Signature Font",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/27/Floral-Happy-Birthday-3D-Shadow-Box-Graphics-65430055-1-1-580x386.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Calligraphy Logo Bundle",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/24/6-Watercolor-creative-Florals-bundle-Graphics-75323881-1-1-580x387.jpg",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Festive Greeting Script",
         "category": "25+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/26/Bruschetta-Fonts-136384318-1-1-580x387.png",
-        "link": "/index.html"
+        "link": "/page1.html"
     },
     {
         "name": "Printable Coloring Pages",
@@ -2139,11 +2139,11 @@ const products = [
     {
         "name": "YouTube Branding Kit",
         "category": "Viral YouTube Templates: Thumbnails & Channel Art",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/10/YouTube-Canva-Thumbnail-Branding-Kit-Graphics-38213421-1-1-580x359.jpg",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/10/YouTube-Canva-Thumbnail-Branding-Kit-Graphics-38213421-1-1-580x359.png",
         "link": "/page20.html"
     },
     {
-        "name": "20 Gaming Thumbnail Kit",
+        "name": "Gaming Thumbnail Kit",
         "category": "Viral YouTube Templates: Thumbnails & Channel Art",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/01/17/20-Youtube-Gaming-Thumbnail-Kit-Graphics-23618363-1-1-580x387.jpg",
         "link": "/page20.html"
@@ -2152,6 +2152,12 @@ const products = [
         "name": "Eye-Catching Gaming",
         "category": "Viral YouTube Templates: Thumbnails & Channel Art",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/23/EyeCatching-Gaming-Thumbnail-Graphics-112422941-1-1-580x387.jpg",
+        "link": "/page20.html"
+    },
+    {
+        "name": "Vlog YouTube Banner",
+        "category": "Viral YouTube Templates: Thumbnails & Channel Art",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/06/vlog-YouTube-banner-Graphics-28565251-1-1-580x387.jpg",
         "link": "/page20.html"
     },
     {
@@ -2197,7 +2203,7 @@ const products = [
         "link": "/page20.html"
     },
     {
-        "name": "Professional Branding Kit",
+        "name": "Pro Branding Kit",
         "category": "Viral YouTube Templates: Thumbnails & Channel Art",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/30/Professional-YouTube-Branding-Kit-Canva-Graphics-82831672-1-1-580x387.jpg",
         "link": "/page20.html"
@@ -2205,13 +2211,13 @@ const products = [
     {
         "name": "Minimal Branding Kit",
         "category": "Viral YouTube Templates: Thumbnails & Channel Art",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/30/Minimal-Youtube-Branding-Kit-for-Canva-Graphics-65750110-1-1-580x386.jpg",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/30/Minimal-Youtube-Branding-Kit-for-Canva-Graphics-65750110-1-1-580x386.png",
         "link": "/page20.html"
     },
     {
         "name": "Beauty Blogger Kit",
         "category": "Viral YouTube Templates: Thumbnails & Channel Art",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/09/Beauty-blogger-Youtube-Branding-Kit-Graphics-66660621-1-1-580x386.jpg",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/09/Beauty-blogger-Youtube-Branding-Kit-Graphics-66660621-1-1-580x386.png",
         "link": "/page20.html"
     },
     {
