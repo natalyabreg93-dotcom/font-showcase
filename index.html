@@ -4,50 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <title>CreativVault | 500+ Premium Digital Assets</title>
+    <title>CreativVault | 500+ Premium Digital Assets Marketplace</title>
     
     <link rel="icon" type="image/png" href="/image/favicon.png"> 
     <link rel="stylesheet" href="/style.css">
     
     <style>
-        /* Базовые настройки для центровки */
+        /* Базовые настройки: убираем отступы браузера, задаем фон и центровку */
         body {
             margin: 0;
             padding: 0;
             background-color: #fff;
             display: flex;
             flex-direction: column;
-            align-items: center; /* Центровка всех дочерних элементов */
+            align-items: center; /* Главный секрет центровки на ПК */
+            min-height: 100vh;
         }
 
-        /* Общий контейнер для всего контента */
+        /* Общий контейнер, который держит весь контент в центре на широких экранах */
         .page-wrapper {
             width: 100%;
-            max-width: 1200px; /* Та же ширина, что у сетки */
-            margin: 0 auto;
-            padding: 0 20px;
+            max-width: 1200px; /* Максимальная ширина контента */
             box-sizing: border-box;
+            padding: 0 20px; /* Небольшие отступы по бокам на мобильных */
         }
 
-        /* Навигация и поиск */
+        /* Навигация (меню + поиск) */
         .nav-placeholder {
             width: 100%;
-            padding: 20px 0;
+            padding: 15px 0; /* Отступ сверху и снизу для меню */
             display: flex;
-            justify-content: center; /* Центровка меню внутри */
-            border-bottom: 1px solid #eee;
-            margin-bottom: 40px;
+            justify-content: center;
+            border-bottom: 1px solid #eee; /* Тонкая линия под меню */
+            margin-bottom: 40px; /* Отступ до сетки категорий */
+            background: #fff;
         }
 
-        /* Сетка категорий 4x5 */
+        /* Сетка категорий: 4 колонки */
         .category-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 25px;
+            gap: 25px; /* Расстояние между плитками */
             width: 100%;
             margin-bottom: 60px;
         }
 
+        /* Стиль карточки категории */
         .cat-card {
             text-decoration: none;
             color: #333;
@@ -69,7 +71,7 @@
 
         .cat-card img {
             width: 100%;
-            height: 200px;
+            height: 200px; /* Фиксированная высота картинки */
             object-fit: cover;
             display: block;
         }
@@ -81,9 +83,13 @@
             font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            flex-grow: 1; /* Чтобы текст занимал оставшееся место */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        /* SEO Блок — теперь строго по ширине сетки */
+        /* SEO Блок внизу */
         .seo-section {
             width: 100%;
             padding: 40px 0;
@@ -91,6 +97,7 @@
             line-height: 1.8;
             border-top: 1px solid #eee;
             font-size: 14px;
+            text-align: left; /* Текст выровнен по левому краю для удобства чтения */
         }
 
         .seo-section h2 {
@@ -112,14 +119,17 @@
             font-size: 12px;
             color: #999;
             border-top: 1px solid #f5f5f5;
+            margin-top: auto; /* Прижимает футер к низу, если контента мало */
         }
 
-        /* Адаптивность для мобильных */
+        /* Адаптивность: меняем количество колонок на планшетах и телефонах */
         @media (max-width: 1024px) {
             .category-grid { grid-template-columns: repeat(2, 1fr); }
         }
         @media (max-width: 600px) {
             .category-grid { grid-template-columns: 1fr; }
+            .cat-card img { height: 180px; }
+            .nav-placeholder { margin-bottom: 25px; }
         }
     </style>
 
@@ -161,6 +171,8 @@
             <a href="/page11.html" class="cat-card"><img src="/image/cat-10.jpg" alt="Planner Stickers"><span>Planner Stickers</span></a>
             <a href="/page12.html" class="cat-card"><img src="/image/cat-11.jpg" alt="Digital Paper"><span>Digital Paper</span></a>
             <a href="/page18.html" class="cat-card"><img src="/image/cat-20.jpg" alt="Paper Box DIY"><span>Paper Box DIY</span></a>
+            
+            <a href="/page21.html" class="cat-card"><img src="/image/cat-21.jpg" alt="Paper Flower Templates"><span>Paper Flower Templates</span></a>
         </div>
 
         <section class="seo-section">
@@ -169,10 +181,10 @@
                 Welcome to <strong>CreativVault</strong>, your ultimate digital marketplace for high-quality creative resources. We specialize in providing professional-grade assets designed to elevate your creative projects. Our library includes a wide range of <strong>Commercial Use Fonts</strong>, from elegant Scripts and classic Serifs to trendy Retro and Minimalist styles.
             </p>
             <p>
-                For crafters and makers, we offer precision-engineered <strong>SVG Cut Files</strong> for Cricut and Silhouette, as well as complex <strong>Laser Cut Templates</strong> for Glowforge and CNC machines[cite: 4, 8]. Our collection also features viral <strong>YouTube Thumbnail Kits</strong>, <strong>Canva Social Media Templates</strong>, and professional <strong>KDP Journal Interiors</strong> to help you grow your brand or small business.
+                For crafters and makers, we offer precision-engineered <strong>SVG Cut Files</strong> for Cricut and Silhouette, as well as complex <strong>Laser Cut Templates</strong> for Glowforge and CNC machines. Explore our viral <strong>YouTube Thumbnail Kits</strong>, <strong>Canva Social Media Templates</strong>, and professional <strong>KDP Journal Interiors</strong> to help you grow your brand or small business.
             </p>
             <p>
-                Whether you are interested in <strong>DIY Paper Crafts</strong> [cite: 1, 2], <strong>Crochet Patterns</strong>, or <strong>Printable Coloring Pages</strong>, our curated niches are designed to save you time and spark your inspiration. Explore our 500+ digital assets and start creating today!
+                Whether you are interested in <strong>DIY Paper Crafts</strong> like 3D Flower Templates and Gift Boxes, <strong>Crochet Patterns</strong>, or <strong>Printable Coloring Pages</strong>, our curated niches are designed to save you time and spark your inspiration. Explore our 500+ digital assets and start creating today!
             </p>
         </section>
 
