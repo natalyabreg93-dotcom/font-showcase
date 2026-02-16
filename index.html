@@ -4,53 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="no-referrer">
-    <title>CreativVault | 500+ Premium Digital Assets</title>
+    <title>CreativVault | The Ultimate Digital Assets Marketplace</title>
     
     <link rel="icon" type="image/png" href="/image/favicon.png"> 
     <link rel="stylesheet" href="/style.css">
     
     <style>
-        /* Стили для Hero-блока */
+        /* HERO БЛОК - Темный и стильный */
         .hero-section {
-            background: #222;
+            background: linear-gradient(135deg, #222 0%, #444 100%);
             color: white;
-            padding: 60px 20px;
+            padding: 80px 20px;
             text-align: center;
-            border-radius: 0 0 20px 20px;
-            margin-bottom: 30px;
-        }
-        .hero-section h2 { font-size: 32px; margin-bottom: 15px; color: #fff; }
-        .hero-section p { font-size: 16px; color: #aaa; max-width: 600px; margin: 0 auto 25px; }
-
-        /* Сетка категорий на главной */
-        .home-category-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-            gap: 15px;
             margin-bottom: 40px;
         }
-        .cat-card {
-            background: #fff;
-            border: 1px solid #eee;
-            border-radius: 10px;
-            padding: 20px 10px;
-            text-align: center;
+        .hero-section h1 { font-size: 42px; margin-bottom: 15px; font-weight: 800; }
+        .hero-section p { font-size: 18px; color: #ddd; max-width: 700px; margin: 0 auto 30px; }
+
+        /* СЕТКА КАТЕГОРИЙ - Главное изменение */
+        .category-grid-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            /* Ровно 4 колонки */
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        /* КАРТОЧКА КАТЕГОРИИ С КАРТИНКОЙ */
+        .img-cat-card {
+            display: block;
             text-decoration: none;
-            color: #333;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden; /* Чтобы картинка не вылезала за скругления */
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
             transition: all 0.3s ease;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
         }
-        .cat-card:hover {
-            transform: translateY(-3px);
-            border-color: #333;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        .img-cat-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
         }
-        .cat-icon { font-size: 32px; }
-        .cat-name { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+        .img-cat-card img {
+            width: 100%;
+            height: 200px; /* Фиксированная высота для аккуратности */
+            object-fit: cover; /* Картинка заполняет блок, не искажаясь */
+            display: block;
+        }
+        .cat-title {
+            padding: 15px;
+            text-align: center;
+            font-weight: 700;
+            color: #333;
+            font-size: 16px;
+            background: #fff;
+        }
+
+        /* АДАПТИВНОСТЬ ДЛЯ МОБИЛЬНЫХ */
+        @media (max-width: 900px) {
+            .category-grid-container { grid-template-columns: repeat(2, 1fr); } /* 2 колонки на планшете */
+        }
+        @media (max-width: 600px) {
+            .category-grid-container { grid-template-columns: 1fr; } /* 1 колонка на телефоне */
+            .hero-section h1 { font-size: 32px; }
+        }
     </style>
 
     <script type="text/javascript">
@@ -65,59 +83,100 @@
 <body>
 
     <header class="hero-section">
-        <h2>500+ Premium Digital Assets</h2>
-        <p>Your ultimate library for professional Fonts, SVG Cut Files, Canva Templates, and DIY Craft Projects.</p>
-        <div class="nav-placeholder"></div>
+        <h1>Explore 20 Premium Creative Niches</h1>
+        <p>Your ultimate destination for commercial-use Fonts, SVGs, Templates, and DIY Craft patterns. Start creating today!</p>
+        <div class="nav-placeholder" style="justify-content: center;"></div>
     </header>
 
-    <div class="main-container">
-        <main>
-            <h2 style="margin-bottom: 20px; font-size: 20px; text-transform: uppercase;">Browse by Category</h2>
-            <div class="home-category-grid">
-                <a href="/page1.html" class="cat-card"><span class="cat-icon">✒️</span><span class="cat-name">Script</span></a>
-                <a href="/page2.html" class="cat-card"><span class="cat-icon">serif</span><span class="cat-name">Serif</span></a>
-                <a href="/page3.html" class="cat-card"><span class="cat-icon">📻</span><span class="cat-name">Retro</span></a>
-                <a href="/page4.html" class="cat-card"><span class="cat-icon">✨</span><span class="cat-name">Minimal</span></a>
-                <a href="/page5.html" class="cat-card"><span class="cat-icon">🏰</span><span class="cat-name">Gothic</span></a>
-                <a href="/page6.html" class="cat-card"><span class="cat-icon">💍</span><span class="cat-name">Wedding</span></a>
+    <div class="category-grid-container">
+        
+        <a href="/page1.html" class="img-cat-card">
+            <img src="/image/cat-1.jpg" alt="Script Fonts">
+            <div class="cat-title">Script Fonts</div>
+        </a>
+        <a href="/page2.html" class="img-cat-card">
+            <img src="/image/cat-2.jpg" alt="Serif Fonts">
+            <div class="cat-title">Serif Fonts</div>
+        </a>
+        <a href="/page3.html" class="img-cat-card">
+            <img src="/image/cat-3.jpg" alt="Retro Fonts">
+            <div class="cat-title">Retro Fonts</div>
+        </a>
+        <a href="/page4.html" class="img-cat-card">
+            <img src="/image/cat-4.jpg" alt="Minimal Fonts">
+            <div class="cat-title">Minimal Fonts</div>
+        </a>
 
-                <a href="/page7.html" class="cat-card"><span class="cat-icon">📱</span><span class="cat-name">Socials</span></a>
-                <a href="/page8.html" class="cat-card"><span class="cat-icon">📖</span><span class="cat-name">KDP</span></a>
-                <a href="/page13.html" class="cat-card"><span class="cat-icon">🏷️</span><span class="cat-name">Logos</span></a>
-                <a href="/page11.html" class="cat-card"><span class="cat-icon">📅</span><span class="cat-name">Stickers</span></a>
-                <a href="/page12.html" class="cat-card"><span class="cat-icon">📄</span><span class="cat-name">Papers</span></a>
-                <a href="/page20.html" class="cat-card"><span class="cat-icon">🎬</span><span class="cat-name">YouTube</span></a>
+        <a href="/page5.html" class="img-cat-card">
+            <img src="/image/cat-5.jpg" alt="Gothic Fonts">
+            <div class="cat-title">Gothic Fonts</div>
+        </a>
+        <a href="/page6.html" class="img-cat-card">
+            <img src="/image/cat-6.jpg" alt="Wedding Fonts">
+            <div class="cat-title">Wedding Fonts</div>
+        </a>
+        <a href="/page7.html" class="img-cat-card">
+            <img src="/image/cat-7.jpg" alt="Social Media Templates">
+            <div class="cat-title">Social Media Templates</div>
+        </a>
+        <a href="/page20.html" class="img-cat-card">
+            <img src="/image/cat-12.jpg" alt="YouTube Templates">
+            <div class="cat-title">YouTube Templates</div>
+        </a>
 
-                <a href="/page9.html" class="cat-card"><span class="cat-icon">✂️</span><span class="cat-name">SVG Files</span></a>
-                <a href="/page15.html" class="cat-card"><span class="cat-icon">🥤</span><span class="cat-name">Tumblers</span></a>
-                <a href="/page16.html" class="cat-card"><span class="cat-icon">👕</span><span class="cat-name">POD Art</span></a>
-                <a href="/page19.html" class="cat-card"><span class="cat-icon">🪵</span><span class="cat-name">Laser Cut</span></a>
+        <a href="/page9.html" class="img-cat-card">
+            <img src="/image/cat-13.jpg" alt="SVG Cut Files">
+            <div class="cat-title">SVG Cut Files</div>
+        </a>
+        <a href="/page19.html" class="img-cat-card">
+            <img src="/image/cat-16.jpg" alt="Laser Cut Files">
+            <div class="cat-title">Laser Cut Files</div>
+        </a>
+        <a href="/page13.html" class="img-cat-card">
+            <img src="/image/cat-9.jpg" alt="Logo Templates">
+            <div class="cat-title">Logo Templates</div>
+        </a>
+        <a href="/page8.html" class="img-cat-card">
+            <img src="/image/cat-8.jpg" alt="KDP Interiors">
+            <div class="cat-title">KDP Interiors</div>
+        </a>
 
-                <a href="/page10.html" class="cat-card"><span class="cat-icon">🎨</span><span class="cat-name">Coloring</span></a>
-                <a href="/page14.html" class="cat-card"><span class="cat-icon">🧶</span><span class="cat-name">Crochet</span></a>
-                <a href="/page17.html" class="cat-card"><span class="cat-icon">💌</span><span class="cat-name">Cards</span></a>
-                <a href="/page18.html" class="cat-card"><span class="cat-icon">📦</span><span class="cat-name">Box DIY</span></a>
-            </div>
-        </main>
+        <a href="/page15.html" class="img-cat-card">
+            <img src="/image/cat-14.jpg" alt="Tumbler Wraps">
+            <div class="cat-title">Tumbler Wraps</div>
+        </a>
+        <a href="/page16.html" class="img-cat-card">
+            <img src="/image/cat-15.jpg" alt="POD Designs">
+            <div class="cat-title">Retro POD Designs</div>
+        </a>
+        <a href="/page11.html" class="img-cat-card">
+            <img src="/image/cat-10.jpg" alt="Planner Stickers">
+            <div class="cat-title">Planner Stickers</div>
+        </a>
+        <a href="/page12.html" class="img-cat-card">
+            <img src="/image/cat-11.jpg" alt="Digital Paper">
+            <div class="cat-title">Digital Paper Patterns</div>
+        </a>
 
-        <aside class="sidebar">
-            <div class="banner-container">
-                <h3>Daily Free Assets</h3>
-                <a href="https://www.creativefabrica.com/freebies/ref/10996753/" target="_blank"><img src="https://www.creativefabrica.com/wp-content/uploads/2018/01/freebie-banners3-party-04.png" alt="Free Asset"></a>
-            </div>
-            <div class="banner-container">
-                <a href="https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" target="_blank"><img src="https://www.creativefabrica.com/wp-content/uploads/2018/01/freebie-banners4-neon-04.png" alt="Free Fonts"></a>
-            </div>
-            <div class="banner-container">
-                <a href="https://www.creativefabrica.com/discount-deals/ref/10996753/" target="_blank"><img src="https://www.creativefabrica.com/wp-content/uploads/2018/10/discount-deals.gif" alt="Premium fonts $1"></a>
-            </div>
-        </aside>
-    </div>
+        <a href="/page10.html" class="img-cat-card">
+            <img src="/image/cat-17.jpg" alt="Coloring Pages">
+            <div class="cat-title">Coloring Pages</div>
+        </a>
+        <a href="/page14.html" class="img-cat-card">
+            <img src="/image/cat-18.jpg" alt="Crochet Patterns">
+            <div class="cat-title">Crochet Patterns</div>
+        </a>
+        <a href="/page17.html" class="img-cat-card">
+            <img src="/image/cat-19.jpg" alt="Greeting Cards">
+            <div class="cat-title">Greeting Cards</div>
+        </a>
+        <a href="/page18.html" class="img-cat-card">
+            <img src="/image/cat-20.jpg" alt="Paper Box DIY">
+            <div class="cat-title">Paper Box DIY</div>
+        </a>
 
-    <div class="nav-placeholder"></div>
-
-    <footer>
-        <p>&copy; 2026 CreativVault. Your one-stop library for high-quality digital assets. Powered by Creative Fabrica.</p>
+    </div> <footer style="text-align: center; padding: 40px 20px; background: #f9f9f9; margin-top: 40px;">
+        <p>&copy; 2026 CreativVault. Discover the best digital assets for your projects.</p>
     </footer>
 
     <script src="/menu.js"></script>
