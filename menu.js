@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="/page17.html" class="${currentPath === 'page17.html' ? 'active' : ''}">Greeting Cards</a>
                         <a href="/page18.html" class="${currentPath === 'page18.html' ? 'active' : ''}">Paper Box DIY</a>
                         <a href="/page21.html" class="${currentPath === 'page21.html' ? 'active' : ''}">Paper Flowers</a>
+                        <a href="/page22.html" class="${currentPath === 'page22.html' ? 'active' : ''}">Embroidery</a>
                 </div>
             </div>
 
