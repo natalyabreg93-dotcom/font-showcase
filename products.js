@@ -2,146 +2,182 @@
 const products = [
     {
         "name": "Dancing Christmas Font",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/28/Dancing-Christmas-Fonts-85216429-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Dancing Christmas v2",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/09/07/Dancing-Christmas-Fonts-105413312-1-1-580x387.png",
         "link": "/page1.html"
     },
     {
         "name": "Retroscript Typeface",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/13/Thilyan-Fonts-97485121-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Elegant Script Bundle",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/02/3428069/CF_ELEGANT.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Calligraphy Font Bundle",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/31/Calligraphy-Bundle-Fonts-102889194-1-1-580x387.png",
         "link": "/page1.html"
     },
     {
         "name": "Wedding Script Collection",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/23/Valentine-Calligraphy-Script-Graphics-138494167-1-1-580x387.png",
         "link": "/page1.html"
     },
     {
         "name": "Signature Font Bundle",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/31/Signature-Bundle-Fonts-102889059-1-1-580x387.png",
         "link": "/page1.html"
     },
     {
         "name": "Boho Wedding Script",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/03/The-Mega-Font-Bundle-Bundles-129510145-1-2-1.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Feminine Calligraphy Set",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/07/Bridal-Parties-Fonts-78705216-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Modern Calligraphy Pack",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/02/07/Pack-your-bags-let-us-go-travel-Graphics-1-1-580x386.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Elegant Signature Collection",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/19/Elegant-signature-styles-collection-with-Graphics-135828889-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Romantic Wedding Calligraphy",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/08/Amonyca-Fonts-111572428-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Brush Script Bundle",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/20/Mom-no-matter-how-hard-life-gets-at-leas-Graphics-75027971-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Chic Script Typography",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/28/Certificate-of-Appreciation-Template-Graphics-138851697-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Casual Handwritten Font",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/30/Christmas-Fonts-43045161-580x392.png",
         "link": "/page1.html"
     },
     {
         "name": "Flourished Wedding Typeface",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/07/Pemberley-Fonts-107365012-15-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Cursive Branding Font",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/02/06/Yellow-Ramen-Fonts-115429808-1-1-580x387.png",
         "link": "/page1.html"
     },
     {
         "name": "Aesthetic Script Pack",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/29/Antique-Sunflower-Digital-Paper-Graphics-138919441-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Minimalist Calligraphy",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/02/Minimalist-Calligraphy-Line-Patterns-Graphics-26325526-1-1-580x388.png",
         "link": "/page1.html"
     },
     {
         "name": "Luxury Stationery Script",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/25/Monalisa-Fonts-124810638-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Heart Connection Script",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/05/For-Bestie-Fonts-56407447-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Stylish Signature Font",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/27/Floral-Happy-Birthday-3D-Shadow-Box-Graphics-65430055-1-1-580x386.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Calligraphy Logo Bundle",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/24/6-Watercolor-creative-Florals-bundle-Graphics-75323881-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
         "name": "Festive Greeting Script",
-        "category": "25+ Premium Elegant Script Fonts",
+        "category": "30+ Premium Elegant Script Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/26/Bruschetta-Fonts-136384318-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Wedding Script Font",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2018/10/Wedding-Script-by-Blessed-Print-580x386.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Gilla Modern Script",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/07/Gilla-Fonts-71524128-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Green & Gold Invite",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/06/Elegant-Green-and-Gold-Wedding-Invite-Graphics-99163976-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Bastony Signature",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/22/Bastony-Signature-Fonts-136043867-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Like Magic Script",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/08/21/Like-Magic-Fonts-104289282-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Farmhouse Duo",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/11/29/Farmhouse-Script-Skinny-Farmhouse-Fonts-110915126-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
@@ -2755,6 +2791,42 @@ const products = [
         "link": "/page3.html"
     },
     {
+        "name": "Greasy Bubble Font",
+        "category": "25+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/17/Greasy-Bubble-Fonts-142624027-1-1-580x387.png",
+        "link": "/page3.html"
+    },
+    {
+        "name": "Retro Bubble Font",
+        "category": "25+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/09/06/Retro-Bubble-Fonts-105340337-1-1-580x399.png",
+        "link": "/page3.html"
+    },
+    {
+        "name": "Psychedelic Retro",
+        "category": "25+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/24/Psychedelic-Retro-Fonts-118671516-1-1-580x368.jpg",
+        "link": "/page3.html"
+    },
+    {
+        "name": "Groovy Psychedelic",
+        "category": "25+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/07/Psychedelic-Fonts-89988710-1-1-580x387.jpg",
+        "link": "/page3.html"
+    },
+    {
+        "name": "Kind Vibes Groovy",
+        "category": "25+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/15/Kind-Vibe-Groovy-Fonts-72146465-1-1-580x387.png",
+        "link": "/page3.html"
+    },
+    {
+        "name": "Bright Retro Duo",
+        "category": "25+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/11/Bright-Retro-Font-Duo-Fonts-125862569-1-1-580x387.jpg",
+        "link": "/page3.html"
+    },
+    {
         "name": "Engelsgold Font",
         "category": "24+ Modern & Minimalist Sans Serif Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/25/Engelsgold-Fonts-27836165-1-1-580x363.jpg",
@@ -2900,146 +2972,182 @@ const products = [
     },
     {
         "name": "Old English Standard",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/21/Old-English-Sheepdog-Dog-Patriotic-Phone-Graphics-118507436-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Dark Blackletter Masberco",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/16/Masberco-Fonts-84202053-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Poker Spines Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/03/Poker-Spines-Fonts-83145979-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Bertholdr Mainzer Fraktur",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/05/Bertholdr-Mainzer-Fraktur-Fonts-24713552-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Manuskript Gothisch Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/03/Manuskript-Gothisch-Fonts-24626699-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Blackspike Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/22/Blackspike-Fonts-140642937-1-1-580x386.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Black Kiyrand Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/03/Black-Kiyrand-Fonts-123426458-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Old English Bundle Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/17/Old-English-Bundle-Fonts-124325684-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Old English Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/08/Old-English-Fonts-113438814-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Baheula Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/30/Baheula-Fonts-138995593-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Royal Gothic Raven",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/17/Black-and-gold-royal-gothic-raven-Graphics-74739679-1-1-580x381.png",
         "link": "/page5.html"
     },
     {
         "name": "Black Cat Roses Bookmark",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/21/Royal-Gothic-Black-Cat-Roses-Bookmark-Graphics-135967371-1-1-580x386.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Elegant Gothic Queen",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/07/Elegant-Gothic-Queen-Clipart-Dark-Roya-Graphics-125672230-1-1-580x386.png",
         "link": "/page5.html"
     },
     {
         "name": "Gothic Word Art",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/24/Gothic-Calligraphy-Word-Art-Graphics-122735849-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Urban Drama Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/02/22/Urban-Drama-Fonts-62099203-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Street Fighter Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/05/Street-Fighter-Fonts-111353836-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Vandal Street Graffiti",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/05/Vandal-Street-Graffiti-Fonts-90269714-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Old Movie Titles",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/12/Old-Movie-Titles-Graphics-83896077-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Floating Script Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/11/Floating-Script-Fonts-128237329-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Gangsta Wrapper T-Shirt",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/30/Gangsta-Wrapper-Christmas-TShirt-Graphics-134329339-1-1-580x435.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Metal Lord Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/05/Metal-Lord-by-Creative-Fabrica-Freebies.png",
         "link": "/page5.html"
     },
     {
         "name": "Ambitions Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/10/Ambitions-Fonts-97304191-1-1-580x387.jpg",
         "link": "/page5.html"
     },
     {
         "name": "Ancient Sword Graphic",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/02/Vector-Design-Ancient-Sword-With-Ribbon-Graphics-73554823-580x387.png",
         "link": "/page5.html"
     },
     {
         "name": "Althero Regular Font",
-        "category": "24+ Best Gothic & Blackletter Fonts",
+        "category": "30+ Best Gothic & Blackletter Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/30/Althero-Regular-Fonts-127285071-1-1-580x387.jpg",
+        "link": "/page5.html"
+    },
+    {
+        "name": "Loyalty Chicano",
+        "category": "30+ Best Gothic & Blackletter Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/22/Loyalty-Chicano-Fonts-32779011-1-1-580x387.jpg",
+        "link": "/page5.html"
+    },
+    {
+        "name": "Brotheric Blackletter",
+        "category": "30+ Best Gothic & Blackletter Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/30/Brotheric-Fonts-125155597-1-1-580x387.png",
+        "link": "/page5.html"
+    },
+    {
+        "name": "Butterfly Gothic Print",
+        "category": "30+ Best Gothic & Blackletter Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/01/Free-Butterfly-Gothic-TShirt-Design-Graphics-139128237-1-1-580x387.jpg",
+        "link": "/page5.html"
+    },
+    {
+        "name": "Monastic Gothic",
+        "category": "30+ Best Gothic & Blackletter Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/25/Monastic-Fonts-126922087-1-1-580x387.jpg",
+        "link": "/page5.html"
+    },
+    {
+        "name": "Metal Forge",
+        "category": "30+ Best Gothic & Blackletter Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/30/Metal-Forge-Fonts-131953346-1-1-580x387.png",
+        "link": "/page5.html"
+    },
+    {
+        "name": "Thorn Oath",
+        "category": "30+ Best Gothic & Blackletter Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/03/Thorn-Oath-Fonts-127582609-1-1-580x387.png",
         "link": "/page5.html"
     },
     {
