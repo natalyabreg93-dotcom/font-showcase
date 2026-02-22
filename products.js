@@ -2648,182 +2648,182 @@ const products = [
     },
     {
         "name": "Groovy Retro Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/31/Funky-Holiday-Fonts-82954045-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Funky Hippie Typeface",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/09/Funky-Pickle-Fonts-123221500-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Summer of 70s Script",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/19/Retro-Good-Vibes-Embroidery-135811951-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Retro Bubble Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/22/Psyclood-Fonts-75165426-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Vintage Good Vibes",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/11/16/RETRO-Bundle-SVG-30-Designs-Graphics-19221608-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Psychedelic Display Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/26/Trippy-Trip-Fonts-37077146-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Outdoor Posters Bundle",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/05/28/Outdoor-Posters-Bundle-SVG-camping-SVG-Graphics-12627728-1-1-580x388.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Vintage Heritage Bundle",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/06/Patriotic-Bald-Eagle-Vector-Bundle-Graphics-125582884-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Old School Tattoo Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/10/13/Tattoo-God-Fonts-18756268-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Classic Whiskey Label Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/30/Classic-Engrave-Fonts-131953329-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Royal Vintage Serif",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/13/Royal-Tomato-Fonts-128364469-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Victorian Parlor Typeface",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/05/Victorian-Parlor-by-Burntilldead-580x386.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Retro Signage Script",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/11/Floating-Script-Fonts-128237329-8-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Western Saloon Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/12/Western-Fonts-125635389-1-580x435.png",
         "link": "/page3.html"
     },
     {
         "name": "Bubble Joy Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/21/Bubble-Joy-Fonts-131240491-1-1-580x386.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Retro Pixel Arcade",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/03/Retro-Pixel-Arcade-Icons-Pattern-Graphics-121184908-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "90s Nostalgia Pack",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/02/Retro-90s-Nostalgia-Design-Pack-Graphics-90007623-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Vaporwave Glitch Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/19/Lust-Fonts-126469459-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Bold Pop Art Typeface",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/12/28/Montreal-header-vintage-alphabet-set-Graphics-7415418-1-1-580x386.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Retro Flower Power Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/03/Cookie-lady-retro-groovy-flower-power-Graphics-125384261-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Vintage Stamp Texture Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/08/Barter-Fonts-31975441-1-1-580x386.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Creative Retro Badge Bundle",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/11/Halloween-Vintage-Stamp-PNG-Bundle-Graphics-128221941-1-1-580x386.png",
         "link": "/page3.html"
     },
     {
         "name": "Nostalgic Cartoon Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/13/Stripy-Cartoon-Block-Fonts-130684697-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
         "name": "Vintage Horror Movie Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/12/Spookhaus-by-VonTypeCo-580x386.png",
         "link": "/page3.html"
     },
     {
         "name": "Greasy Bubble Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/17/Greasy-Bubble-Fonts-142624027-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
         "name": "Retro Bubble Font",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/09/06/Retro-Bubble-Fonts-105340337-1-1-580x399.png",
         "link": "/page3.html"
     },
     {
         "name": "Psychedelic Retro",
-        "category": "25+ Best Retro & Vintage Display Fonts",
+        "category": "30+ Best Retro & Vintage Display Fonts",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/24/Psychedelic-Retro-Fonts-118671516-1-1-580x368.jpg",
         "link": "/page3.html"
     },
     {
-        "name": "Groovy Psychedelic",
-        "category": "25+ Best Retro & Vintage Display Fonts",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/07/Psychedelic-Fonts-89988710-1-1-580x387.jpg",
+        "name": "Psychedelic Font",
+        "category": "30+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/07/Psychedelic-Fonts-90438241-1-1-580x387.jpg",
         "link": "/page3.html"
     },
     {
-        "name": "Kind Vibes Groovy",
-        "category": "25+ Best Retro & Vintage Display Fonts",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/15/Kind-Vibe-Groovy-Fonts-72146465-1-1-580x387.png",
+        "name": "Psychedelic Bubble Two",
+        "category": "30+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/24/Psychedelic-Bubble-Two-Fonts-65188427-1-1-580x387.jpeg",
         "link": "/page3.html"
     },
     {
-        "name": "Bright Retro Duo",
-        "category": "25+ Best Retro & Vintage Display Fonts",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/11/Bright-Retro-Font-Duo-Fonts-125862569-1-1-580x387.jpg",
+        "name": "Jetline Duo Font",
+        "category": "30+ Best Retro & Vintage Display Fonts",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/16/Jetline-Duo-Fonts-113982001-1-1-580x387.png",
         "link": "/page3.html"
     },
     {
@@ -3295,13 +3295,85 @@ const products = [
         "link": "/page6.html"
     },
     {
+        "name": "Floral Wedding Table Numbers",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/21/Floral-Wedding-Table-Numbers-Template-Graphics-124576412-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Teal Wedding Bundle",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/04/Teal-Wedding-Invitation-Bundle-Canva-Graphics-101140782-1-1-580x387.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Sage Green Watercolor Suite",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/27/Sage-Green-Watercolor-Wedding-Suite-Graphics-131758259-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Modern Editable Invite",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/24/Editable-Wedding-Invitation-Template-Graphics-129125891-3-580x435.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Minimalist Wedding Template",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/31/Minimalist-Wedding-Invitation-Template-Graphics-94507155-1-1-580x381.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Seating Chart Sign",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/22/Minimalist-Wedding-Seating-Chart-Sign-Graphics-140656969-1-1-580x387.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Newspaper Wedding Program",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/18/newspaper-wedding-program-template-Graphics-69947097-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Welcome Sign",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/15/Wedding-welcome-Sign-Template-Canva-Graphics-72167548-1-1-580x386.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Seating Chart SVG Bundle",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/15/Wedding-Seating-Chart-SVG-Bundle-Graphics-29040980-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Fall Seating Chart Mockup",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/29/Fall-Wedding-Seating-Chart-Mockup-Bundle-Graphics-127215000-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Elegant Menu Card",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2020/09/16/Printable-Wedding-Menu-Card-Template-Graphics-5515430-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Modern Wedding Menu",
+        "category": "Elegant Wedding Invitation Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/10/13/Printable-Wedding-Menu-Card-Template-Graphics-41409630-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
         "name": "Colorful Instagram Template",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/26/Colorful-Instagram-Canva-Template-Graphics-96315108-1-1-580x435.png",
         "link": "/page7.html"
     },
     {
-        "name": "Yoga Instagram Canva",
+        "name": "Yoga Instagram Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/11/Yoga-Instagram-CANVA-Template-Graphics-107614140-1-1-580x387.png",
         "link": "/page7.html"
@@ -3313,19 +3385,19 @@ const products = [
         "link": "/page7.html"
     },
     {
-        "name": "Shopify Social Media Kit",
+        "name": "Sense Shopify Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/01/Social-Media-Kit-for-Sense-Shopify-Theme-Graphics-94614674-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
-        "name": "Reels & Stories Kit",
+        "name": "Reels, Posts & Stories",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/28/Social-Media-Kit-Reels-Posts-Stories-Graphics-100648817-1-1-580x377.png",
         "link": "/page7.html"
     },
     {
-        "name": "Cafe Resto Social Kit",
+        "name": "CAFE RESTO Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/18/CAFE-RESTO-Social-Media-Kit-Graphics-108087812-1-1-580x387.jpg",
         "link": "/page7.html"
@@ -3337,49 +3409,49 @@ const products = [
         "link": "/page7.html"
     },
     {
-        "name": "Girly Photo Story Set",
+        "name": "Girly Story Collection",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/28/Girly-Photo-Collection-Instagram-Story-Graphics-114833608-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
-        "name": "Modern Canva Post",
+        "name": "Modern Post Template",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/27/Modern-Instagram-Canva-Post-Template-Graphics-124981773-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
-        "name": "Mummy Blogger Pinterest",
+        "name": "Mummy Blogger Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/22/Pink-Pinterest-Mummy-Blogger-Template-Graphics-32776583-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
-        "name": "200 Boost Bundle",
+        "name": "200+ Instagram Boost",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/26/200-Black-Pink-Instagram-Boost-Bundle-Graphics-96317638-1-1-580x435.png",
         "link": "/page7.html"
     },
     {
-        "name": "Sage Green Story Set",
+        "name": "Sage Green Stories",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/04/Sage-Green-Instagram-Story-Template-Graphics-66263748-1-1-580x386.png",
         "link": "/page7.html"
     },
     {
-        "name": "Classy Modern Story",
+        "name": "Classy Modern Stories",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/27/Classy-Modern-Instagram-Story-Template-Graphics-100571477-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
-        "name": "FELIGHT Story Template",
+        "name": "FELIGHT Story Pack",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/09/FELIGHT-Instagram-Story-Template-Graphics-92866083-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
-        "name": "Beauty Story Template",
+        "name": "Beauty Story Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/16/Beauty-Instagram-Story-Template-Graphics-126283269-1-1-580x387.png",
         "link": "/page7.html"
@@ -3397,7 +3469,7 @@ const products = [
         "link": "/page7.html"
     },
     {
-        "name": "Marketing Onboarding",
+        "name": "Onboarding Template",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/02/13/Digital-marketing-onboarding-template-Graphics-8592914-1-1-580x386.jpg",
         "link": "/page7.html"
@@ -3409,25 +3481,25 @@ const products = [
         "link": "/page7.html"
     },
     {
-        "name": "SMM Strategy Pages",
+        "name": "SMM Strategy Analysis",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/08/04/SMM-Strategy-Analysis-Web-Pages-Graphics-4847924-1-1-580x386.jpg",
         "link": "/page7.html"
     },
     {
-        "name": "SMM Marketing Concept",
+        "name": "SMM Concept Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/04/SMM-concept-Social-media-marketing-Graphics-73681123-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
-        "name": "Small Business Branding",
+        "name": "DIY Branding Kit",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/12/06/DIY-Small-Business-Branding-Kit-Graphics-21322055-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
-        "name": "Branding Package Kit",
+        "name": "Small Business Package",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/10/Small-Business-Branding-Package-Graphics-107541825-1-1-580x387.png",
         "link": "/page7.html"
@@ -3445,15 +3517,69 @@ const products = [
         "link": "/page7.html"
     },
     {
-        "name": "Engagement Booster Post",
+        "name": "Engagement Booster",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/23/Engagement-Booster-Instagram-Post-Graphics-25829086-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
-        "name": "3.400+ Etsy Canva Bundle + Bonus",
+        "name": "3.400+ Etsy Bundle",
         "category": "Premium Instagram Canva Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/29/3400-Etsy-Canva-Bundle-Bonus-Graphics-129532446-1-1-580x386.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Influencer Media Kit",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/15/Influencer-Media-Kit-Template-Canva-Rat-Graphics-135543437-1-1-580x435.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Jewellery Post Kit",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/05/Jewellery-instagram-post-canva-Graphics-71376955-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Aesthetic Carousel",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/12/14/Aesthetic-Instagram-Carousel-Canva-Post-Graphics-52325101-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Engagement Templates",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/06/Engagement-Booster-Instagram-Templates-Graphics-28539453-1-1-580x387.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "SMM Story Kit",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/30/Social-Media-Manager-Instagram-Story-Graphics-125151518-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Hair Loss Bundle",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/11/11/Hair-Loss-Canva-Social-Media-Bundle-Graphics-109658274-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Real Estate CANVA Kit",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/22/Real-Estate-Instagram-Templates-CANVA-Graphics-70248785-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Branding Social Pack",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2021/04/13/Canva-Branding-Kit-Social-Media-Pack-Graphics-10751314-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Join Craft Club",
+        "category": "Premium Instagram Canva Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2018/10/craft-club-square.gif",
         "link": "/page7.html"
     },
     {
