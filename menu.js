@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const navPlaceholders = document.querySelectorAll(".nav-placeholder");
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
+    // Убрали id="searchInput" и id="searchResults", оставили только классы
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
@@ -52,12 +53,12 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="/page18.html" class="${currentPath === 'page18.html' ? 'active' : ''}">Paper Box DIY</a>
                         <a href="/page21.html" class="${currentPath === 'page21.html' ? 'active' : ''}">Paper Flowers</a>
                         <a href="/page22.html" class="${currentPath === 'page22.html' ? 'active' : ''}">Embroidery</a>
+                    </div>
                 </div>
-            </div>
 
                 <div class="search-box">
-                    <input type="text" id="searchInput" class="search-input" placeholder="Search products...">
-                    <div id="searchResults" class="search-results"></div>
+                    <input type="text" class="search-input" placeholder="Search products...">
+                    <div class="search-results"></div>
                 </div>
             </div>
         </nav>
@@ -67,28 +68,49 @@ document.addEventListener("DOMContentLoaded", function() {
         placeholder.innerHTML = menuHTML;
     });
 
-    // Логика поиска
+    // Логика поиска для ВСЕХ полей на странице
     setTimeout(() => {
-        const input = document.getElementById('searchInput');
-        const resultsBox = document.getElementById('searchResults');
-        if(input) {
-            input.addEventListener('input', function(e) {
-                const query = e.target.value.trim();
-                if (query.length < 2) {
-                    resultsBox.style.display = 'none';
-                    return;
-                }
-                if (typeof filterProducts !== 'undefined') {
-                    const results = filterProducts(query);
-                    displayResults(results, resultsBox);
-                }
-            });
-            document.addEventListener('click', function(e) {
-                if (!input.contains(e.target) && !resultsBox.contains(e.target)) {
-                    resultsBox.style.display = 'none';
-                }
-            });
-        }
+        const searchContainers = document.querySelectorAll('.search-box');
+
+        searchContainers.forEach(container => {
+            const input = container.querySelector('.search-input');
+            const resultsBox = container.querySelector('.search-results');
+
+            if (input && resultsBox) {
+                input.addEventListener('input', function(e) {
+                    const query = e.target.value.trim();
+                    
+                    // Синхронизация текста во всех полях поиска (опционально)
+                    document.querySelectorAll('.search-input').forEach(el => {
+                        if(el !== e.target) el.value = e.target.value;
+                    });
+
+                    if (query.length < 2) {
+                        document.querySelectorAll('.search-results').forEach(box => box.style.display = 'none');
+                        return;
+                    }
+
+                    if (typeof filterProducts !== 'undefined') {
+                        const results = filterProducts(query);
+                        displayResults(results, resultsBox);
+                    }
+                });
+            }
+        });
+
+        // Закрытие результатов при клике вне поиска
+        document.addEventListener('click', function(e) {
+            const allBoxes = document.querySelectorAll('.search-results');
+            const allInputs = document.querySelectorAll('.search-input');
+            
+            let isClickInside = false;
+            allInputs.forEach(input => { if(input.contains(e.target)) isClickInside = true; });
+            allBoxes.forEach(box => { if(box.contains(e.target)) isClickInside = true; });
+
+            if (!isClickInside) {
+                allBoxes.forEach(box => box.style.display = 'none');
+            }
+        });
     }, 500);
 
     function displayResults(results, container) {
