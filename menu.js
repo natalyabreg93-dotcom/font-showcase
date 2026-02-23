@@ -57,9 +57,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </div>
 
-                <div class="search-box">
-                    <input type="text" class="search-input" placeholder="Search products...">
+                <div class="search-box" style="position: relative;">
+                    <input type="text" class="search-input" placeholder="Search 1,000+ premium products...">
+                    <div style="font-size: 11px; color: #999; margin-top: 5px; padding-left: 10px;">
+                        🔍 Try: "Real Estate", "Workbook", "Retro Font"
+                    </div>
                     <div class="search-results"></div>
+                </div>
                 </div>
             </div>
         </nav>
@@ -145,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const sidebar = document.querySelector('aside.sidebar');
         if (!sidebar) return; 
 
+        // 1. Добавляем блок подарков (в начало сайдбара)
         const giftWrapper = document.createElement('div');
         giftWrapper.innerHTML = `
             <div class="banner-container" style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 10px; margin-bottom: 20px; transition: opacity 0.5s ease;">
@@ -154,6 +159,19 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
         sidebar.prepend(giftWrapper);
 
+        // 2. ВСТАВЛЯЕМ БЛОК РЕКЛАМЫ ПОИСКА (сразу после подарков)
+        const searchPromo = document.createElement('div');
+        searchPromo.innerHTML = `
+            <div style="background: #f0f7ff; border: 1px solid #cce5ff; padding: 15px; border-radius: 10px; margin-bottom: 20px; text-align: center; font-family: sans-serif;">
+                <h4 style="margin: 0; color: #004085; font-size: 14px;">Can't find what you need?</h4>
+                <p style="font-size: 12px; color: #004085; margin: 5px 0 10px;">Explore our library of <b>1,000+ items</b> using the search bar above!</p>
+                <span style="font-size: 18px;">🔎</span>
+            </div>
+        `;
+        // Добавляем его сразу после giftWrapper
+        giftWrapper.after(searchPromo);
+
+        // Запускаем ротацию
         updateDailyGift();
         setInterval(updateDailyGift, 5000);
     }
