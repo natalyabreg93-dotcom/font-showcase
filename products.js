@@ -3368,218 +3368,326 @@ const products = [
     },
     {
         "name": "Colorful Instagram Template",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/26/Colorful-Instagram-Canva-Template-Graphics-96315108-1-1-580x435.png",
         "link": "/page7.html"
     },
     {
         "name": "Yoga Instagram Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/11/Yoga-Instagram-CANVA-Template-Graphics-107614140-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Link in Bio Template",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/01/22/Link-In-Bio-Instagram-Canva-Template-Graphics-89135359-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Sense Shopify Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/01/Social-Media-Kit-for-Sense-Shopify-Theme-Graphics-94614674-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Reels, Posts & Stories",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/28/Social-Media-Kit-Reels-Posts-Stories-Graphics-100648817-1-1-580x377.png",
         "link": "/page7.html"
     },
     {
         "name": "CAFE RESTO Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/18/CAFE-RESTO-Social-Media-Kit-Graphics-108087812-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Bookstagram Templates",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/13/Bookstagram-Instagram-Canva-Templates-Graphics-139999721-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Girly Story Collection",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/01/28/Girly-Photo-Collection-Instagram-Story-Graphics-114833608-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Modern Post Template",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/27/Modern-Instagram-Canva-Post-Template-Graphics-124981773-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Mummy Blogger Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/22/Pink-Pinterest-Mummy-Blogger-Template-Graphics-32776583-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "200+ Instagram Boost",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/26/200-Black-Pink-Instagram-Boost-Bundle-Graphics-96317638-1-1-580x435.png",
         "link": "/page7.html"
     },
     {
         "name": "Sage Green Stories",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/04/Sage-Green-Instagram-Story-Template-Graphics-66263748-1-1-580x386.png",
         "link": "/page7.html"
     },
     {
         "name": "Classy Modern Stories",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/27/Classy-Modern-Instagram-Story-Template-Graphics-100571477-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "FELIGHT Story Pack",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/09/FELIGHT-Instagram-Story-Template-Graphics-92866083-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Beauty Story Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/16/Beauty-Instagram-Story-Template-Graphics-126283269-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Aesthetic Daily Planner",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/12/Aesthetic-Daily-Planner-Template-Canva-Graphics-130649244-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Cute Daily Planner",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/07/Aesthetic-Cute-Daily-Planner-Template-Graphics-127891019-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Onboarding Template",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/02/13/Digital-marketing-onboarding-template-Graphics-8592914-1-1-580x386.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Content Icon Set",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/05/24/Content-icon-set-Graphics-31100502-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "SMM Strategy Analysis",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/08/04/SMM-Strategy-Analysis-Web-Pages-Graphics-4847924-1-1-580x386.jpg",
         "link": "/page7.html"
     },
     {
         "name": "SMM Concept Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/04/SMM-concept-Social-media-marketing-Graphics-73681123-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "DIY Branding Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/12/06/DIY-Small-Business-Branding-Kit-Graphics-21322055-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Small Business Package",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/10/Small-Business-Branding-Package-Graphics-107541825-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "Minimalist Quotes",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/17/Minimalist-Instagram-Quotes-Templates-Graphics-122246843-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "50 Real Estate Stories",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/11/10/50-Real-Estate-Instagram-Story-Templates-Graphics-45930495-1-1-580x435.png",
         "link": "/page7.html"
     },
     {
         "name": "Engagement Booster",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/23/Engagement-Booster-Instagram-Post-Graphics-25829086-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "3.400+ Etsy Bundle",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/29/3400-Etsy-Canva-Bundle-Bonus-Graphics-129532446-1-1-580x386.png",
         "link": "/page7.html"
     },
     {
         "name": "Influencer Media Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/15/Influencer-Media-Kit-Template-Canva-Rat-Graphics-135543437-1-1-580x435.png",
         "link": "/page7.html"
     },
     {
         "name": "Jewellery Post Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/05/Jewellery-instagram-post-canva-Graphics-71376955-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Aesthetic Carousel",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/12/14/Aesthetic-Instagram-Carousel-Canva-Post-Graphics-52325101-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Engagement Templates",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/06/Engagement-Booster-Instagram-Templates-Graphics-28539453-1-1-580x387.png",
         "link": "/page7.html"
     },
     {
         "name": "SMM Story Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/30/Social-Media-Manager-Instagram-Story-Graphics-125151518-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Hair Loss Bundle",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/11/11/Hair-Loss-Canva-Social-Media-Bundle-Graphics-109658274-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Real Estate CANVA Kit",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/22/Real-Estate-Instagram-Templates-CANVA-Graphics-70248785-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Branding Social Pack",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/04/13/Canva-Branding-Kit-Social-Media-Pack-Graphics-10751314-1-1-580x387.jpg",
         "link": "/page7.html"
     },
     {
         "name": "Join Craft Club",
-        "category": "Premium Instagram Canva Templates",
+        "category": "Instagram & Marketing Templates",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/10/craft-club-square.gif",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Realtor Digital Business Card",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/05/13/Realtor-Digital-Business-Card-Canva-DIY-Graphics-30505687-1-1-580x435.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Real Estate Marketing Bundle",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/05/10/Real-Estate-Marketing-Bundle-Graphics-30329357-1-1-580x386.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Social Media Canva Bundle",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/11/Real-Estate-Social-Media-Canva-Bundle-Graphics-128225113-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Just Listed Flyer Template",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/12/Just-Listed-Flyer-Graphics-69497483-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "White Details Flyer Template",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/14/Just-Listed-Flyer-Real-Estate-Template-Graphics-69609691-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Printable Open House Invite",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/02/Printable-Open-House-Invitation-Graphics-26292664-1-1-580x386.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Open House Realtor Pack",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/02/Open-House-Invitation-For-Realtors-Graphics-26291901-1-1-580x386.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Halloween Real Estate Postcard",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/23/Halloween-Real-Estate-Postcard-Template-Graphics-36902280-1-1-580x386.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Home Buying Process Guide",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/13/Home-Buying-Process-Template-Canva-Graphics-72000617-1-1-580x386.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Coach Workbook Template",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/16/Coach-Workbook-Template-in-CANVA-Graphics-126302464-1-1-580x387.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Canva Ebook & Workbook",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/26/Canva-ebook-and-workbook-template-coach-Graphics-91878320-1-1-580x387.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Expert Workbook Design",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/26/Canva-ebook-and-workbook-template-coach-Graphics-91915671-1-1-580x386.png",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Mega Coach Workbook Kit",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/08/300-page-Coach-Workbook-Ebook-Kit-Graphics-130309596-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Business Workbook Template",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/19/Business-Workbook-Canva-Template-Graphics-72484612-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Social Media Webinar Slides",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/22/Social-media-webinar-template-design-Graphics-122603377-1-1-580x343.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Online Webinar Marketing",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/02/11/Online-webinar-template-for-marketing-Graphics-60806801-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Social Media Live Kit",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/03/Social-Media-Live-Webinar-Template-Graphics-56063205-1-1-580x387.jpg",
+        "link": "/page7.html"
+    },
+    {
+        "name": "Webinar Promo Post",
+        "category": "Instagram & Marketing Templates",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/11/03/Webinar-template-Social-Media-Post-Graphics-44540501-1-1-580x356.jpg",
         "link": "/page7.html"
     },
     {
