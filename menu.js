@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // 1. Загрузка базы продуктов
     const script = document.createElement('script');
     script.src = '/products.js';
     document.head.appendChild(script);
@@ -6,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const navPlaceholders = document.querySelectorAll(".nav-placeholder");
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // Убрали id="searchInput" и id="searchResults", оставили только классы
+    // 2. Генерация HTML-кода меню (Навигация)
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
@@ -68,10 +69,9 @@ document.addEventListener("DOMContentLoaded", function() {
         placeholder.innerHTML = menuHTML;
     });
 
-    // Логика поиска для ВСЕХ полей на странице
+    // 3. Логика поиска (все поля на странице)
     setTimeout(() => {
         const searchContainers = document.querySelectorAll('.search-box');
-
         searchContainers.forEach(container => {
             const input = container.querySelector('.search-input');
             const resultsBox = container.querySelector('.search-results');
@@ -80,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 input.addEventListener('input', function(e) {
                     const query = e.target.value.trim();
                     
-                    // Синхронизация текста во всех полях поиска (опционально)
                     document.querySelectorAll('.search-input').forEach(el => {
                         if(el !== e.target) el.value = e.target.value;
                     });
@@ -98,21 +97,23 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        // Закрытие результатов при клике вне поиска
         document.addEventListener('click', function(e) {
             const allBoxes = document.querySelectorAll('.search-results');
             const allInputs = document.querySelectorAll('.search-input');
-            
             let isClickInside = false;
             allInputs.forEach(input => { if(input.contains(e.target)) isClickInside = true; });
             allBoxes.forEach(box => { if(box.contains(e.target)) isClickInside = true; });
-
             if (!isClickInside) {
                 allBoxes.forEach(box => box.style.display = 'none');
             }
         });
+
+        // 4. Запуск Глобальных Подарков (Freebies)
+        initGlobalFreebies();
+
     }, 500);
 
+    // --- ФУНКЦИИ ПОИСКА ---
     function displayResults(results, container) {
         if (results.length === 0) {
             container.innerHTML = '<div class="no-results">No products found</div>';
@@ -128,5 +129,53 @@ document.addEventListener("DOMContentLoaded", function() {
             `).join('');
         }
         container.style.display = 'block';
+    }
+
+    // --- ФУНКЦИИ МАГИЧЕСКИХ ПОДАРКОВ ---
+    const freebieData = [
+        { title: "Daily Free Gifts", img: "image/gift-daily.jpg", link: "https://www.creativefabrica.com/daily-gifts/ref/10996753/" },
+        { title: "Free Fonts Collection", img: "image/gift-font.jpg", link: "https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" },
+        { title: "Free Graphics Pack", img: "image/gift-graphic.jpg", link: "https://www.creativefabrica.com/freebies/free-graphics/ref/10996753/" },
+        { title: "Free SVG & Craft Files", img: "image/gift-craft.jpg", link: "https://www.creativefabrica.com/freebies/free-svgs/ref/10996753/" }
+    ];
+
+    let giftIndex = 0;
+
+    function initGlobalFreebies() {
+        const sidebar = document.querySelector('aside.sidebar');
+        if (!sidebar) return; 
+
+        const giftWrapper = document.createElement('div');
+        giftWrapper.innerHTML = `
+            <div class="banner-container" style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 10px; margin-bottom: 20px; transition: opacity 0.5s ease;">
+                <h3 style="color: #ff477e; text-align: center; font-size: 1.1rem; margin-top: 0; font-family: sans-serif;">🎁 TODAY'S FREEBIES</h3>
+                <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 150px;"></div>
+            </div>
+        `;
+        sidebar.prepend(giftWrapper);
+
+        updateDailyGift();
+        setInterval(updateDailyGift, 5000);
+    }
+
+    function updateDailyGift() {
+        const box = document.getElementById('daily-gift-box');
+        if (!box) return;
+
+        const gift = freebieData[giftIndex];
+        box.style.opacity = '0';
+        
+        setTimeout(() => {
+            box.innerHTML = `
+                <a href="${gift.link}" target="_blank" style="text-decoration: none; display: block;">
+                    <img src="${gift.img}" alt="${gift.title}" style="width: 100%; border-radius: 6px; display: block; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                    <div style="background: #ff477e; color: white; padding: 8px; border-radius: 0 0 6px 6px; font-weight: bold; text-align: center; font-size: 0.9rem; font-family: sans-serif;">
+                        ${gift.title} ➔
+                    </div>
+                </a>
+            `;
+            box.style.opacity = '1';
+            giftIndex = (giftIndex + 1) % freebieData.length;
+        }, 500);
     }
 });
