@@ -14,7 +14,7 @@
             scroll-behavior: smooth;
         }
 
-        /* ИСПРАВЛЕНИЕ ДЛЯ САЙДБАРА */
+        /* Корректная работа сайдбара и контента */
         .main-container {
             display: flex;
             gap: 25px;
@@ -23,18 +23,18 @@
 
         main {
             flex: 3;
-            min-width: 0; /* Позволяет контенту подстраиваться, не распирая колонку */
+            min-width: 0;
         }
 
         .sidebar {
             flex: 1;
-            min-width: 300px; /* Фиксируем минимальную ширину сайдбара, чтобы он не ужимался */
+            min-width: 300px;
         }
 
-        /* Стили для баннера раздела */
+        /* Стили для баннеров-разделителей */
         .section-banner {
             text-align: center;
-            margin: 60px auto 40px;
+            margin: 50px auto 30px;
             width: 100%;
             max-width: 1200px;
             padding: 0 10px;
@@ -104,6 +104,11 @@
                 <div class="product-card"><div class="badge">Boys</div><img src="https://www.creativefabrica.com/wp-content/uploads/2026/01/26/Ramadan-Coloring-Book-for-Boys-Ages-48-Graphics-141003951-1-1-580x387.png" alt="Coloring"><h3>Ramadan for Boys</h3><p>Themed coloring book for kids aged 4-8 celebrating Ramadan.</p><a href="https://www.creativefabrica.com/product/ramadan-coloring-book-for-boys-ages-4-8/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
                 <div class="product-card"><div class="badge">Kids</div><img src="https://www.creativefabrica.com/wp-content/uploads/2024/01/07/Rat-Coloring-Pages-for-Boys-and-Girls-Graphics-87979471-1-1-580x387.jpg" alt="Coloring"><h3>Cute Rat Pages</h3><p>Fun and educational animal sheets for young boys and girls.</p><a href="https://www.creativefabrica.com/product/rat-coloring-pages-for-boys-and-girls/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
                 <div class="product-card"><div class="badge">Girls</div><img src="https://www.creativefabrica.com/wp-content/uploads/2024/04/20/Vintage-Fashion-Coloring-Pages-for-Girls-Graphics-93951385-580x414.png" alt="Coloring"><h3>Vintage Fashion</h3><p>Stylish retro fashion designs for girls who love art and history.</p><a href="https://www.creativefabrica.com/product/vintage-fashion-coloring-pages-for-girls/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
+            </div> <div id="kids-coloring" class="section-banner">
+                 <img src="image/kids-header.jpg" alt="Kids Coloring & Creative Activities">
+            </div>
+
+            <div class="product-grid">
                 <div class="product-card"><div class="badge">PDF</div><img src="https://www.creativefabrica.com/wp-content/uploads/2024/03/27/Birthday-Heart-Cakes-PDF-Coloring-Book-Graphics-94250504-1-1-580x387.png" alt="Coloring"><h3>Heart Cakes Book</h3><p>Deliciously themed birthday cake designs in high-quality PDF.</p><a href="https://www.creativefabrica.com/product/birthday-heart-cakes-pdf-coloring-book/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
                 <div class="product-card"><div class="badge">Food</div><img src="https://www.creativefabrica.com/wp-content/uploads/2026/01/06/Perfect-Match-Food-Coloring-Pages-Graphics-139440513-1-1-580x387.jpg" alt="Coloring"><h3>Perfect Match Food</h3><p>Whimsical food pairing illustrations for fun kitchen coloring.</p><a href="https://www.creativefabrica.com/product/perfect-match-food-coloring-pages-11/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
                 <div class="product-card"><div class="badge">Zen</div><img src="https://www.creativefabrica.com/wp-content/uploads/2022/11/23/Zen-doodle-coloring-book-Keywords-Graphics-48051466-1-1-580x386.png" alt="Coloring"><h3>Zen Doodle Keywords</h3><p>Special collection of zen doodles for focus and meditation.</p><a href="https://www.creativefabrica.com/product/zen-doodle-coloring-book-keywords/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
@@ -198,7 +203,6 @@
             </div> </main>
 
         <aside class="sidebar">
-            
             <div class="banner-container" style="background: #fffcf0; border: 2px solid #ffcc00; padding: 10px; margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
                 <h3 style="color: #333; margin-top: 0; font-size: 1.2rem;">Explore the Hub</h3>
                 <a href="/" title="Back to Homepage - View All Categories">
@@ -226,13 +230,10 @@
         <a href="https://www.creativefabrica.com/ref/10996753/" target="_blank" class="main-link-btn">Explore 100,000+ More Coloring Pages & Activity Sheets</a>
     </div>
 
-    <div class="nav-placeholder"></div>
-
     <footer>
         <p>&copy; 2026 <a href="https://creativ-store.site" target="_blank" style="color: #888; text-decoration: none;">CreativVault</a>. Powered by Creative Fabrica.</p>
     </footer>
 
     <script src="menu.js"></script>
-
 </body>
 </html>
