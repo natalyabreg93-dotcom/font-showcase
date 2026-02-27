@@ -146,35 +146,40 @@ document.addEventListener("DOMContentLoaded", function() {
     let giftIndex = 0;
 
     function initGlobalFreebies() {
-        const sidebar = document.querySelector('aside.sidebar');
-        if (!sidebar) return; 
+    const sidebar = document.querySelector('aside.sidebar');
+    if (!sidebar) return; 
 
-        // 1. Добавляем блок подарков (в начало сайдбара)
-        const giftWrapper = document.createElement('div');
-        giftWrapper.innerHTML = `
-            <div class="banner-container" style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 10px; margin-bottom: 20px; transition: opacity 0.5s ease;">
-                <h3 style="color: #ff477e; text-align: center; font-size: 1.1rem; margin-top: 0; font-family: sans-serif;">🎁 TODAY'S FREEBIES</h3>
-                <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 150px;"></div>
-            </div>
-        `;
-        sidebar.prepend(giftWrapper);
+    // 1. Создаем и добавляем блок подарков (в начало сайдбара)
+    const giftWrapper = document.createElement('div');
+    giftWrapper.innerHTML = `
+        <div class="banner-container" style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 10px; margin-bottom: 20px; transition: opacity 0.5s ease;">
+            <h3 style="color: #ff477e; text-align: center; font-size: 1.1rem; margin-top: 0; font-family: sans-serif;">🎁 TODAY'S FREEBIES</h3>
+            <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 150px;"></div>
+        </div>
+    `;
+    sidebar.prepend(giftWrapper);
 
-        // 2. ВСТАВЛЯЕМ БЛОК РЕКЛАМЫ ПОИСКА (сразу после подарков)
-        const searchPromo = document.createElement('div');
-        searchPromo.innerHTML = `
-            <div style="background: #f0f7ff; border: 1px solid #cce5ff; padding: 15px; border-radius: 10px; margin-bottom: 20px; text-align: center; font-family: sans-serif;">
-                <h4 style="margin: 0; color: #004085; font-size: 14px;">Can't find what you need?</h4>
-                <p style="font-size: 12px; color: #004085; margin: 5px 0 10px;">Explore our library of <b>1,000+ items</b> using the search bar above!</p>
-                <span style="font-size: 18px;">🔎</span>
-            </div>
-        `;
-        // Добавляем его сразу после giftWrapper
-        giftWrapper.after(searchPromo);
+    // 2. Создаем и вставляем визуальный баннер-стрелку (сразу после подарков)
+    const searchArrow = document.createElement('div');
+    searchArrow.innerHTML = `
+        <div style="margin-bottom: 25px; text-align: center;">
+            <a href="javascript:void(0)" onclick="document.querySelector('.search-input').focus(); return false;" style="text-decoration: none; display: block;">
+                <img src="image/search-arrow.jpg" alt="Search 1,000+ items" 
+                     style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: block; transition: transform 0.3s ease;" 
+                     onmouseover="this.style.transform='translateY(-3px)';" 
+                     onmouseout="this.style.transform='translateY(0)';" />
+            </a>
+        </div>
+    `;
+    // Метод .after() вставляет элемент сразу ПОСЛЕ giftWrapper
+    giftWrapper.after(searchArrow);
 
-        // Запускаем ротацию
+    // 3. Запускаем ротацию подарков
+    if (typeof updateDailyGift === 'function') {
         updateDailyGift();
         setInterval(updateDailyGift, 5000);
     }
+}
 
     function updateDailyGift() {
         const box = document.getElementById('daily-gift-box');
