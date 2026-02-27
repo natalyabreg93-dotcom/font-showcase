@@ -13,13 +13,50 @@
         html {
             scroll-behavior: smooth;
         }
-        /* Дополнительная настройка для корректного отображения баннеров внутри main */
+
+        /* ИСПРАВЛЕНИЕ ДЛЯ САЙДБАРА */
+        .main-container {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
+
+        main {
+            flex: 3;
+            min-width: 0; /* Позволяет контенту подстраиваться, не распирая колонку */
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 300px; /* Фиксируем минимальную ширину сайдбара, чтобы он не ужимался */
+        }
+
+        /* Стили для баннера раздела */
+        .section-banner {
+            text-align: center;
+            margin: 60px auto 40px;
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
         .section-banner img {
             width: 100%;
             height: auto;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             display: block;
+        }
+
+        @media (max-width: 992px) {
+            .main-container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                min-width: unset;
+            }
         }
     </style>
     
@@ -44,7 +81,8 @@
     <div class="nav-placeholder"></div>
 
     <div class="main-container">
-        <main> <div class="product-grid">
+        <main>
+            <div class="product-grid">
                 <div class="product-card"><div class="badge">Kids</div><img src="https://www.creativefabrica.com/wp-content/uploads/2024/01/25/Printable-Coloring-Pages-Graphics-89355406-1-1-580x387.jpeg" alt="Coloring"><h3>Printable Coloring Pages</h3><p>A versatile set of engaging designs for creative kids' activities.</p><a href="https://www.creativefabrica.com/product/printable-coloring-pages/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
                 <div class="product-card"><div class="badge">Activity</div><img src="https://www.creativefabrica.com/wp-content/uploads/2025/03/08/Spring-Printable-Activity-book-For-Kids-Graphics-117540537-1-1-580x386.png" alt="Coloring"><h3>Spring Activity Book</h3><p>Seasonal fun with puzzles and coloring pages for the little ones.</p><a href="https://www.creativefabrica.com/product/spring-printable-activity-book-for-kids/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
                 <div class="product-card"><div class="badge">Holiday</div><img src="https://www.creativefabrica.com/wp-content/uploads/2023/09/01/Halloween-Masks-printable-coloring-pages-Graphics-78236430-1-1-580x386.jpg" alt="Coloring"><h3>Halloween Masks Set</h3><p>Spooky printable masks for kids to color and wear for Halloween.</p><a href="https://www.creativefabrica.com/product/halloween-masks-printable-coloring-pages/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Get Free Access</a></div>
@@ -81,7 +119,7 @@
                 <div class="product-card"><div class="badge">Educational</div><img src="https://www.creativefabrica.com/wp-content/uploads/2021/06/13/alphabet-letter-tracing-coloring-book-Graphics-13353849-1-1-580x348.jpg" alt="Alphabet Tracing"><h3>Alphabet Letter Tracing Book</h3><p>Educational tracing and coloring book to help children learn the alphabet.</p><a href="https://www.creativefabrica.com/product/alphabet-letter-tracing-coloring-book-2/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Claim Free Access</a></div>
                 <div class="product-card"><div class="badge">Puzzles</div><img src="https://www.creativefabrica.com/wp-content/uploads/2022/08/07/50-Easy-Mazes-Puzzle-Book-VOL10-Graphics-35706306-1-1-580x348.jpg" alt="Mazes"><h3>50 Easy Mazes Puzzle Book</h3><p>50 simple mazes to challenge and entertain preschool and elementary kids.</p><a href="https://www.creativefabrica.com/product/50-easy-mazes-puzzle-book-vol-10/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Claim Free Access</a></div>
                 <div class="product-card"><div class="badge">Cute Animals</div><img src="https://www.creativefabrica.com/wp-content/uploads/2021/09/17/cute-animal-coloring-pages20-Graphics-17433863-1-1-580x386.jpg" alt="Animal Coloring"><h3>Cute Animal Coloring Pages</h3><p>Collection of lovable animal coloring pages that kids will absolutely adore.</p><a href="https://www.creativefabrica.com/product/cute-animal-coloring-pages-20/ref/10996753/" target="_blank" rel="noopener noreferrer" class="buy-button">Claim Free Access</a></div> 
-            </div> <div id="adult-coloring" class="section-banner" style="text-align: center; margin: 60px auto 40px; width: 100%; max-width: 1200px; padding: 0 20px; box-sizing: border-box;">
+            </div> <div id="adult-coloring" class="section-banner">
                  <img src="image/adult-header.jpg" alt="Adult Anti-Stress & Mandala Coloring">
             </div>
             
