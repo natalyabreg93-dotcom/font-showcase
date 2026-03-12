@@ -455,3 +455,11 @@ footer a:hover {
     color: #2ecc71; /* Зеленый акцент категории */
     letter-spacing: 0.5px;
 }
+/* Оптимизация загрузки: фиксируем место под картинку */
+.product-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 580 / 387; /* Пропорции большинства картинок с CF */
+    background: #f5f5f5; /* Цвет-заполнитель, пока фото не прогрузилось */
+    display: block;
+}
