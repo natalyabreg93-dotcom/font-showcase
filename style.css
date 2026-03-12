@@ -463,3 +463,10 @@ footer a:hover {
     background: #f5f5f5; /* Цвет-заполнитель, пока фото не прогрузилось */
     display: block;
 }
+.cat-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Для квадратных иконок */
+    object-fit: cover;
+    background: #f0f0f0;
+    display: block;
+}
