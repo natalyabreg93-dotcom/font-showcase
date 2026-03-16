@@ -1,13 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // 1. ЗАГРУЗКА БАЗЫ ПРОДУКТОВ (Убрали "/" для совместимости с GitHub)
-    const script = document.createElement('script');
-    script.src = 'products.js'; 
-    document.head.appendChild(script);
-
-    const navPlaceholders = document.querySelectorAll(".nav-placeholder");
+    // 1. ПОДГОТОВКА ССЫЛОК И ПУТЕЙ
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // 2. ГЕНЕРАЦИЯ МЕНЮ
+    // 2. ГЕНЕРАЦИЯ ГЛАВНОГО МЕНЮ (То же самое, что наверху)
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
@@ -79,115 +74,84 @@ document.addEventListener("DOMContentLoaded", function() {
         </nav>
     `;
 
-    navPlaceholders.forEach(p => p.innerHTML = menuHTML);
+    // 3. ПРОВЕРКА И ВСТАВКА КОНТЕЙНЕРОВ ДЛЯ МЕНЮ
+    // Если на странице нет второго плейсхолдера (внизу), мы создаем его перед футером
+    const placeholders = document.querySelectorAll(".nav-placeholder");
+    if (placeholders.length < 2) {
+        const footer = document.querySelector('footer');
+        if (footer) {
+            const bottomPlaceholder = document.createElement('div');
+            bottomPlaceholder.className = 'nav-placeholder';
+            bottomPlaceholder.style.marginTop = '50px';
+            footer.parentNode.insertBefore(bottomPlaceholder, footer);
+        }
+    }
 
-    // 3. АВТО-ИСПРАВЛЕНИЕ САЙДБАРА (50+ КАТЕГОРИЙ)
-    const sidebarElements = document.querySelectorAll('.sidebar .banner-container p, aside p');
-    sidebarElements.forEach(el => {
-        if (el.textContent.includes('View All') || el.textContent.includes('Categories')) {
+    // Вставляем меню во все найденные (и созданные) плейсхолдеры
+    document.querySelectorAll(".nav-placeholder").forEach(p => {
+        p.innerHTML = menuHTML;
+    });
+
+    // 4. ИСПРАВЛЕНИЕ НАДПИСИ В САЙДБАРЕ (50+ КАТЕГОРИЙ)
+    const sidebarText = document.querySelectorAll('.sidebar .banner-container p, aside p');
+    sidebarText.forEach(el => {
+        if (el.innerText.includes('View All Categories')) {
             el.innerHTML = '← View All 50+ Categories';
         }
     });
 
-    // 4. АВТО-ВСТАВКА ФУТЕР-МЕНЮ (Только для page10 и page11)
-    if (currentPath === 'page10.html' || currentPath === 'page11.html') {
-        const existingFooter = document.querySelector('footer');
-        const footerHTML = `
-            <footer class="site-footer" style="margin-top: 50px; padding: 40px 0; background: #f9f9f9; border-top: 1px solid #eee;">
-                <div style="display: flex; justify-content: space-around; flex-wrap: wrap; max-width: 1200px; margin: 0 auto; text-align: left;">
-                    <div style="margin: 10px;">
-                        <h4 style="color: #ff477e;">Stickers & Papers</h4>
-                        <ul style="list-style: none; padding: 0;">
-                            <li><a href="page11.html">Planner Stickers</a></li>
-                            <li><a href="page12.html">Digital Paper</a></li>
-                        </ul>
-                    </div>
-                    <div style="margin: 10px;">
-                        <h4 style="color: #ff477e;">Coloring & Crafts</h4>
-                        <ul style="list-style: none; padding: 0;">
-                            <li><a href="page10.html">Coloring Pages</a></li>
-                            <li><a href="page14.html">Crochet Patterns</a></li>
-                            <li><a href="page22.html">Embroidery</a></li>
-                        </ul>
-                    </div>
-                    <div style="margin: 10px;">
-                        <h4 style="color: #ff477e;">Business</h4>
-                        <ul style="list-style: none; padding: 0;">
-                            <li><a href="page13.html">Branding Kits</a></li>
-                            <li><a href="page7.html">Social Media</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <p style="text-align: center; margin-top: 30px; color: #888;">&copy; 2026 CreativVault</p>
-            </footer>`;
-        if (existingFooter) {
-            existingFooter.outerHTML = footerHTML;
-        } else {
-            document.body.insertAdjacentHTML('beforeend', footerHTML);
-        }
-    }
+    // 5. КНОПКА "НАВЕРХ"
+    const backBtn = document.createElement('button');
+    backBtn.innerHTML = '↑';
+    Object.assign(backBtn.style, {
+        display: 'none', position: 'fixed', bottom: '30px', right: '30px',
+        zIndex: '1000', backgroundColor: '#ff477e', color: 'white',
+        border: 'none', borderRadius: '50%', width: '50px', height: '50px',
+        fontSize: '24px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+    });
+    document.body.appendChild(backBtn);
 
-    // 5. КНОПКА "НАВЕРХ" (Усиленная инициализация)
-    function createBackToTop() {
-        if (document.getElementById('backToTopBtn')) return;
-        const btn = document.createElement('button');
-        btn.innerHTML = '↑';
-        btn.id = 'backToTopBtn';
-        Object.assign(btn.style, {
-            display: 'none', position: 'fixed', bottom: '30px', right: '30px',
-            zIndex: '9999', backgroundColor: '#ff477e', color: 'white',
-            border: 'none', borderRadius: '50%', width: '50px', height: '50px',
-            fontSize: '24px', cursor: 'pointer', boxShadow: '0 4px 10px rgba(0,0,0,0.2)'
-        });
-        document.body.appendChild(btn);
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 400) backBtn.style.display = 'block';
+        else backBtn.style.display = 'none';
+    });
+    backBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 400) btn.style.display = 'block';
-            else btn.style.display = 'none';
-        });
-
-        btn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-    createBackToTop();
-
-    // 6. ПОИСК (Тот же функционал)
-    window.fillSearch = function(text) {
-        const input = document.querySelector('.search-input');
-        if (input) { input.value = text; input.dispatchEvent(new Event('input')); }
+    // 6. ПОИСК И ПОДАРКИ
+    window.fillSearch = function(t) {
+        const i = document.querySelector('.search-input');
+        if (i) { i.value = t; i.dispatchEvent(new Event('input')); }
     };
 
     setTimeout(() => {
-        const searchInput = document.querySelector('.search-input');
-        const resultsBox = document.querySelector('.search-results');
-        if (searchInput && resultsBox) {
-            searchInput.addEventListener('input', (e) => {
-                const query = e.target.value.trim();
-                if (query.length < 2) { resultsBox.style.display = 'none'; return; }
+        // Инициализация поиска
+        const inputs = document.querySelectorAll('.search-input');
+        inputs.forEach(input => {
+            const results = input.parentElement.querySelector('.search-results');
+            input.addEventListener('input', e => {
+                const q = e.target.value.trim();
+                if (q.length < 2) { results.style.display = 'none'; return; }
                 if (window.filterProducts) {
-                    const res = window.filterProducts(query);
-                    resultsBox.innerHTML = res.slice(0, 8).map(item => `
+                    const res = window.filterProducts(q);
+                    results.innerHTML = res.slice(0, 6).map(item => `
                         <a href="${item.link.replace(/^\//, '')}" class="search-item" style="display:flex; align-items:center; gap:10px; padding:8px; text-decoration:none;">
-                            <img src="${item.img}" style="width:40px;height:40px;border-radius:4px;">
-                            <div><div style="font-weight:bold;color:#333;font-size:0.8rem;">${item.name}</div><div style="color:#ff477e;font-size:0.7rem;">${item.category}</div></div>
+                            <img src="${item.img}" style="width:35px;height:35px;border-radius:4px;">
+                            <div><div style="font-weight:bold;color:#333;font-size:0.75rem;">${item.name}</div><div style="color:#ff477e;font-size:0.65rem;">${item.category}</div></div>
                         </a>`).join('');
-                    resultsBox.style.display = 'block';
+                    results.style.display = 'block';
                 }
             });
-        }
+        });
         
-        // Сайдбар подарки
-        initGlobalFreebies();
+        // Сайдбар стрелка
+        const sb = document.querySelector('.sidebar');
+        if (sb && !document.getElementById('search-arrow-box')) {
+            const box = document.createElement('div');
+            box.id = 'search-arrow-box';
+            box.style.marginTop = '20px';
+            box.innerHTML = `<p style="font-weight:bold;color:#ff477e;text-align:center;">Can't find something?</p>
+                             <img src="image/search-arrow.jpg" style="width:100%;border-radius:10px;cursor:pointer;" onclick="document.querySelector('.search-input').focus()">`;
+            sb.appendChild(box);
+        }
     }, 1000);
-
-    function initGlobalFreebies() {
-        const sidebar = document.querySelector('aside.sidebar');
-        if (!sidebar) return;
-        const giftBox = document.createElement('div');
-        giftBox.innerHTML = `
-            <div style="margin-top: 20px; text-align: center;">
-                <p style="font-weight: bold; color: #ff477e; margin-bottom: 8px;">Can't find something?</p>
-                <img src="image/search-arrow.jpg" style="width: 100%; border-radius: 10px; cursor: pointer;" onclick="document.querySelector('.search-input').focus()">
-            </div>`;
-        sidebar.appendChild(giftBox);
-    }
 });
