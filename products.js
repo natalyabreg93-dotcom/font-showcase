@@ -397,6 +397,150 @@ const products = [
         "link": "/page10.html"
     },
     {
+        "name": "5 Kids Space Coloring Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/06/04/5-Kids-Space-Coloring-Bundle-Graphics-71320919-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Fruits & Animals Bold Easy",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/10/Fruits-Animals-Coloring-Book-Bold-Easy-Graphics-142179539-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Easter Coloring Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/06/25/Easter-Coloring-Pages-for-Kids-Graphics-72980153-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "40 Printable Activity Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/07/08/40-Printable-Activity-Pages-for-Kids-Graphics-74004027-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "20 Christmas Coloring Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/11/07/20-Christmas-Printable-Coloring-Pages-Graphics-83462903-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "70+ Cute Kawaii Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/03/06/70-CUTE-KAWAII-COLORING-PAGES-for-KIDS-Graphics-144072096-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "500 Cute Kawaii Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/06/500-Cute-Kawaii-Coloring-Pages-for-Kids-Graphics-95012319-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "60 Cute Kawaii Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/03/05/60-CUTE-KAWAII-COLORING-PAGES-for-KIDS-Graphics-144054125-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Kids Preschool Coloring Sheets",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2022/09/06/Kids-Preschool-Coloring-Sheets-Graphics-37905751-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Dot Marker Bundle (150+)",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/09/06/Dot-Marker-Activity-Bundle-150-Pages-Graphics-130164178-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Farm Animals Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/19/Cute-Farm-Animals-Coloring-Pages-Graphics-118348184-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Farm Animals for Kids",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/04/27/Farm-Animals-Coloring-pages-for-Kids-Graphics-68208285-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Toddler Coloring Book Vol. 13",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/27/Toddler-Coloring-Pages-and-Coloring-Book-Graphics-98490521-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Toddler Coloring Book Vol. 12",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/27/Toddler-Coloring-Pages-and-Coloring-Book-Graphics-98490494-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Toddler Coloring Book Vol. 11",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/27/Toddler-Coloring-Pages-and-Coloring-Book-Graphics-98490199-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold & Easy Cute Dinosaur",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/16/Bold-Easy-Cute-Dinosaur-Coloring-Book-Graphics-122224369-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Dinosaur Activity Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2022/07/14/Dinosaur-Activity-Book-For-Kids-Vol1-Graphics-34172743-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Dinosaur Coloring Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/01/18/Cute-Dinosaur-Coloring-Book-for-Kids-Graphics-140343666-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cat Coloring Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/01/14/Cat-Coloring-Pages-Graphics-140084131-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Pop Art Cat Coloring",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/24/Pop-Art-Cat-Coloring-Pages-Graphics-136177895-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Princess in Hawaii Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/07/06/Princess-In-Hawaii-Digital-Coloring-Book-Graphics-125586595-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "ASL Coloring Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2022/09/14/ASL-Printable-amp-Digital-Coloring-Pages-Graphics-38039825-7-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Tiger Clipart Set",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/12/10/Cute-Tiger-Childrens-Clipart-Graphics-86082426-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "32 One Line Art Animals",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2022/01/27/One-Line-Art-Animal-Drawings-32-animals-Graphics-24191668-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
         "name": "Adult Coloring KDP Bundle",
         "category": "Ultimate Printable Coloring Library",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/20/Adult-Coloring-Page-KDPBundle-Graphics-38909867-1-1-580x386.jpg",
@@ -451,255 +595,1083 @@ const products = [
         "link": "/page10.html"
     },
     {
+        "name": "Stained Glass Mandala Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/27/Stained-Glass-Mandala-Coloring-Pages-Graphics-118914321-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "300 Animal Mandala Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/06/19/300-Adults-Animal-Mandala-Coloring-Book-Graphics-100019569-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "250+ Stress Relief Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/12/16/250-Stress-Relief-Coloring-Pages-ADULT-Graphics-109867450-5-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold & Easy Stress Relief",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/01/25/Bold-Easy-Stress-Relief-Coloring-Pages-Graphics-140895682-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Stress Relief Pages Vol. 02",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/10/Stress-Relief-Coloring-Pages-Vol-02-Graphics-135150740-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Printable Mandala V.2",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/03/02/Printable-Mandala-Colouring-Page-V2-Graphics-62975365-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Stress Relief Adult Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/07/17/Stress-Relief-Adult-Coloring-Pages-Graphics-126375808-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "100 Stress Relief Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/06/100-Stress-Relief-Adult-Coloring-Pages-Graphics-117438274-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Relaxing Pattern Adult Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/01/03/Relaxing-Pattern-Adult-Coloring-Book-Graphics-139255708-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Gothic Fantasy Creatures Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/12/24/Gothic-Fantasy-Creatures-Coloring-Book-Graphics-138590604-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Fantasy Creatures Coloring Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/01/25/Fantasy-Creatures-Coloring-Pages-Graphics-89367000-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Magical Fantasy Creatures",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/12/Magical-Fantasy-Creatures-Coloring-Pages-Graphics-135318460-1-1-580x411.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "200 Fantasy Creatures V-1",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/01/08/200-Fantasy-Creatures-Coloring-Pages-V1-Graphics-88042224-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Dragon Coloring Book for Kids",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/02/08/Dragon-Coloring-Book-for-Kids-Graphics-90527700-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Dragon Activity Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/02/22/Cute-Dragon-Activity-Pages-for-Kids-Graphics-62145385-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "DRAGON COLORING BOOK",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2022/07/21/DRAGON-COLORING-BOOK-FOR-KIDS-Graphics-34593932-1-1-580x388.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Dragon Coloring Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/10/Cute-Dragon-Coloring-Book-for-Kids-Graphics-135159349-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Fairy Pages for Adults",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/01/Cute-Fairy-Coloring-Pages-for-Adults-Graphics-141446963-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cozy Easter Spring Fairy",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/19/Cozy-Easter-Spring-Fairy-Coloring-Pages-Graphics-142802184-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Fairy Book for Kids",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/02/13/Cute-Fairy-Coloring-Book-for-Kids-Graphics-90913170-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "255 Moon Flower Fairy Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/06/06/255-Moon-Flower-Fairy-Coloring-Pages-Graphics-99152586-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Magical Animal Kingdom",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/08/11/Magical-Animal-Kingdom-Coloring-Pages-Graphics-128214887-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Christmas Animals in Hats",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/08/27/Christmas-Animal-Wearing-A-Santa-Hat-Graphics-104653574-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Winter Animal Coloring Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/01/09/Winter-Animal-Coloring-Book-Pages-Graphics-139670037-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "200 Cute Animal Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/06/200-Cute-Animal-Coloring-Pages-For-kids-Graphics-94990496-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Celestial Moon & Fairy Girl",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/09/11/Celestial-Moon-and-Fairy-Girl-PNG-Bundle-Graphics-105652988-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Ocean Mermaid Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/03/10/Cute-Ocean-Mermaid-Coloring-Book-for-Kid-Graphics-144429796-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Unicorn Coloring Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/08/04/Cute-Unicorn-Coloring-Book-for-Kids-Graphics-103203766-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Magical Unicorn Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/12/30/Cute-Unicorn-Coloring-Book-for-Kids-Graphics-139001554-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Enchanted Forest Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/02/21/Enchanted-Forest-Coloring-Book-Graphics-91489217-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Black Fairies Coloring Vol. 01",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/03/14/Black-Fairies-Coloring-Pages-Vol-01-Graphics-144725551-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Garden Gnome Girls Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/15/Garden-Gnome-Girls-Coloring-Book-Graphics-118116108-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Floral Alphabet a–Z",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/06/07/Floral-Alphabet-Coloring-Pages-AZ-Graphics-123693625-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
         "name": "Colorful Macarons Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/02/01/Colorful-Macarons-Stickers-Graphics-59533815-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Pastel Rainbow Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/26/Pastel-rainbow-Happy-Planner-stickers-Graphics-118799801-1-1-580x435.jpg",
         "link": "/page11.html"
     },
     {
+        "name": "Festive PNG Bundle for Christmas",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/04/27/Festive-PNG-Bundle-for-Christmas-Designs-Graphics-120793493-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Animal Wrapped in Christmas Tree",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/10/18/Animal-Wrapped-in-Christmas-Tree-PNG-Graphics-108102309-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Mega Summer Sticker SVG Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/06/03/Mega-Summer-Sticker-SVG-Bundle-Graphics-98906828-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "North Pole Christmas Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/06/24/North-Pole-Christmas-Stickers-Graphics-72897045-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Sloth Christmas Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/11/06/Sloth-Christmas-Stickers-Graphics-83370496-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Round Christmas Stickers PNG",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/10/04/11-Round-Christmas-Stickers-PNG-Graphics-80801607-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Halloween Stickers & Washi Tape",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/06/14/Printable-Halloween-Stickers-Washi-Tape-Graphics-72053528-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Happy Halloween Stickers Design",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/09/07/Happy-halloween-Stickers-Design-Graphics-78692718-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Watercolor Halloween Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/08/06/Watercolor-Halloween-stickers-bundle-Graphics-76305172-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Summer Digital Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/04/08/Summer-Stickers-Digital-Stickers-Graphics-95101258-1-1-580x441.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Summer Stickers Set Printable",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/06/13/Summer-stickers-set-digital-printable-Graphics-99636028-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Valentine's Day Love Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/02/01/Valentines-day-stickers-love-stickers-Graphics-89950383-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
         "name": "Retro Colored Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/26/Retro-colored-Happy-Planner-stickers-Graphics-118799486-1-1-580x435.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Sea Shell Sticker Sheet",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/06/Sea-Shell-Printable-Sticker-Sheet-Graphics-97019661-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Happy Days Sticker Pack",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/07/Happy-Days-Cute-Sticker-Pack-Graphics-137304093-1-1-580x380.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Cartoon Cactuses Pack",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/05/30/Cartoon-cactuses-cute-sticker-pack-png-Graphics-12673566-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Plaid Functional Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/11/13/Plaid-functional-planner-stickers-Graphics-46387334-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Sunflower Functional Set",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/24/Sunflower-Functional-Planner-Stickers-Graphics-65190229-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Kawaii Stationery Stamps",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/07/70-Kawaii-Stationery-Procreate-Stamps-Graphics-137281931-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Pink Halloween Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/12/Pink-Halloween-Scrapbooking-Stickers-Graphics-38333480-1-1-580x435.png",
         "link": "/page11.html"
     },
     {
         "name": "Hyperlinked iPad Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/18/Hyperlinked-iPad-Planner-Bundle-Graphics-128760018-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Blue Digital Planner 2025",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/05/25/Digital-Planner-Blue-2025-Undated-Graphics-122844400-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Halloween Vintage Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/12/Halloween-Vintage-Sticker-Bundle-PNG-Graphics-130606227-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Mega PNG Sticker Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/21/Mega-PNG-sticker-bundle-Sticker-Bundle-Graphics-36733176-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Potted Plant Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/08/02/Kawaii-Cute-Potted-Plant-Sticker-Bundle-Graphics-103038926-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Coffee Quotes Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/27/Coffee-Quotes-Printable-Sticker-Bundle-Graphics-124980611-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Digital Washi Tape",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/02/09/Digital-Washi-Tape-Digital-Planner-Graphics-115599228-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Undated Weekly Planner",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/07/Weekly-Planner-Undated-Graphics-99213429-1-1-580x411.png",
         "link": "/page11.html"
     },
     {
         "name": "Exams Planner Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/10/Exams-Planner-Stickers-Student-Planner-Stickers-Exam-Reminder-Planner-Icons-by-Happy-Printables-Club-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Class Reminder Set",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/10/Class-Planner-Stickers-Student-Planner-Stickers-Class-Reminder-Stickers-Kawaii-Planner-by-Shadaan-Alam-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Highland Cow Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/12/03/UglyCute-Highland-Cow-Seasonal-Stickers-Graphics-136975346-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Seasonal Stickers Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/08/Seasonal-Stickers-Bundle-Bundles-35771173-1.png",
         "link": "/page11.html"
     },
     {
         "name": "Retro Sticker Bundles",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/22/Retro-sticker-bundles-free-download-Graphics-72750798-1-1-580x386.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Free Self Love Sticker",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/12/31/Free-Self-Love-Sticker-Graphics-87464381-1-1-580x386.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Farmhouse Pumpkins",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/09/27/Farmhouse-Pumpkins-Precropped-Stickers-Graphics-39427116-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Color Line Art Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/21/color-line-drawing-precropped-stickers-Graphics-98066164-1-1-580x386.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Goodnotes Stickers Pack",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/01/Goodnotes-Precropped-Stickers-Graphics-82984585-1-1-580x394.jpeg",
         "link": "/page11.html"
     },
     {
         "name": "iPad Planner Stickers",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/28/PreCropped-Stickers-for-GoodNotes-Graphics-65518261-1-1-580x386.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Positivity SVG Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/02/04/Cute-Positivity-Print-Sticker-Svg-Bundle-Graphics-31234160-580x386.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Valentine's Day Pack",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/02/Valentines-Day-Cute-Sticker-Pack-Graphics-90040459-1-1-580x386.jpg",
         "link": "/page11.html"
     },
     {
+        "name": "Motivational Quotes Stickers Set PNG",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/20/Motivational-Quotes-Stickers-set-PNG-Graphics-133575654-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Easter Planner Functional Sticker Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/02/02/EASTER-PLANNER-FUNCTIONAL-STICKER-SET-Graphics-90014312-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Craft & Scrap Printable Stickers Kit",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2022/08/04/CRAFT-amp-SCRAP-PRINTABLE-STICKERS-KIT-Graphics-29844564-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Astrology & Zodiac Planner Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2022/11/01/ASTROLOGY-ZODIAC-PLANNER-STICKERS-Graphics-44209212-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Tropical Planner Functional Stickers Kit",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2022/08/04/Tropical-Planner-Functional-Stickers-Kit-Graphics-28631769-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "December Wacky Holidays Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/07/19/December-Wacky-Holidays-31-PNG-Stickers-Graphics-102229853-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Exercising Jungle Animal Stickers Yoga",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/11/15/Exercising-Jungle-Animal-Stickers-Yoga-Graphics-26989125-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Cat Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/06/01/Cute-Cat-Stickers-BundleCat-Clipart-Graphics-71059803-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Cat Stickers Png",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/12/05/Cute-Cat-Stickers-Png-Graphics-85804307-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Cat Stickers Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/05/10/Cute-Cat-Stickers-Graphics-69328865-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Summer Ocean Animal Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/05/15/Cute-Summer-Ocean-Animal-Stickers-Graphics-122143545-1-1-580x414.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Animal Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/09/15/Cute-Animal-Stickers-Bundle-Graphics-130799718-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Funny Dog Ribbon Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/06/13/Funny-Dog-Sticker-Pack-Ribbon-Stickers-Graphics-99637214-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Funny Dog Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/07/10/Funny-Dog-Sticker-Pack-Dog-Stickers-Graphics-74181705-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Dog Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/07/10/Kawaii-Dog-Stickers-Dog-Sticker-Pack-Graphics-74164398-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "7 Cute Dog Stickers Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/07/10/Cute-Dog-Sticker-Pack-7-Dog-Stickers-Graphics-74161039-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Frog Stickers Design",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/01/11/Cute-Kawaii-Frog-Stickers-png-Design-Graphics-88281853-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Aesthetic Frog Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/01/11/Cute-Kawaii-Frog-Stickers-png-Design-Graphics-88281825-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Kawaii Frog Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/05/01/Cute-Kawaii-Frog-Stickers-png-Bundle-Graphics-68568174-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Funny Cute Kawaii Frog Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/06/26/Funny-Cute-Kawaii-Frog-stickers-set-PNG-Graphics-124949548-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "St. Patrick's Day Animal Clipart",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/02/19/St-Patricks-Day-Animal-Clipart-PNG-Graphics-116288535-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Lucky Holiday Animals Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/02/19/St-Patricks-Day-Animal-Clipart-PNG-Graphics-116288828-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "St. Patrick's Day Pets Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/02/19/St-Patricks-Day-Animal-Clipart-PNG-Graphics-116288800-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Animals Printable Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/04/11/Animals-Stickers-Printable-Stickers-Graphics-66925779-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Cute Animal Mix",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/04/03/Kawaii-Cute-Animal-Stickers-Graphics-94745224-1-1-580x441.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Kawaii Corgi Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/05/03/Cute-Kawaii-Corgi-PNG-Sticker-Pack-Graphics-96799535-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Woodland Baby Animals Paper",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/19/Woodland-baby-animals-scrapbook-paper-Graphics-133511662-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Pastel Baby Animals Scrapbook Kit",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/12/Pastel-baby-animals-scrapbook-kit-Graphics-132922203-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "St. Patrick's Day Animal PNG",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/02/19/St-Patricks-Day-Animal-Clipart-PNG-Graphics-116288751-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Chicken Summer Beach Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/11/12/chicken-stickers-summer-beach-stickers-Graphics-109745302-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Fast Food Stickers & Planer Assets",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/08/10/Fast-Food-Stickers-Planer-Stickers-Graphics-76590652-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Food Stickers Planer Graphic Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/08/10/Food-Stickers-Planer-Stickers-Graphic-Graphics-76590498-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Coloring Food Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/02/19/Coloring-Food-Stickers-Graphics-60309351-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Coffee Stickers Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/02/04/Cute-Coffee-Stickers-Graphics-115320177-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Coffee Stickers Kawaii PNG",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/05/15/Cute-Coffee-Stickers-Kawaii-PNG-Graphics-69713813-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Coffee Quote Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/01/Printable-Kawaii-Coffee-Quote-Stickers-Graphics-132119194-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Kawaii Baking Clipart",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2026/03/05/Cute-Kawaii-Baking-Clipart-Graphics-144047672-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Kawaii Baking Icons Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2026/03/05/Cute-Kawaii-Baking-Icons-Graphics-144047667-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Cute Food Sublimation Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/09/30/Kawaii-Cute-Food-Sticker-Sublimation-Graphics-106866987-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Food Stickers Mega Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/01/Printable-Kawaii-Food-Stickers-Bundle-Graphics-132124359-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Korean Food Sticker Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/09/14/Korean-food-sticker-set-Graphics-79205849-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Vegan Fast Food Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/02/28/Vegan-fast-food-Printable-Stickers-Graphics-92050305-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Food Stickers Cricut Design Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2022/05/02/Food-Stickers-Cricut-Design-Graphics-29940962-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Sushi Clipart & PNG Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/07/04/Kawaii-Sushi-Clipart-Food-PNG-Design-Graphics-125469028-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Food Scrapbook Digital Paper",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/07/18/Food-Scrapbook-Digital-Paper-Graphics-102183949-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Watercolor Floral Purple Summer",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/05/25/Watercolor-Floral-Purple-Summer-Clipart-Graphics-122797400-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Watercolor Floral Nautical Anchor",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/06/26/Watercolor-Floral-Nautical-Anchor-clipar-Graphics-100491396-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Watercolor Floral Graduation Cap",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/05/24/Watercolor-Floral-Graduation-Cap-Clipart-Graphics-122725073-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Peony Sticker & Floral Decal",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/11/12/peony-sticker-peony-decal-floral-PNG-Graphics-109748025-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Retro 70s Groovy Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/04/13/Retro-70s-Groovy-Sticker-Pack-Graphics-67083517-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Watercolor Vintage Bouquets",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/11/14/Watercolor-Vintage-Bouquets-Clipart-Graphics-84057008-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Chrysanthemum Flower Pattern",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/12/18/Chrysanthemum-Flower-Seamless-Pattern-Graphics-138152460-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Winter Spa Clipart Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2026/01/04/Winter-Spa-Clipart-Graphics-139365880-1-1-580x435.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Fairy Garden Watercolor PNG Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/11/10/Fairy-Garden-Clipart-Watercolor-PNG-Set-Graphics-135113130-1-1-580x435.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Holographic Wildflower Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/05/26/Holographic-Wildflower-Stickers-Pack-Graphics-98429094-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Mystical Flowers Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/04/25/Mystical-Flowers-Printable-Sticker-Pack-Graphics-96241986-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Texas Wildflowers Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/02/01/Texas-Wildflowers-Sticker-Pack-Graphics-59675523-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Christian Bible Verse Quote Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/04/27/Christian-Bible-Verse-Quote-Stickers-PNG-Graphics-68212296-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Printable Kawaii Coffee Quote Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/01/Printable-Kawaii-Coffee-Quote-Stickers-Graphics-132119194-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Retro Reading Book Lover Quote Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2026/03/10/Retro-Reading-Book-Lover-Quote-Stickers-Graphics-144403901-1-1-580x402.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Funny Cocktail Drink Quote Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/07/31/Funny-Cocktail-Drink-Quote-Stickers-Graphics-127357427-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "ADHD Self Care Stickers Calm Pastel Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/10/31/ADHD-Self-Care-Stickers-Calm-Pastel-Set-Graphics-134422557-1-1-580x406.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Self-care Stickers Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/01/06/Selfcare-Stickers-Set-3-Graphics-87956986-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Self Care Stickers Png Design",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/03/22/Self-Care-Stickers-Png-Design-Graphics-65019608-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Mental Health Stickers Designs",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/02/03/Free-Mental-Health-Stickers-Designs-Graphics-90126605-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Mental Health Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2022/06/12/Mental-Health-stickers-Graphics-32207777-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Mental Health Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/10/30/Mental-Health-Stickers-Bundle-Graphics-82822227-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Groovy Motivation Band Aid Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/05/05/Groovy-Motivation-Band-Aid-Sticker-Pack-Graphics-98344713-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Fun Cartoon Sticker Pack with Motivation",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/11/17/Fun-Cartoon-Sticker-Pack-with-Motivation-Graphics-110045658-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Motivation Retro Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2023/12/12/Motivation-retro-stickers-Graphics-86256501-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Everyday Word Planner Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2022/09/27/12-Everyday-Word-StickerPlanner-sticker-Graphics-39362027-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Therapy Printable Planner Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/10/19/Therapy-Printable-Planner-Stickers-Graphics-108176313-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Positive Affirmation Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2021/10/19/Positive-Affirmation-Stickers-Bundle-Graphics-19010139-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Motivational Typography Sticker Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/11/02/Motivational-Typography-Sticker-Bundle-Graphics-134545349-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Camping Stickers Summer Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/06/27/Camping-Stickers-Clipart-Summer-Bundle-Graphics-124968892-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Floral Printable Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/11/19/Cute-Floral-Printable-Stickers-Bundle-Graphics-135834102-1-1-580x386.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Floral Printable Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/08/26/Cute-floral-printable-stickers-Bundle-Graphics-104601061-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Witchy Apothecary Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/09/23/Witchy-Apothecary-Sticker-Pack-Graphics-131397242-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Witchy Apothecary Sticker Pack",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/09/23/Witchy-Apothecary-Sticker-Pack-Graphics-131397214-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Kawaii Band Aid Stickers Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/08/21/Cute-Kawaii-Band-Aid-Stickers-Bundle-Graphics-128958671-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Cute Food Sticker Sublimation",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2024/09/30/Kawaii-Cute-Food-Sticker-Sublimation-Graphics-106866987-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Digital Cute Productivity Icons Stickers",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2026/02/27/Digital-Cute-Productivity-Icons-Stickers-Graphics-143425035-1-1-580x386.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Summer Sun Stickers PNG Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/07/27/Kawaii-Summer-Sun-Stickers-PNG-Bundle-Graphics-127084654-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Kawaii Summer Sun Stickers PNG",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://cdn.creativefabrica.com/2025/07/27/Kawaii-Summer-Sun-Stickers-PNG-Graphics-127084151-1-1-580x435.jpg",
+        "link": "/page11.html"
+    },
+    {
         "name": "Arcana Digital Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/08/21/Arcana-Watercolor-Digital-Paper-Bundle-Graphics-104314050-1-1-580x386.png",
         "link": "/page11.html"
     },
     {
         "name": "Fairy Garden Bundle",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/09/Fairy-Garden-Watercolor-Digital-Paper-Bundle-Bundles-97227047-1.png",
         "link": "/page11.html"
     },
     {
         "name": "Artistic Paper Designs",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/01/17/Watercolor-Digital-Paper-Bundle-Designs-Graphics-88754930-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Watercolor Texture Kit V3",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/01/08/Watercolor-Digital-Paper-Bundle-Graphics-88065239-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Soft Pastel Textures",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/12/27/Watercolor-Digital-Paper-Bundle-Graphics-87189620-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Floral Seamless V5",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/21/Seamless-Floral-Watercolor-Pattern-Graphics-77405262-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Floral Pattern Paper",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/11/10/Seamless-floral-watercolor-pattern-Paper-Graphics-19958628-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Wine & Gold Foil Paper",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/02/Wine-And-Gold-Foil-Digital-Paper-Graphics-111165708-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
         "name": "Valentine Watercolor Art",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/11/25/Pastel-Watercolor-Valentine-Background-Graphics-20707791-1-1-580x387.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Abstract Pastel Backgrounds",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/27/Abstract-Pastel-Watercolor-Backgrounds-Graphics-100519401-1-1-580x386.png",
         "link": "/page11.html"
     },
     {
         "name": "Cute Unicorn Ink Paper",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/05/Cute-Unicorns-Alcohol-Ink-Digital-Paper-Graphics-99090225-1-1-580x394.jpg",
         "link": "/page11.html"
     },
     {
         "name": "Liquid Alcohol Ink Set",
-        "category": "Cute Planner Stickers & Aesthetic Backgrounds",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/04/Liquid-Alcohol-Ink-Digital-Paper-Graphics-96885890-1-1-580x387.jpg",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/04/Liquid-Alcohol-Ink-Digital-Paper-Graphics-96885890-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Grandmillennial Floral Patterns",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/03/Grandmillennial-Floral-Seamless-Patterns-Graphics-141639595-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Pastel Floral Seamless Set",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/05/pastel-floral-seamless-patterns-set-Graphics-141812182-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Folk Floral Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/30/folk-floral-seamless-patterns-bundle-Graphics-141326760-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Vintage Floral Seamless",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/17/Vintage-Floral-Seamless-Patterns-Graphics-135678949-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Boho Geometric Chaos",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/20/Boho-Geometric-Chaos-Patterns-Set-1-Graphics-67677499-1-1-580x387.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Boho Floral Watercolor",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/04/Flower-Boho-Geometric-Watercolor-Frame-C-Graphics-31694644-580x392.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "12 Cute Animal Patterns",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/29/12-Cute-Animal-Patterns-Graphics-102791940-1-1-580x387.png",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Animal Patterns Bundle",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2021/06/07/Cute-Animal-Patterns-Bundle-Bundles-13040609-1.jpg",
+        "link": "/page11.html"
+    },
+    {
+        "name": "Cute Crochet Turtle PDF",
+        "category": "Planner Stickers, Watercolor & Seamless Patterns",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2026/02/25/Cute-Crochet-Turtle-PDF-Pattern-Graphics-143239196-1-1-580x387.png",
         "link": "/page11.html"
     },
     {
@@ -883,453 +1855,687 @@ const products = [
         "link": "/page12.html"
     },
     {
-        "name": "Botanical Magnolia Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Botanical Magnolia Flower Logo Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/20/Botanical-Magnolia-Flower-Logo-Template-Graphics-9797270-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Soft Pink Branding Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/06/Canva-Branding-Kit-Template-Soft-Pink-Graphics-111418984-1-1-580x435.png",
         "link": "/page13.html"
     },
     {
-        "name": "Dove Minimalist Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Dove bird minimalist logo design",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/19/Dove-bird-minimalist-logo-design-Graphics-9767597-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Palm Tree Beach Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Palm tree beach circle minimalist logo",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/17/Palm-tree-beach-circle-minimalist-logo-Graphics-58038149-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Pro Photography Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Professional Photography Logo Premade",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/11/Professional-Photography-Logo-Premade-Graphics-95291421-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Real Estate Location Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Home Location Real Estate Logo Design",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/26/Home-Location-Real-Estate-Logo-Design-Graphics-9991877-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Beauty Salon Illustration",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "beauty salon logo vector illustration",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/15/beauty-salon-logo-vector-illustration-Graphics-99796115-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Boutique Leaf Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Boutique logo design Leafs logo design",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/11/05/Boutique-logo-design-Leafs-logo-design-Graphics-6484780-1-1-580x418.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Vintage Barber Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Barber shop vintage logo bundle",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2019/01/Barber-shop-vintage-logo-bundle-by-rohmahrohmat1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Feminine Brand Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/22/Feminine-Logo-Graphics-9842564-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Modern Auto Typography",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/16/Auto-car-modern-typography-logo-template-Graphics-25364567-1-1-580x386.png",
         "link": "/page13.html"
     },
     {
-        "name": "Streamer Girl Editable Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Streamer Gamer Girl Editable Logo",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/05/Streamer-Gamer-Girl-Editable-Logo-Templa-Graphics-99034072-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Minimal Premade Bundle V04",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/02/Minimal-Premade-Logo-Bundle-V04-Graphics-28270343-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Luxury Identity Mockup",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/29/Luxury-Brand-Identity-Mockup-Graphics-59341100-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Botanical Boho Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/10/Hand-Drawn-Botanical-Boho-Logo-Template-Graphics-9440706-1-1-580x400.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Tech Startup Branding",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/17/Tech-Startup-Branding-Tumbler-Graphics-108047385-1-1-580x386.png",
         "link": "/page13.html"
     },
     {
         "name": "Elegant Branding Pack",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/28/Elegant-Branding-Logo-Pack-Graphics-27968069-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Geometric Logo Pack",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/28/Geometric-Logo-Pack-Graphics-27968114-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Corporate Identity Set",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/05/Corporate-identity-set-branding-template-Graphics-66326672-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Green Diagonal Branding",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/05/28/Corporate-Identity-Card-Green-Diagonal-Graphics-4219101-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Soccer Team Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/04/Soccer-team-logo-template-Graphics-76128728-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Complete Branding Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/08/19/Complete-Business-Branding-Kit-for-Canva-Graphics-16066878-2-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Photography Logo Set",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/15/set-of-photography-logo-template-Graphics-9612102-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Creative Real Estate Set",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/26/Set-of-Creative-Letter-Real-Estate-Logo-Graphics-9989058-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Beauty Salon Vector Pack",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/06/15/beauty-salon-logo-vector-illustration-Graphics-99796131-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Luxury Letter D Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/03/14/Luxury-letter-d-boutique-logo-design-Graphics-64262022-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Vintage Barber Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2019/01/Barber-shop-vintage-logo-bundle-by-rohmahrohmat1-1-580x386.jpg",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2019/01/Barber-shop-vintage-logo-bundle-by-rohmahrohmat1-2-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Modern Auto Car Design",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/01/27/auto-car-modern-typography-logo-design-Graphics-24196821-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Business Design Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/21/Business-logo-design-template-Graphics-9817370-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Editable Logo Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/15/Editable-Logo-Design-Template-Graphics-95539937-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Healthcare Pinterest Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/12/Healthcare-Pinterest-Editable-Template-Graphics-81422517-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Modern Abstract Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/02/24/Modern-Abstract-Minimalist-Logo-Bundle-Graphics-8912347-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Minimalist Nature Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/09/16/Minimalist-nature-logo-bundle-Graphics-5528354-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Minimalist Tech Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/11/Minimalist-Tech-logo-art-bundle-Graphics-117781120-1-1-580x354.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Vector Business Logo Set",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/12/15/Business-Logo-set-Design-Template-Vector-Graphics-7187413-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Tennis Branding Pack",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/01/tennis-badge-logo-business-branding-pack-Graphics-26201391-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Corporate Stationery Design",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/04/06/Corporate-Stationery-Template-Design-Graphics-3803133-1-1-580x411.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Ribbon Logo Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/03/Ribbon-Logo-Bundle-Modern-Vector-Graphics-125398292-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Minimal Premade Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/28/Minimal-Premade-Logo-Bundle-Graphics-27968027-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Beauty Logo Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/12/08/Beauty-Logo-Bundle-Graphics-21403651-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Nature Beauty Logo Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/04/05/Nature-Beauty-Logo-Bundle-Bundles-fb-10401247-1.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Luxury Beauty Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/10/Luxury-Beauty-Logo-Graphics-9444132-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Feminine Branding Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/10/11/Feminine-Branding-Kit-Graphics-107632914-1-1-580x435.png",
         "link": "/page13.html"
     },
     {
         "name": "Rosegold Youtube Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/02/Rosegold-Youtube-Branding-Kit-Canva-Graphics-66054558-1-1-580x386.png",
         "link": "/page13.html"
     },
     {
         "name": "Youtube Branding Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/04/04/Youtube-Branding-Kit-Template-Canva-Graphics-66217795-1-1-580x386.png",
         "link": "/page13.html"
     },
     {
         "name": "Barbershop Hair Stylist Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/18/barbershop-logo-svg-hair-stylist-salon-Graphics-9727721-1-1-580x415.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Hair Stylist Silhouette Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/17/Barbershop-Logo-Silhouette-Hair-Stylist-Graphics-124332263-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Elegant Flower Logo",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/01/23/flower-logo-Graphics-23952278-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Small Business Card Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Small Business Card Bundle, Canva Templates",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2021/07/26/Small-Business-Card-Bundle-Canva-Templates-Graphics-15144308-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Royal Photography Business Card Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2025/03/19/Royal-Photography-Business-Card-Template-Graphics-118354441-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Mini Session Photography Contract",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2026/01/17/Mini-Session-Photography-Contract-Graphics-140275911-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Real Estate Marketing Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2022/05/10/Real-Estate-Marketing-Bundle-Graphics-30329357-1-1-580x386.png",
         "link": "/page13.html"
     },
     {
         "name": "Minimalist Christian Easter Egg Design",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2025/02/10/Minimalist-Christian-Easter-Egg-Design-Graphics-115670744-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Etsy Shop Branding Kit Canva Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2026/01/14/Etsy-Shop-Branding-Kit-Canva-Template-Graphics-140080971-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "DIY Small Business Branding Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2021/12/06/DIY-Small-Business-Branding-Kit-Graphics-21322055-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Feminine Branding Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2024/10/11/Feminine-Branding-Kit-Graphics-107632914-1-1-580x435.png",
         "link": "/page13.html"
     },
     {
         "name": "DIY Business Branding Kit",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2021/12/21/Dyi-Business-Branding-Kit-Graphics-22069596-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Asian Food Menu Bundle Canva Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2023/11/15/Asian-Food-Menu-Bundle-Canva-Template-Graphics-84092299-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Watercolor Sushi Clipart Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2026/02/16/Watercolor-Sushi-Clipart-Bundle-Graphics-142575815-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Menu Design Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2023/11/15/Menu-Design-Bundle-Graphics-84091527-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Coffee Shop Promotion Instagram",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2021/07/02/Coffee-Shop-Promotion-Instagram-Graphics-14175940-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "3D Style Menu Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2022/11/20/3D-Style-Menu-Template-Graphics-47537680-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
         "name": "Tempting Stylish Dinner Menu Canva",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2021/05/25/Tempting-Stylish-Dinner-Menu-Canva-Graphics-12468477-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Bakery Menu Price List Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2022/11/25/Bakery-Menu-Price-List-Template-Graphics-48490805-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Food Truck Menu",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2023/09/14/Food-Truck-Menu-Graphics-79186121-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
         "name": "Rustic Wedding Menu Card Mockup",
-        "category": "Premium Logo Packs & Branding Kits",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2024/03/27/Rustic-Wedding-Menu-Card-Mockup-Graphics-94220805-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Sweet Treats Canva Flyer Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Sweet Treats Canva Flyer Template Bundle",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2025/08/11/Sweet-Treats-Canva-Flyer-Template-Bundle-Graphics-128201678-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
-        "name": "Junk Removal Flyer Bundle",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Junk Removal Flyer Bundle Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2025/01/19/Junk-Removal-Flyer-Bundle-Canva-Template-Graphics-114217351-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Beauty Salon Flyer Design",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Beauty Salon Flyer Design Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2022/12/25/Beauty-salon-flyer-design-canva-template-Graphics-54376074-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Barber Shop Flyer Design",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Barber Shop Flyer Design Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2022/12/25/Barber-Shop-Flyer-Design-Canva-Template-Graphics-54385737-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Home Sale Flyer Design",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Home Sale Flyer Design Templates",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2025/12/04/Home-Sale-Flyer-Design-Templates-Graphics-137049694-1-1-580x386.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Real Estate Flyer Template",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Real Estate Flyer Template Design",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2023/11/20/Real-Estate-Flyer-Template-Design-Graphics-84491428-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Classic Real Estate Flyer",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Real Estate Flyer Design",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2018/09/Real-estate-flyer-design-by-harizandy-580x387.jpg",
         "link": "/page13.html"
     },
     {
-        "name": "Grand Opening Flyer",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Grand Opening Flyer Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2025/06/06/Grand-Opening-Flyer-Canva-Template-Graphics-123630926-1-1-580x387.png",
         "link": "/page13.html"
     },
     {
-        "name": "Red Grand Opening FB Flyer",
-        "category": "Premium Logo Packs & Branding Kits",
+        "name": "Red Grand Opening Facebook Flyer Canva",
+        "category": "Ultimate Branding & Canva Templates Hub",
         "img": "https://cdn.creativefabrica.com/2022/10/09/Red-Grand-Opening-Facebook-Flyer-Canva-Graphics-40860530-1-1-580x435.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Registered Nurse Resume Cv Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/11/07/registered-nurse-resume-cv-template-Graphics-45267927-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Nurse Resume Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/11/07/nurse-resume-template-Graphics-45267812-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Registered Nurse Resume Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/11/07/registered-nurse-resume-template-Graphics-45267524-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Minimalist Healthcare CV Design Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/01/21/Minimalist-Healthcare-CV-Design-Template-Graphics-114317223-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Modern Vibrant Resume Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/03/18/Modern-Vibrant-Resume-Canva-Template-Graphics-93565043-1-1-580x387.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Yellow and White Modern Resume Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/03/18/Yellow-and-White-Modern-Resume-Template-Graphics-93564877-1-1-580x387.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Resume Canva Template | Editable",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/11/10/Resume-Canva-Template-Editable-Graphics-135144923-1-1-580x386.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "PORTFOLIO CANVA TEMPLATE",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/09/30/PORTFOLIO-CANVA-TEMPLATE-Graphics-106899359-1-1-580x387.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "UGC Portfolio Canva Website Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/02/04/UGC-Portfolio-Canva-Website-Template-Graphics-115289282-1-1-580x386.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Graphic Designer Resume Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/11/10/Graphic-Designer-Resume-Canva-Template-Graphics-135144620-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Black Minimal Resume Layout Kit",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/06/07/Black-Minimal-Resume-Layout-Kit-Graphics-123668455-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Modern Resume Layout Kit",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/11/29/Modern-Resume-Layout-Kit-Graphics-110920177-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Editable Canva Certificate Template Bundle",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/30/Editable-Canva-Certificate-Template-Bundle-Bundles-82846211-1.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Canva Soccer Award Certificate Bundle",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/12/23/Canva-Soccer-Award-Certificate-Bundle-Graphics-138480139-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Basketball Certificate Template Bundle",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/08/01/Basketball-Certificate-Template-Bundle-Graphics-102972541-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Hockey Award Certificate Template Bundle",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/02/24/Hockey-Award-Certificate-Template-Bundle-Graphics-116601109-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Lash Certificate Of Completion Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/06/07/Lash-Certificate-Of-Completion-Template-Graphics-99211298-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Eyelash Certificate Completion Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/07/11/Eyelash-Certificate-Completion-Template-Graphics-101692319-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Editable Lash Certificate Of Completion",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/07/05/Editable-Lash-Certificate-Of-Completion-Graphics-101182933-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Canva Certificate Of Completion Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2026/01/01/Canva-Certificate-Of-Completion-Template-Graphics-139124687-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Certificate of Achievement Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2024/05/08/Certificate-Of-Achievement-Template-Graphics-97170902-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Canva Invoice Template Editable",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2021/06/01/Canva-Invoice-Template-Editable-Graphics-12766890-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Canva Invoice Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2023/01/04/Canva-Invoice-Template-Graphics-56226857-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Editable Canva Invoice Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/08/01/Editable-Canva-Invoice-template-Graphics-35270090-1-1-580x359.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Minimalist Canva Invoice Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/08/01/Minimalist-Canva-invoice-template-Graphics-35269947-1-1-580x359.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Business Invoice Template | Canva",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/11/08/Business-Invoice-Template-Canva-Graphics-134994194-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "INVOICE Canva Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2023/05/01/INVOICE-Canva-Template-Graphics-68532946-1-1-580x387.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Editable Invoice Template | Canva Templa",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2021/11/22/Editable-Invoice-template-Canva-templa-Graphics-20582091-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Editable Invoice Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/06/18/Editable-Invoice-Template-Graphics-124402679-1-1-580x387.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Editable Invoice Template - CANVA",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/06/14/Editable-Invoice-Template-CANVA-Graphics-124102995-1-1-580x386.jpeg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Elegant Pitch Deck Presentation Canva",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2021/09/10/Elegant-Pitch-Deck-Presentation-Canva-Graphics-17080048-1-1-580x435.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Creative & Modern Business Presentation",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2023/08/17/Creative-Modern-Business-Presentation-Graphics-77102852-1-1-580x435.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Modern Pitch Deck Presentation Canva",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/08/11/Modern-Pitch-Deck-Presentation-Canva-Graphics-35951900-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "70 Page Webinar & Slide Deck Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/06/16/70-Page-Webinar-Slide-Deck-Template-Graphics-32443443-1-1-580x387.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "70 Page Canva Webinar Slides",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/11/25/70-page-Canva-Webinar-Slides-Graphics-48461534-1-1-580x359.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Coach Service and Pricing Guide Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2025/08/19/Coach-Service-And-pricing-Guide-Template-Graphics-128805582-1-1-580x445.png",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Service and Pricing Guide Template Canva",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2022/12/05/Service-and-Pricing-Guide-Template-Canva-Graphics-50514091-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Real Estate Buyer's Guide Template",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2021/05/15/Real-Estate-Buyers-Guide-Template-Graphics-12041112-1-1-580x387.jpg",
+        "link": "/page13.html"
+    },
+    {
+        "name": "Creative Company Profile Canva",
+        "category": "Ultimate Branding & Canva Templates Hub",
+        "img": "https://cdn.creativefabrica.com/2021/07/12/Creative-Company-Profile-Canva-Graphics-14634431-1-1-580x387.jpg",
         "link": "/page13.html"
     },
     {
@@ -3583,219 +4789,327 @@ const products = [
         "link": "/page5.html"
     },
     {
+        "name": "Eucalyptus Wedding Template Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2025/06/02/Eucalyptus-Wedding-Canva-Template-Bundle-Graphics-123369655-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Save the Date Invitation Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/10/19/Save-The-Date-Invitation-Canva-Bundle-Bundles-82005947-1.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Invitation Suite Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2024/12/21/Wedding-Invitation-Canva-Bundle-Graphics-112325984-1-1-580x386.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Teal Wedding Invitation Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2024/07/04/Teal-Wedding-Invitation-Bundle-Canva-Graphics-101140782-1-1-580x387.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Invitation Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2026/02/24/Wedding-Invitation-Bundle-Canva-bd003-Graphics-143145653-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Classic Wedding Invitation Template",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2025/11/28/Classic-Wedding-Invitation-Template-Graphics-136593612-1-1-580x387.png",
+        "link": "/page6.html"
+    },
+    {
         "name": "Wedding Invite with Photo",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/12/11/Wedding-Invitation-Template-with-Photo-Graphics-111728254-1-1-580x387.png",
         "link": "/page6.html"
     },
     {
         "name": "Destination Wedding Invite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/07/Destination-Wedding-Invitation-Template-Graphics-132558512-1-1-580x387.png",
         "link": "/page6.html"
     },
     {
         "name": "Simple Wedding Template",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/01/18/Simple-Wedding-Invitation-Template-Graphics-88843243-1-1-580x414.png",
         "link": "/page6.html"
     },
     {
         "name": "Classic Wedding Invite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/07/Wedding-Invite-Template-Graphics-83502207-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Greenery Wreaths Collection",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/07/Watercolor-Fern-Wreaths-clipart-GREENERY-WREATHS-Wedding-clip-art-Foliage-by-LeCoqDesign-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "DIY Wedding Canva Frames",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/14/Stunning-DIY-Wedding-Canva-Frames-Graphics-93249495-1-1-580x435.png",
         "link": "/page6.html"
     },
     {
         "name": "Pink Floral Bouquets",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/07/Watercolor-flowers-clipart-FLORAL-CLIPART-Wedding-invites-Wedding-clipart-Floral-by-LeCoqDesign-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Sunflower Watercolor Pack",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2018/07/Sunflower-Watercolor-clipart-SUNFLOWER-CLIP-ART-Wedding-clipart-Floral-clipart-by-LeCoqDesign-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Save the Date Template",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/27/Wedding-Save-the-Date-Template-Graphics-136444212-1-1-580x387.png",
         "link": "/page6.html"
     },
     {
         "name": "Electronic Save the Date",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/23/Electronic-Save-the-Date-Template-Elect-Graphics-98189152-1-1-580x435.png",
         "link": "/page6.html"
     },
     {
         "name": "Elegant Save the Date",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/01/22/Elegant-Save-The-Date-Template-Graphics-89084744-1-1-580x414.png",
         "link": "/page6.html"
     },
     {
         "name": "Cotton Flower Stationery",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/02/28/Cotton-Flower-Save-the-Date-Template-Graphics-92028287-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Wedding Menu Mockup",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/09/Wedding-Menu-Design-Invite-Mockup-Graphics-28716736-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Invitation & Menu Suite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/09/Wedding-Menu-Design-Invitation-Mockup-Graphics-28715601-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Menu Mockup PSD",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/10/Wedding-Menu-Mockup-PSD-Smart-Object-Graphics-125893684-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Minimalist Wedding Icons",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/04/Hand-Drawn-Minimalist-Wedding-Icons-Svg-Graphics-117283190-1-1-580x386.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Wedding Icon Collection",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/02/25/Hand-Drawn-Minimalist-Wedding-Icons-Graphics-116682790-1-1-580x386.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Minimalist Floral Invite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/01/Simple-minimalist-wedding-invitation-flo-Graphics-35270161-1-1-580x388.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Whimsical Wedding Doodles",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/11/Hand-Drawn-Whimsical-Wedding-Doodle-SVG-Graphics-117792731-1-1-580x389.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Boho Wedding Invitation",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/20/Boho-Wedding-Invitation-Graphics-79657889-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "We Still Do - Boho Invite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/07/We-Still-Do-Card-Boho-Wedding-Invitation-Graphics-56670206-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Modern Rustic Canva Invite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/27/Modern-Rustic-Canva-Wedding-Invitation-Graphics-134079606-1-1-580x387.png",
         "link": "/page6.html"
     },
     {
         "name": "Lavender Wedding Suite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/21/Lavender-Wedding-Invitation-Suite-Card-Graphics-126662433-1-1-580x386.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Gold Wedding Suite Template",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/21/Gold-Wedding-Invitation-Suite-Template-Graphics-126661627-1-1-580x386.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Floral Wedding Table Numbers",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/21/Floral-Wedding-Table-Numbers-Template-Graphics-124576412-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Teal Wedding Bundle",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/07/04/Teal-Wedding-Invitation-Bundle-Canva-Graphics-101140782-1-1-580x387.png",
         "link": "/page6.html"
     },
     {
         "name": "Sage Green Watercolor Suite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/27/Sage-Green-Watercolor-Wedding-Suite-Graphics-131758259-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Modern Editable Invite",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/24/Editable-Wedding-Invitation-Template-Graphics-129125891-3-580x435.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Minimalist Wedding Template",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/31/Minimalist-Wedding-Invitation-Template-Graphics-94507155-1-1-580x381.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Wedding Seating Chart Sign",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2026/01/22/Minimalist-Wedding-Seating-Chart-Sign-Graphics-140656969-1-1-580x387.png",
         "link": "/page6.html"
     },
     {
         "name": "Newspaper Wedding Program",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/18/newspaper-wedding-program-template-Graphics-69947097-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Wedding Welcome Sign",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/15/Wedding-welcome-Sign-Template-Canva-Graphics-72167548-1-1-580x386.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Seating Chart SVG Bundle",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/04/15/Wedding-Seating-Chart-SVG-Bundle-Graphics-29040980-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Fall Seating Chart Mockup",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/29/Fall-Wedding-Seating-Chart-Mockup-Bundle-Graphics-127215000-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Elegant Menu Card",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/09/16/Printable-Wedding-Menu-Card-Template-Graphics-5515430-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
         "name": "Modern Wedding Menu",
-        "category": "Elegant Wedding Invitation Templates",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/10/13/Printable-Wedding-Menu-Card-Template-Graphics-41409630-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Seating Chart Template",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2023/05/12/Wedding-Seating-Chart-Template-Canva-Graphics-69475710-1-1-580x386.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Boho Arch Wildflowers Seating Chart",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2024/02/23/Boho-arch-wildflowers-Seating-Chart-PSD-Graphics-91650397-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Rustic Wedding Invitation Mockup",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2026/02/20/Rustic-Wedding-Invitation-Mockup-PSD-Graphics-142832451-1-1-580x435.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding SVG Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2022/05/10/Wedding-SVG-Bundle-Graphics-30350887-1-1-580x390.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Elegant Floral Frame Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2025/07/13/Elegant-Floral-Frame-Bundle-Graphics-126072184-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Elegant Floral Frame Bundle V2",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2025/07/13/Elegant-Floral-Frame-Bundle-Graphics-126072193-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Sign Welcome Svg",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2022/09/23/Wedding-Sign-svg-Bundle-Welcome-svg-Graphics-39098496-1-1-580x387.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Wedding Sign Svg Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2022/10/04/Wedding-Sign-svg-Bundle-Graphics-40097232-1-1-580x386.png",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Bachelorette Party SVG Pack",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2022/08/04/Bachelorette-Party-SVG-Bundle-Graphics-35487403-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Funny Bachelorette Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2025/07/17/Funny-Bachelorette-Party-SVG-Bundle-Graphics-126343702-1-1-580x435.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Bride Tribe SVG Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2022/08/04/Bachelorette-Party-SVG-Bundle-Graphics-35487093-1-1-580x387.jpg",
+        "link": "/page6.html"
+    },
+    {
+        "name": "Split Monogram Alphabet Bundle",
+        "category": "Elegant Wedding Invitations & SVG Bundles",
+        "img": "https://cdn.creativefabrica.com/2025/07/16/Split-Monogram-Alphabet-SVG-Bundle-Graphics-126309078-1-1-580x387.jpg",
         "link": "/page6.html"
     },
     {
