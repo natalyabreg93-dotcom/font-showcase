@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // 1. ПОДГОТОВКА ССЫЛОК И ПУТЕЙ
+    // 1. ЗАГРУЗКА БАЗЫ ПРОДУКТОВ
+    const script = document.createElement('script');
+    script.src = 'products.js';
+    document.head.appendChild(script);
+
+    const navPlaceholders = document.querySelectorAll(".nav-placeholder");
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // 2. ГЕНЕРАЦИЯ ГЛАВНОГО МЕНЮ (То же самое, что наверху)
+    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
@@ -18,52 +23,57 @@ document.addEventListener("DOMContentLoaded", function() {
                     <button class="group-btn">Stickers & Papers ▾</button>
                     <div class="dropdown-content">
                         <a href="page11.html" style="font-weight:bold; border-bottom:1px solid #eee;">Stickers Hub</a>
-                        <a href="page11.html#floral-stickers">↳ Floral</a>
-                        <a href="page11.html#self-care-stickers">↳ Quotes</a>
-                        <a href="page11.html#holiday-stickers">↳ Holiday</a>
-                        <a href="page11.html#animal-stickers">↳ Animal</a>
+                        <a href="page11.html#floral-stickers">↳ Floral Stickers</a>
+                        <a href="page11.html#self-care-stickers">↳ Quotes & Self Care</a>
+                        <a href="page11.html#holiday-stickers">↳ Holiday Stickers</a>
+                        <a href="page11.html#animal-stickers">↳ Animal Stickers</a>
                         <a href="page11.html#food-stickers">↳ Food & Drink</a>
-                        <a href="page12.html">Digital Paper</a>
+                        <div style="height:1px; background:#eee; margin:5px 0;"></div>
+                        <a href="page12.html">Digital Paper Packs</a>
                     </div>
                 </div>
                 <div class="nav-group">
                     <button class="group-btn">Business & Canva ▾</button>
                     <div class="dropdown-content">
                         <a href="page13.html" style="font-weight:bold; border-bottom:1px solid #eee;">Branding Kits</a>
-                        <a href="page13.html#minimalist-logos">↳ Logos: Minimal</a>
-                        <a href="page13.html#beauty-logos">↳ Logos: Beauty</a>
-                        <a href="page13.html#business-cards">↳ Cards</a>
-                        <a href="page13.html#menu-templates">↳ Menus</a>
-                        <a href="page13.html#flyer-templates">↳ Flyers</a>
-                        <a href="page13.html#resume-templates">↳ CV</a>
-                        <a href="page13.html#certificate-templates">↳ Certs</a>
+                        <a href="page13.html#minimalist-logos">↳ Minimalist Logos</a>
+                        <a href="page13.html#beauty-logos">↳ Beauty Logos</a>
+                        <a href="page13.html#business-cards">↳ Business Cards</a>
+                        <a href="page13.html#menu-templates">↳ Menu Templates</a>
+                        <a href="page13.html#flyer-templates">↳ Flyer Templates</a>
+                        <a href="page13.html#resume-templates">↳ Resumes & CV</a>
+                        <a href="page13.html#certificate-templates">↳ Certificates</a>
                         <a href="page13.html#invoice-templates">↳ Invoices</a>
                         <a href="page13.html#brochure-templates">↳ Presentations</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
-                        <a href="page7.html">Social Media</a>
-                        <a href="page20.html">YouTube</a>
+                        <a href="page7.html">Social Media Kits</a>
+                        <a href="page20.html">YouTube Assets</a>
                     </div>
                 </div>
                 <div class="nav-group">
                     <button class="group-btn">Graphics & POD ▾</button>
                     <div class="dropdown-content">
-                        <a href="page8.html">KDP</a> <a href="page9.html">SVG</a>
-                        <a href="page15.html">Tumbler</a> <a href="page16.html">Retro POD</a>
-                        <a href="page19.html">Laser Cut</a>
+                        <a href="page8.html">KDP Interiors</a>
+                        <a href="page9.html">SVG Cut Files</a>
+                        <a href="page15.html">Tumbler Wraps</a>
+                        <a href="page16.html">Retro POD Designs</a>
+                        <a href="page19.html">Laser Cut Files</a>
                     </div>
                 </div>
                 <div class="nav-group">
                     <button class="group-btn">Coloring & Crafts ▾</button>
                     <div class="dropdown-content">
-                        <a href="page10.html" style="font-weight:bold; border-bottom:1px solid #eee;">Coloring Hub</a>
-                        <a href="page10.html#kids-coloring">↳ Kids</a>
-                        <a href="page10.html#kids-animal-coloring">↳ Animals</a>
-                        <a href="page10.html#adult-coloring">↳ Mandala</a>
-                        <a href="page10.html#fantasy-creatures">↳ Fantasy</a>
+                        <a href="page10.html" style="font-weight:bold; border-bottom:1px solid #eee;">Coloring Library</a>
+                        <a href="page10.html#kids-coloring">↳ Kids Coloring</a>
+                        <a href="page10.html#kids-animal-coloring">↳ Animal Coloring</a>
+                        <a href="page10.html#adult-coloring">↳ Mandala & Zen</a>
+                        <a href="page10.html#fantasy-creatures">↳ Fantasy Creatures</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
-                        <a href="page14.html">Crochet</a> <a href="page17.html">Cards</a>
-                        <a href="page18.html">Boxes</a> <a href="page21.html">Flowers</a>
-                        <a href="page22.html">Embroidery</a>
+                        <a href="page14.html">Crochet Patterns</a>
+                        <a href="page17.html">Greeting Cards</a>
+                        <a href="page18.html">DIY Gift Boxes</a>
+                        <a href="page21.html">Paper Flowers</a>
+                        <a href="page22.html">Embroidery Art</a>
                     </div>
                 </div>
                 <div class="search-box" style="position: relative;">
@@ -74,84 +84,136 @@ document.addEventListener("DOMContentLoaded", function() {
         </nav>
     `;
 
-    // 3. ПРОВЕРКА И ВСТАВКА КОНТЕЙНЕРОВ ДЛЯ МЕНЮ
-    // Если на странице нет второго плейсхолдера (внизу), мы создаем его перед футером
-    const placeholders = document.querySelectorAll(".nav-placeholder");
-    if (placeholders.length < 2) {
+    // 3. ВСТАВКА МЕНЮ (ВЕРХ И НИЗ)
+    if (navPlaceholders.length < 2) {
         const footer = document.querySelector('footer');
         if (footer) {
-            const bottomPlaceholder = document.createElement('div');
-            bottomPlaceholder.className = 'nav-placeholder';
-            bottomPlaceholder.style.marginTop = '50px';
-            footer.parentNode.insertBefore(bottomPlaceholder, footer);
+            const bottomNav = document.createElement('div');
+            bottomNav.className = 'nav-placeholder';
+            bottomNav.style.margin = '40px 0';
+            footer.parentNode.insertBefore(bottomNav, footer);
         }
     }
 
-    // Вставляем меню во все найденные (и созданные) плейсхолдеры
-    document.querySelectorAll(".nav-placeholder").forEach(p => {
-        p.innerHTML = menuHTML;
-    });
+    document.querySelectorAll(".nav-placeholder").forEach(p => p.innerHTML = menuHTML);
 
-    // 4. ИСПРАВЛЕНИЕ НАДПИСИ В САЙДБАРЕ (50+ КАТЕГОРИЙ)
-    const sidebarText = document.querySelectorAll('.sidebar .banner-container p, aside p');
-    sidebarText.forEach(el => {
-        if (el.innerText.includes('View All Categories')) {
+    // 4. ИСПРАВЛЕНИЕ НАДПИСИ 50+ В САЙДБАРЕ
+    const sidebarP = document.querySelectorAll('.sidebar .banner-container p, aside p');
+    sidebarP.forEach(el => {
+        if (el.innerText.includes('View All')) {
             el.innerHTML = '← View All 50+ Categories';
         }
     });
 
     // 5. КНОПКА "НАВЕРХ"
-    const backBtn = document.createElement('button');
-    backBtn.innerHTML = '↑';
-    Object.assign(backBtn.style, {
+    const btnUp = document.createElement('button');
+    btnUp.innerHTML = '↑';
+    Object.assign(btnUp.style, {
         display: 'none', position: 'fixed', bottom: '30px', right: '30px',
-        zIndex: '1000', backgroundColor: '#ff477e', color: 'white',
+        zIndex: '9999', backgroundColor: '#ff477e', color: 'white',
         border: 'none', borderRadius: '50%', width: '50px', height: '50px',
-        fontSize: '24px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+        fontSize: '24px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
     });
-    document.body.appendChild(backBtn);
-
+    document.body.appendChild(btnUp);
     window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 400) backBtn.style.display = 'block';
-        else backBtn.style.display = 'none';
+        btnUp.style.display = window.pageYOffset > 500 ? 'block' : 'none';
     });
-    backBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    btnUp.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // 6. ПОИСК И ПОДАРКИ
-    window.fillSearch = function(t) {
-        const i = document.querySelector('.search-input');
-        if (i) { i.value = t; i.dispatchEvent(new Event('input')); }
-    };
-
-    setTimeout(() => {
-        // Инициализация поиска
+    // 6. ФУНКЦИИ ПОИСКА
+    window.fillSearch = function(text) {
         const inputs = document.querySelectorAll('.search-input');
         inputs.forEach(input => {
-            const results = input.parentElement.querySelector('.search-results');
+            input.value = text;
+            input.dispatchEvent(new Event('input'));
+        });
+    };
+
+    function showSearchExample(container) {
+        container.innerHTML = `
+            <div style="padding: 15px; background: #fff; border-radius: 8px;">
+                <p style="margin: 0 0 10px; font-weight: bold; color: #555; font-size: 0.9rem;">Try searching for:</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #f0f0f0; padding: 4px 12px; border-radius: 15px; cursor: pointer; font-size: 0.8rem;" onclick="fillSearch('Mandala')">Mandala</span>
+                    <span style="background: #f0f0f0; padding: 4px 12px; border-radius: 15px; cursor: pointer; font-size: 0.8rem;" onclick="fillSearch('Coffee')">Coffee</span>
+                    <span style="background: #f0f0f0; padding: 4px 12px; border-radius: 15px; cursor: pointer; font-size: 0.8rem;" onclick="fillSearch('Dragon')">Dragon</span>
+                    <span style="background: #f0f0f0; padding: 4px 12px; border-radius: 15px; cursor: pointer; font-size: 0.8rem;" onclick="fillSearch('Logo')">Logo</span>
+                </div>
+            </div>
+        `;
+        container.style.display = 'block';
+    }
+
+    setTimeout(() => {
+        document.querySelectorAll('.search-box').forEach(box => {
+            const input = box.querySelector('.search-input');
+            const resBox = box.querySelector('.search-results');
+            input.addEventListener('focus', () => { if(!input.value) showSearchExample(resBox); });
             input.addEventListener('input', e => {
                 const q = e.target.value.trim();
-                if (q.length < 2) { results.style.display = 'none'; return; }
+                if (q.length < 2) { showSearchExample(resBox); return; }
                 if (window.filterProducts) {
                     const res = window.filterProducts(q);
-                    results.innerHTML = res.slice(0, 6).map(item => `
-                        <a href="${item.link.replace(/^\//, '')}" class="search-item" style="display:flex; align-items:center; gap:10px; padding:8px; text-decoration:none;">
-                            <img src="${item.img}" style="width:35px;height:35px;border-radius:4px;">
-                            <div><div style="font-weight:bold;color:#333;font-size:0.75rem;">${item.name}</div><div style="color:#ff477e;font-size:0.65rem;">${item.category}</div></div>
+                    resBox.innerHTML = res.slice(0, 8).map(item => `
+                        <a href="${item.link.replace(/^\//, '')}" class="search-item" style="display:flex; align-items:center; gap:10px; padding:10px; text-decoration:none; border-bottom:1px solid #eee;">
+                            <img src="${item.img}" style="width:40px;height:40px;border-radius:4px;object-fit:cover;">
+                            <div style="display:flex;flex-direction:column;">
+                                <span style="font-weight:bold;color:#333;font-size:0.85rem;">${item.name}</span>
+                                <span style="color:#ff477e;font-size:0.75rem;">${item.category}</span>
+                            </div>
                         </a>`).join('');
-                    results.style.display = 'block';
+                    resBox.style.display = 'block';
                 }
             });
         });
-        
-        // Сайдбар стрелка
-        const sb = document.querySelector('.sidebar');
-        if (sb && !document.getElementById('search-arrow-box')) {
-            const box = document.createElement('div');
-            box.id = 'search-arrow-box';
-            box.style.marginTop = '20px';
-            box.innerHTML = `<p style="font-weight:bold;color:#ff477e;text-align:center;">Can't find something?</p>
-                             <img src="image/search-arrow.jpg" style="width:100%;border-radius:10px;cursor:pointer;" onclick="document.querySelector('.search-input').focus()">`;
-            sb.appendChild(box);
-        }
+
+        document.addEventListener('click', e => {
+            if (!e.target.closest('.search-box')) document.querySelectorAll('.search-results').forEach(r => r.style.display = 'none');
+        });
+
+        initSidebarMagic();
     }, 1000);
+
+    // 7. ПОДАРКИ И СТРЕЛКА В САЙДБАРЕ
+    const freebieData = [
+        { title: "Daily Free Gifts", img: "image/gift-daily.jpg", link: "https://www.creativefabrica.com/daily-gifts/ref/10996753/" },
+        { title: "Free Fonts Pack", img: "image/gift-font.jpg", link: "https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" },
+        { title: "Free Graphics", img: "image/gift-graphic.jpg", link: "https://www.creativefabrica.com/freebies/free-graphics/ref/10996753/" }
+    ];
+    let giftIndex = 0;
+
+    function initSidebarMagic() {
+        const sb = document.querySelector('.sidebar');
+        if (!sb) return;
+
+        const giftWrapper = document.createElement('div');
+        giftWrapper.innerHTML = `
+            <div style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 12px; margin-bottom: 20px;">
+                <h3 style="color: #ff477e; text-align: center; font-size: 1rem; margin-top: 0;">🎁 TODAY'S FREEBIES</h3>
+                <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 140px;"></div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <p style="font-weight: bold; color: #ff477e; margin-bottom: 10px;">Can't find something?</p>
+                <img src="image/search-arrow.jpg" style="width:100%; border-radius: 15px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="document.querySelector('.search-input').focus()">
+            </div>
+        `;
+        sb.prepend(giftWrapper);
+
+        const updateGift = () => {
+            const box = document.getElementById('daily-gift-box');
+            if (!box) return;
+            const g = freebieData[giftIndex];
+            box.style.opacity = '0';
+            setTimeout(() => {
+                box.innerHTML = `<a href="${g.link}" target="_blank" style="text-decoration:none;">
+                    <img src="${g.img}" style="width:100%; border-radius:8px;">
+                    <div style="background:#ff477e; color:white; padding:6px; border-radius:0 0 8px 8px; font-weight:bold; text-align:center; font-size:0.8rem;">${g.title} ➔</div>
+                </a>`;
+                box.style.opacity = '1';
+                giftIndex = (giftIndex + 1) % freebieData.length;
+            }, 500);
+        };
+        updateGift();
+        setInterval(updateGift, 5000);
+    }
 });
