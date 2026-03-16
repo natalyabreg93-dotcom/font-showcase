@@ -4,10 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
     script.src = 'products.js';
     document.head.appendChild(script);
 
-    const navPlaceholders = document.querySelectorAll(".nav-placeholder");
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ (ВЕРХНЕЕ И НИЖНЕЕ)
+    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
@@ -82,31 +81,21 @@ document.addEventListener("DOMContentLoaded", function() {
         </nav>
     `;
 
-    // 3. УМНАЯ ВСТАВКА НИЖНЕЙ НАВИГАЦИИ (ФУТЕР)
-    const placeholders = document.querySelectorAll(".nav-placeholder");
-    if (placeholders.length < 2) {
-        const footerElement = document.querySelector('footer, .final-cta');
-        if (footerElement) {
-            const bottomNav = document.createElement('div');
-            bottomNav.className = 'nav-placeholder';
-            bottomNav.style.margin = '60px 0 40px';
-            footerElement.parentNode.insertBefore(bottomNav, footerElement);
+    // 3. ВСТАВКА МЕНЮ (ВЕРХ И НИЗ)
+    if (document.querySelectorAll(".nav-placeholder").length < 2) {
+        const footerTag = document.querySelector('footer, .final-cta');
+        if (footerTag) {
+            const bNav = document.createElement('div');
+            bNav.className = 'nav-placeholder';
+            bNav.style.margin = '50px 0';
+            footerTag.parentNode.insertBefore(bNav, footerTag);
         }
     }
     document.querySelectorAll(".nav-placeholder").forEach(p => p.innerHTML = menuHTML);
 
-    // 4. ИСПРАВЛЕНИЕ НАДПИСИ 50+ КАТЕГОРИЙ
-    const sidebarLabels = document.querySelectorAll('.sidebar .banner-container p, aside p');
-    sidebarLabels.forEach(el => {
-        if (el.innerText.includes('View All')) {
-            el.innerHTML = '← View All 50+ Categories';
-        }
-    });
-
-    // 5. КНОПКА "НАВЕРХ"
+    // 4. КНОПКА "НАВЕРХ"
     const upBtn = document.createElement('button');
     upBtn.innerHTML = '↑';
-    upBtn.id = 'backToTopBtn';
     Object.assign(upBtn.style, {
         display: 'none', position: 'fixed', bottom: '30px', right: '30px',
         zIndex: '9999', backgroundColor: '#ff477e', color: 'white',
@@ -114,21 +103,82 @@ document.addEventListener("DOMContentLoaded", function() {
         fontSize: '24px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
     });
     document.body.appendChild(upBtn);
-    window.addEventListener('scroll', () => {
-        upBtn.style.display = window.pageYOffset > 500 ? 'block' : 'none';
-    });
+    window.addEventListener('scroll', () => { upBtn.style.display = window.pageYOffset > 500 ? 'block' : 'none'; });
     upBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // 6. ЛОГИКА ПОИСКА С ПРИМЕРАМИ
-    window.fillSearch = function(text) {
-        const inputs = document.querySelectorAll('.search-input');
-        inputs.forEach(input => {
-            input.value = text;
-            input.dispatchEvent(new Event('input'));
+    // 5. САЙДБАР: ПОДАРКИ, 50+ КАТЕГОРИЙ И СТРЕЛКА
+    const freebieData = [
+        { title: "Daily Free Gifts", img: "image/gift-daily.jpg", link: "https://www.creativefabrica.com/daily-gifts/ref/10996753/" },
+        { title: "Free Fonts Pack", img: "image/gift-font.jpg", link: "https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" },
+        { title: "Free Graphics", img: "image/gift-graphic.jpg", link: "https://www.creativefabrica.com/freebies/free-graphics/ref/10996753/" }
+    ];
+    let giftIndex = 0;
+
+    function initSidebarExtras() {
+        const sidebar = document.querySelector('.sidebar') || document.querySelector('aside');
+        if (!sidebar) return;
+
+        // ПРАВКА ТЕКСТА 50+ (ищем параграфы внутри сайдбара)
+        const allSidebarP = sidebar.querySelectorAll('p');
+        allSidebarP.forEach(p => {
+            if (p.innerText.toLowerCase().includes('categories')) {
+                p.innerHTML = '← View All 50+ Categories';
+            }
         });
+
+        // БЛОК ПОДАРКОВ
+        if (!document.getElementById('daily-gift-box')) {
+            const giftWrapper = document.createElement('div');
+            giftWrapper.innerHTML = `
+                <div style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 12px; margin-bottom: 20px;">
+                    <h3 style="color: #ff477e; text-align: center; font-size: 1rem; margin-top: 0; font-family: sans-serif;">🎁 TODAY'S FREEBIES</h3>
+                    <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 140px;"></div>
+                </div>
+            `;
+            sidebar.prepend(giftWrapper);
+
+            const updateGift = () => {
+                const box = document.getElementById('daily-gift-box');
+                if (!box) return;
+                const g = freebieData[giftIndex];
+                box.style.opacity = '0';
+                setTimeout(() => {
+                    box.innerHTML = `<a href="${g.link}" target="_blank" style="text-decoration:none;">
+                        <img src="${g.img}" style="width:100%; border-radius:8px; display:block;">
+                        <div style="background:#ff477e; color:white; padding:8px; border-radius:0 0 8px 8px; font-weight:bold; text-align:center; font-size:0.85rem; font-family:sans-serif;">${g.title} ➔</div>
+                    </a>`;
+                    box.style.opacity = '1';
+                    giftIndex = (giftIndex + 1) % freebieData.length;
+                }, 500);
+            };
+            updateGift();
+            setInterval(updateGift, 5000);
+        }
+
+        // БАННЕР-СТРЕЛКА
+        if (!document.getElementById('side-search-banner')) {
+            const arrowBox = document.createElement('div');
+            arrowBox.id = 'side-search-banner';
+            arrowBox.style.textAlign = 'center';
+            arrowBox.style.marginTop = '20px';
+            arrowBox.innerHTML = `
+                <p style="font-weight: bold; color: #ff477e; margin-bottom: 10px;">Can't find something?</p>
+                <img src="image/search-arrow.jpg" style="width:100%; border-radius: 15px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="document.querySelector('.search-input').focus()">
+            `;
+            sidebar.appendChild(arrowBox);
+        }
+    }
+
+    // Запускаем через небольшую паузу, чтобы DOM точно был готов
+    setTimeout(initSidebarExtras, 800);
+
+    // 6. ПОИСК (с подсказками)
+    window.fillSearch = function(t) {
+        const ins = document.querySelectorAll('.search-input');
+        ins.forEach(i => { i.value = t; i.dispatchEvent(new Event('input')); });
     };
 
-    function showSearchExample(container) {
+    function showEx(container) {
         container.innerHTML = `
             <div style="padding: 15px; background: #fff; border-radius: 8px;">
                 <p style="margin: 0 0 10px; font-weight: bold; color: #555; font-size: 0.9rem;">Try searching for:</p>
@@ -144,16 +194,16 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     setTimeout(() => {
-        document.querySelectorAll('.search-box').forEach(box => {
-            const input = box.querySelector('.search-input');
-            const resBox = box.querySelector('.search-results');
-            input.addEventListener('focus', () => { if(!input.value) showSearchExample(resBox); });
-            input.addEventListener('input', e => {
+        document.querySelectorAll('.search-box').forEach(sb => {
+            const inp = sb.querySelector('.search-input');
+            const res = sb.querySelector('.search-results');
+            inp.addEventListener('focus', () => { if(!inp.value) showEx(res); });
+            inp.addEventListener('input', e => {
                 const q = e.target.value.trim();
-                if (q.length < 2) { showSearchExample(resBox); return; }
+                if (q.length < 2) { showEx(res); return; }
                 if (window.filterProducts) {
-                    const res = window.filterProducts(q);
-                    resBox.innerHTML = res.slice(0, 8).map(item => `
+                    const results = window.filterProducts(q);
+                    res.innerHTML = results.slice(0, 8).map(item => `
                         <a href="${item.link.replace(/^\//, '')}" class="search-item" style="display:flex; align-items:center; gap:12px; padding:10px; text-decoration:none; border-bottom:1px solid #eee;">
                             <img src="${item.img}" style="width:40px;height:40px;border-radius:4px;object-fit:cover;">
                             <div style="display:flex;flex-direction:column;">
@@ -161,58 +211,10 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <span style="color:#ff477e;font-size:0.75rem;">${item.category}</span>
                             </div>
                         </a>`).join('');
-                    resBox.style.display = 'block';
+                    res.style.display = 'block';
                 }
             });
         });
-
-        document.addEventListener('click', e => {
-            if (!e.target.closest('.search-box')) document.querySelectorAll('.search-results').forEach(r => r.style.display = 'none');
-        });
-
-        initSidebarMagic();
-    }, 1000);
-
-    // 7. ПОДАРКИ И СТРЕЛКА В САЙДБАРЕ
-    const freebieData = [
-        { title: "Daily Free Gifts", img: "image/gift-daily.jpg", link: "https://www.creativefabrica.com/daily-gifts/ref/10996753/" },
-        { title: "Free Fonts Pack", img: "image/gift-font.jpg", link: "https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" },
-        { title: "Free Graphics", img: "image/gift-graphic.jpg", link: "https://www.creativefabrica.com/freebies/free-graphics/ref/10996753/" }
-    ];
-    let giftIndex = 0;
-
-    function initSidebarMagic() {
-        const sb = document.querySelector('.sidebar');
-        if (!sb) return;
-
-        const giftWrapper = document.createElement('div');
-        giftWrapper.innerHTML = `
-            <div style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 12px; margin-bottom: 20px;">
-                <h3 style="color: #ff477e; text-align: center; font-size: 1rem; margin-top: 0; font-family: sans-serif;">🎁 TODAY'S FREEBIES</h3>
-                <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 140px;"></div>
-            </div>
-            <div style="text-align: center; margin-top: 20px;">
-                <p style="font-weight: bold; color: #ff477e; margin-bottom: 10px;">Can't find something?</p>
-                <img src="image/search-arrow.jpg" style="width:100%; border-radius: 15px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="document.querySelector('.search-input').focus()">
-            </div>
-        `;
-        sb.prepend(giftWrapper);
-
-        const updateGift = () => {
-            const box = document.getElementById('daily-gift-box');
-            if (!box) return;
-            const g = freebieData[giftIndex];
-            box.style.opacity = '0';
-            setTimeout(() => {
-                box.innerHTML = `<a href="${g.link}" target="_blank" style="text-decoration:none;">
-                    <img src="${g.img}" style="width:100%; border-radius:8px; display:block;">
-                    <div style="background:#ff477e; color:white; padding:8px; border-radius:0 0 8px 8px; font-weight:bold; text-align:center; font-size:0.85rem; font-family:sans-serif;">${g.title} ➔</div>
-                </a>`;
-                box.style.opacity = '1';
-                giftIndex = (giftIndex + 1) % freebieData.length;
-            }, 500);
-        };
-        updateGift();
-        setInterval(updateGift, 5000);
-    }
+        document.addEventListener('click', e => { if (!e.target.closest('.search-box')) document.querySelectorAll('.search-results').forEach(r => r.style.display = 'none'); });
+    }, 1200);
 });
