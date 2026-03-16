@@ -5,22 +5,32 @@
     <lastmod>2026-03-16</lastmod>
     <priority>1.00</priority>
   </url>
-
   <url>
     <loc>https://creativ-store.site/index.html</loc>
     <lastmod>2026-03-16</lastmod>
     <priority>0.80</priority>
   </url>
 
-  <url>
-    <loc>https://creativ-store.site/page10.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <priority>0.90</priority>
-  </url>
-
-  <url>
-    <loc>https://creativ-store.site/page11.html</loc>
-    <lastmod>2026-03-16</lastmod>
-    <priority>0.90</priority>
-  </url>
+  <url><loc>https://creativ-store.site/page1.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page2.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page3.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page4.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page5.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page6.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page7.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page8.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page9.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page10.html</loc><lastmod>2026-03-16</lastmod><priority>0.90</priority></url>
+  <url><loc>https://creativ-store.site/page11.html</loc><lastmod>2026-03-16</lastmod><priority>0.90</priority></url>
+  <url><loc>https://creativ-store.site/page12.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page13.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page14.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page15.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page16.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page17.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page18.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page19.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page20.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page21.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
+  <url><loc>https://creativ-store.site/page22.html</loc><lastmod>2026-03-16</lastmod><priority>0.85</priority></url>
 </urlset>
