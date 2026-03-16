@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const navPlaceholders = document.querySelectorAll(".nav-placeholder");
     const currentPath = window.location.pathname.split("/").pop() || "index.html";
 
-    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ
+    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ (ВЕРХНЕЕ И НИЖНЕЕ)
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page13.html#flyer-templates">↳ Flyer Templates</a>
                         <a href="page13.html#resume-templates">↳ Resumes & CV</a>
                         <a href="page13.html#certificate-templates">↳ Certificates</a>
-                        <a href="page13.html#invoice-templates">↳ Invoices</a>
+                        <a href="page13.html#invoice-templates">↳ Invoice Templates</a>
                         <a href="page13.html#brochure-templates">↳ Presentations</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
                         <a href="page7.html">Social Media Kits</a>
@@ -69,10 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page10.html#adult-coloring">↳ Mandala & Zen</a>
                         <a href="page10.html#fantasy-creatures">↳ Fantasy Creatures</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
-                        <a href="page14.html">Crochet Patterns</a>
-                        <a href="page17.html">Greeting Cards</a>
-                        <a href="page18.html">DIY Gift Boxes</a>
-                        <a href="page21.html">Paper Flowers</a>
+                        <a href="page14.html">Crochet Patterns</a> <a href="page17.html">Greeting Cards</a>
+                        <a href="page18.html">DIY Gift Boxes</a> <a href="page21.html">Paper Flowers</a>
                         <a href="page22.html">Embroidery Art</a>
                     </div>
                 </div>
@@ -84,43 +82,44 @@ document.addEventListener("DOMContentLoaded", function() {
         </nav>
     `;
 
-    // 3. ВСТАВКА МЕНЮ (ВЕРХ И НИЗ)
-    if (navPlaceholders.length < 2) {
-        const footer = document.querySelector('footer');
-        if (footer) {
+    // 3. УМНАЯ ВСТАВКА НИЖНЕЙ НАВИГАЦИИ (ФУТЕР)
+    const placeholders = document.querySelectorAll(".nav-placeholder");
+    if (placeholders.length < 2) {
+        const footerElement = document.querySelector('footer, .final-cta');
+        if (footerElement) {
             const bottomNav = document.createElement('div');
             bottomNav.className = 'nav-placeholder';
-            bottomNav.style.margin = '40px 0';
-            footer.parentNode.insertBefore(bottomNav, footer);
+            bottomNav.style.margin = '60px 0 40px';
+            footerElement.parentNode.insertBefore(bottomNav, footerElement);
         }
     }
-
     document.querySelectorAll(".nav-placeholder").forEach(p => p.innerHTML = menuHTML);
 
-    // 4. ИСПРАВЛЕНИЕ НАДПИСИ 50+ В САЙДБАРЕ
-    const sidebarP = document.querySelectorAll('.sidebar .banner-container p, aside p');
-    sidebarP.forEach(el => {
+    // 4. ИСПРАВЛЕНИЕ НАДПИСИ 50+ КАТЕГОРИЙ
+    const sidebarLabels = document.querySelectorAll('.sidebar .banner-container p, aside p');
+    sidebarLabels.forEach(el => {
         if (el.innerText.includes('View All')) {
             el.innerHTML = '← View All 50+ Categories';
         }
     });
 
     // 5. КНОПКА "НАВЕРХ"
-    const btnUp = document.createElement('button');
-    btnUp.innerHTML = '↑';
-    Object.assign(btnUp.style, {
+    const upBtn = document.createElement('button');
+    upBtn.innerHTML = '↑';
+    upBtn.id = 'backToTopBtn';
+    Object.assign(upBtn.style, {
         display: 'none', position: 'fixed', bottom: '30px', right: '30px',
         zIndex: '9999', backgroundColor: '#ff477e', color: 'white',
         border: 'none', borderRadius: '50%', width: '50px', height: '50px',
         fontSize: '24px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
     });
-    document.body.appendChild(btnUp);
+    document.body.appendChild(upBtn);
     window.addEventListener('scroll', () => {
-        btnUp.style.display = window.pageYOffset > 500 ? 'block' : 'none';
+        upBtn.style.display = window.pageYOffset > 500 ? 'block' : 'none';
     });
-    btnUp.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    upBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // 6. ФУНКЦИИ ПОИСКА
+    // 6. ЛОГИКА ПОИСКА С ПРИМЕРАМИ
     window.fillSearch = function(text) {
         const inputs = document.querySelectorAll('.search-input');
         inputs.forEach(input => {
@@ -155,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (window.filterProducts) {
                     const res = window.filterProducts(q);
                     resBox.innerHTML = res.slice(0, 8).map(item => `
-                        <a href="${item.link.replace(/^\//, '')}" class="search-item" style="display:flex; align-items:center; gap:10px; padding:10px; text-decoration:none; border-bottom:1px solid #eee;">
+                        <a href="${item.link.replace(/^\//, '')}" class="search-item" style="display:flex; align-items:center; gap:12px; padding:10px; text-decoration:none; border-bottom:1px solid #eee;">
                             <img src="${item.img}" style="width:40px;height:40px;border-radius:4px;object-fit:cover;">
                             <div style="display:flex;flex-direction:column;">
                                 <span style="font-weight:bold;color:#333;font-size:0.85rem;">${item.name}</span>
@@ -189,7 +188,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const giftWrapper = document.createElement('div');
         giftWrapper.innerHTML = `
             <div style="border: 2px dashed #ff477e; background: #fffafb; padding: 10px; border-radius: 12px; margin-bottom: 20px;">
-                <h3 style="color: #ff477e; text-align: center; font-size: 1rem; margin-top: 0;">🎁 TODAY'S FREEBIES</h3>
+                <h3 style="color: #ff477e; text-align: center; font-size: 1rem; margin-top: 0; font-family: sans-serif;">🎁 TODAY'S FREEBIES</h3>
                 <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 140px;"></div>
             </div>
             <div style="text-align: center; margin-top: 20px;">
@@ -206,8 +205,8 @@ document.addEventListener("DOMContentLoaded", function() {
             box.style.opacity = '0';
             setTimeout(() => {
                 box.innerHTML = `<a href="${g.link}" target="_blank" style="text-decoration:none;">
-                    <img src="${g.img}" style="width:100%; border-radius:8px;">
-                    <div style="background:#ff477e; color:white; padding:6px; border-radius:0 0 8px 8px; font-weight:bold; text-align:center; font-size:0.8rem;">${g.title} ➔</div>
+                    <img src="${g.img}" style="width:100%; border-radius:8px; display:block;">
+                    <div style="background:#ff477e; color:white; padding:8px; border-radius:0 0 8px 8px; font-weight:bold; text-align:center; font-size:0.85rem; font-family:sans-serif;">${g.title} ➔</div>
                 </a>`;
                 box.style.opacity = '1';
                 giftIndex = (giftIndex + 1) % freebieData.length;
