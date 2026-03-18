@@ -217,4 +217,47 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         document.addEventListener('click', e => { if (!e.target.closest('.search-box')) document.querySelectorAll('.search-results').forEach(r => r.style.display = 'none'); });
     }, 1200);
+// --- EXIT INTENT POPUP LOGIC ---
+    function initExitIntent() {
+        if (sessionStorage.getItem('exitIntentShown')) return;
+
+        // Создаем HTML структуру окна
+        const modal = document.createElement('div');
+        modal.id = 'exitModal';
+        Object.assign(modal.style, {
+            display: 'none', position: 'fixed', top: '0', left: '0',
+            width: '100%', height: '100%', backgroundColor: 'rgba(0,0,0,0.8)',
+            zIndex: '10000', alignItems: 'center', justifyContent: 'center',
+            fontFamily: 'sans-serif'
+        });
+
+        modal.innerHTML = `
+            <div style="background: white; padding: 40px; border-radius: 20px; text-align: center; max-width: 450px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                <button id="closeExitModal" style="position: absolute; top: 15px; right: 15px; border: none; background: none; font-size: 24px; cursor: pointer; color: #888;">&times;</button>
+                <div style="font-size: 50px; margin-bottom: 20px;">🔍</div>
+                <h2 style="color: #333; margin-bottom: 15px; font-size: 1.5rem;">Didn't find what you were looking for?</h2>
+                <p style="color: #666; margin-bottom: 25px; line-height: 1.5;">Check out our full library of assets! We have over 50+ categories waiting for you.</p>
+                <a href="index.html" style="display: block; background: #ff477e; color: white; text-decoration: none; padding: 15px 30px; border-radius: 50px; font-weight: bold; font-size: 1.1rem; transition: 0.3s; box-shadow: 0 4px 15px rgba(255, 71, 126, 0.4);">
+                    View All Categories ➔
+                </a>
+            </div>
+        `;
+
+        document.body.appendChild(modal);
+
+        // Логика отслеживания ухода мыши
+        document.addEventListener('mouseleave', (e) => {
+            if (e.clientY < 0 && !sessionStorage.getItem('exitIntentShown')) {
+                modal.style.display = 'flex';
+                sessionStorage.setItem('exitIntentShown', 'true');
+            }
+        });
+
+        // Закрытие окна
+        document.getElementById('closeExitModal').onclick = () => modal.style.display = 'none';
+        modal.onclick = (e) => { if(e.target === modal) modal.style.display = 'none'; };
+    }
+
+    // Запускаем функцию
+    initExitIntent();
 });
