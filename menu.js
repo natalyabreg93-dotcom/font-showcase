@@ -67,6 +67,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page10.html#kids-animal-coloring">↳ Animal Coloring</a>
                         <a href="page10.html#adult-coloring">↳ Mandala & Zen</a>
                         <a href="page10.html#fantasy-creatures">↳ Fantasy Creatures</a>
+                        <a href="page10.html#grayscale-portraits">↳ Grayscale Portraits</a>
+                        <a href="page10.html#quote-coloring">↳ Inspirational Quotes</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
                         <a href="page14.html">Crochet Patterns</a> <a href="page17.html">Greeting Cards</a>
                         <a href="page18.html">DIY Gift Boxes</a> <a href="page21.html">Paper Flowers</a>
@@ -106,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener('scroll', () => { upBtn.style.display = window.pageYOffset > 500 ? 'block' : 'none'; });
     upBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // 5. САЙДБАР: ПОДАРКИ, 50+ КАТЕГОРИЙ И СТРЕЛКА
+    // 5. САЙДБАР: ПОДАРКИ, 50+ КАТЕГОРИЙ, СТРЕЛКА И РЕКЛАМА
     const freebieData = [
         { title: "Daily Free Gifts", img: "image/gift-daily.jpg", link: "https://www.creativefabrica.com/daily-gifts/ref/10996753/" },
         { title: "Free Fonts Pack", img: "image/gift-font.jpg", link: "https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" },
@@ -118,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const sidebar = document.querySelector('.sidebar') || document.querySelector('aside');
         if (!sidebar) return;
 
-        // ПРАВКА ТЕКСТА 50+ (ищем параграфы внутри сайдбара)
+        // ПРАВКА ТЕКСТА 50+
         const allSidebarP = sidebar.querySelectorAll('p');
         allSidebarP.forEach(p => {
             if (p.innerText.toLowerCase().includes('categories')) {
@@ -167,9 +169,28 @@ document.addEventListener("DOMContentLoaded", function() {
             `;
             sidebar.appendChild(arrowBox);
         }
+
+        // --- НОВЫЙ БЛОК: РЕКЛАМА ЯНДЕКСА ---
+        if (!document.getElementById('yandex_rtb_R-A-18951006-1')) {
+            const yandexBox = document.createElement('div');
+            yandexBox.id = 'yandex-ad-container';
+            yandexBox.style.marginTop = '30px'; // Отступ сверху от наших блоков
+            yandexBox.style.textAlign = 'center';
+            
+            // Вставляем контейнер для рекламы
+            yandexBox.innerHTML = `<div id="yandex_rtb_R-A-18951006-1"></div>`;
+            sidebar.appendChild(yandexBox);
+
+            // Инициализация рендеринга рекламы
+            window.yaContextCb.push(() => {
+                Ya.Context.AdvManager.render({
+                    "blockId": "R-A-18951006-1",
+                    "renderTo": "yandex_rtb_R-A-18951006-1"
+                })
+            });
+        }
     }
 
-    // Запускаем через небольшую паузу, чтобы DOM точно был готов
     setTimeout(initSidebarExtras, 800);
 
     // 6. ПОИСК (с подсказками)
@@ -217,11 +238,10 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         document.addEventListener('click', e => { if (!e.target.closest('.search-box')) document.querySelectorAll('.search-results').forEach(r => r.style.display = 'none'); });
     }, 1200);
-// --- EXIT INTENT POPUP LOGIC ---
+
+    // 7. EXIT INTENT POPUP LOGIC
     function initExitIntent() {
         if (sessionStorage.getItem('exitIntentShown')) return;
-
-        // Создаем HTML структуру окна
         const modal = document.createElement('div');
         modal.id = 'exitModal';
         Object.assign(modal.style, {
@@ -230,7 +250,6 @@ document.addEventListener("DOMContentLoaded", function() {
             zIndex: '10000', alignItems: 'center', justifyContent: 'center',
             fontFamily: 'sans-serif'
         });
-
         modal.innerHTML = `
             <div style="background: white; padding: 40px; border-radius: 20px; text-align: center; max-width: 450px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
                 <button id="closeExitModal" style="position: absolute; top: 15px; right: 15px; border: none; background: none; font-size: 24px; cursor: pointer; color: #888;">&times;</button>
@@ -242,22 +261,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 </a>
             </div>
         `;
-
         document.body.appendChild(modal);
-
-        // Логика отслеживания ухода мыши
         document.addEventListener('mouseleave', (e) => {
             if (e.clientY < 0 && !sessionStorage.getItem('exitIntentShown')) {
                 modal.style.display = 'flex';
                 sessionStorage.setItem('exitIntentShown', 'true');
             }
         });
-
-        // Закрытие окна
         document.getElementById('closeExitModal').onclick = () => modal.style.display = 'none';
         modal.onclick = (e) => { if(e.target === modal) modal.style.display = 'none'; };
     }
-
-    // Запускаем функцию
     initExitIntent();
 });
