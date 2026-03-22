@@ -4,59 +4,70 @@ document.addEventListener("DOMContentLoaded", function() {
     script.src = 'products.js';
     document.head.appendChild(script);
 
-    const currentPath = window.location.pathname.split("/").pop() || "index.html";
-
-    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ
+    // 2. ГЕНЕРАЦИЯ HTML-КОДА МЕНЮ (Полная синхронизация с index.html)
     const menuHTML = `
         <nav class="main-navigation">
             <div class="nav-container">
                 <div class="nav-group">
-                    <button class="group-btn">Fonts ▾</button>
+                    <button class="group-btn">Fonts & Wedding ▾</button>
                     <div class="dropdown-content">
-                        <a href="page1.html">Script</a> <a href="page2.html">Serif</a>
-                        <a href="page3.html">Retro</a> <a href="page4.html">Minimal</a>
-                        <a href="page5.html">Gothic</a> <a href="page6.html">Wedding</a>
+                        <a href="page1.html">Script Fonts</a>
+                        <a href="page2.html">Serif Fonts</a>
+                        <a href="page3.html">Retro Fonts</a>
+                        <a href="page4.html">Minimal Fonts</a>
+                        <div style="height:1px; background:#eee; margin:5px 0;"></div>
+                        <a href="page6.html#wedding-svg">Wedding & Monograms</a>
+                        <a href="page6.html#wedding-seating-charts">Wedding Seating Charts</a>
                     </div>
                 </div>
                 <div class="nav-group">
                     <button class="group-btn">Stickers & Papers ▾</button>
                     <div class="dropdown-content">
                         <a href="page11.html" style="font-weight:bold; border-bottom:1px solid #eee;">Stickers Hub</a>
+                        <a href="page11.html#aesthetic-stickers">↳ Aesthetic Stickers</a>
                         <a href="page11.html#floral-stickers">↳ Floral Stickers</a>
-                        <a href="page11.html#self-care-stickers">↳ Quotes & Self Care</a>
+                        <a href="page11.html#self-care-stickers">↳ Self Care Stickers</a>
                         <a href="page11.html#holiday-stickers">↳ Holiday Stickers</a>
                         <a href="page11.html#animal-stickers">↳ Animal Stickers</a>
-                        <a href="page11.html#food-stickers">↳ Food & Drink</a>
+                        <a href="page11.html#food-stickers">↳ Food Stickers</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
+                        <a href="page11.html#watercolor-textures">Watercolor & Patterns</a>
+                        <a href="page11.html#seamless-patterns">Seamless Patterns</a>
                         <a href="page12.html">Digital Paper Packs</a>
                     </div>
                 </div>
                 <div class="nav-group">
-                    <button class="group-btn">Business & Canva ▾</button>
+                    <button class="group-btn">Canva & Marketing ▾</button>
                     <div class="dropdown-content">
-                        <a href="page13.html" style="font-weight:bold; border-bottom:1px solid #eee;">Branding Kits</a>
-                        <a href="page13.html#minimalist-logos">↳ Minimalist Logos</a>
-                        <a href="page13.html#beauty-logos">↳ Beauty Logos</a>
+                        <a href="page13.html" style="font-weight:bold; border-bottom:1px solid #eee;">Business Templates</a>
+                        <a href="page13.html#minimalist-logos">↳ Logo Templates</a>
+                        <a href="page13.html#beauty-logos">↳ Salon & Beauty Logos</a>
                         <a href="page13.html#business-cards">↳ Business Cards</a>
                         <a href="page13.html#menu-templates">↳ Menu Templates</a>
                         <a href="page13.html#flyer-templates">↳ Flyer Templates</a>
-                        <a href="page13.html#resume-templates">↳ Resumes & CV</a>
+                        <a href="page13.html#resume-templates">↳ Resume & CV</a>
                         <a href="page13.html#certificate-templates">↳ Certificates</a>
                         <a href="page13.html#invoice-templates">↳ Invoice Templates</a>
-                        <a href="page13.html#brochure-templates">↳ Presentations</a>
+                        <a href="page13.html#brochure-templates">↳ Brochures & Presentations</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
                         <a href="page7.html">Social Media Kits</a>
+                        <a href="page7.html#real-estate">↳ Real Estate</a>
+                        <a href="page7.html#coaches">↳ Coaching & Workbooks</a>
                         <a href="page20.html">YouTube Assets</a>
                     </div>
                 </div>
                 <div class="nav-group">
-                    <button class="group-btn">Graphics & POD ▾</button>
+                    <button class="group-btn">Graphics & KDP ▾</button>
                     <div class="dropdown-content">
-                        <a href="page8.html">KDP Interiors</a>
+                        <a href="page8.html" style="font-weight:bold; border-bottom:1px solid #eee;">KDP Interiors</a>
+                        <a href="page8.html#budget-planners">↳ KDP Budget Planner</a>
+                        <div style="height:1px; background:#eee; margin:5px 0;"></div>
                         <a href="page9.html">SVG Cut Files</a>
+                        <a href="page9.html#cricut-svg">↳ Cricut SVG</a>
+                        <a href="page9.html#baby-svg">↳ Baby & Nursery SVG</a>
                         <a href="page15.html">Tumbler Wraps</a>
-                        <a href="page16.html">Retro POD Designs</a>
                         <a href="page19.html">Laser Cut Files</a>
+                        <a href="page22.html">Machine Embroidery</a>
                     </div>
                 </div>
                 <div class="nav-group">
@@ -64,15 +75,18 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div class="dropdown-content">
                         <a href="page10.html" style="font-weight:bold; border-bottom:1px solid #eee;">Coloring Library</a>
                         <a href="page10.html#kids-coloring">↳ Kids Coloring</a>
-                        <a href="page10.html#kids-animal-coloring">↳ Animal Coloring</a>
-                        <a href="page10.html#adult-coloring">↳ Mandala & Zen</a>
-                        <a href="page10.html#fantasy-creatures">↳ Fantasy Creatures</a>
+                        <a href="page10.html#kids-animal-coloring">↳ Animal Coloring Pages</a>
+                        <a href="page10.html#adult-coloring">↳ Adult & Mandalas</a>
+                        <a href="page10.html#fantasy-creatures">↳ Fantasy Coloring</a>
                         <a href="page10.html#grayscale-portraits">↳ Grayscale Portraits</a>
                         <a href="page10.html#quote-coloring">↳ Inspirational Quotes</a>
+                        <a href="page10.html#floral-coloring">↳ Floral Coloring</a>
+                        <a href="page10.html#holiday-coloring">↳ Holiday Coloring</a>
+                        <a href="page10.html#kawaii-coloring">↳ Kawaii Coloring</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
-                        <a href="page14.html">Crochet Patterns</a> <a href="page17.html">Greeting Cards</a>
-                        <a href="page18.html">DIY Gift Boxes</a> <a href="page21.html">Paper Flowers</a>
-                        <a href="page22.html">Embroidery Art</a>
+                        <a href="page14.html">Crochet Patterns</a>
+                        <a href="page21.html">Paper Flowers</a>
+                        <a href="page17.html">Greeting Cards</a>
                     </div>
                 </div>
                 <div class="search-box" style="position: relative;">
@@ -83,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </nav>
     `;
 
-    // 3. ВСТАВКА МЕНЮ (ВЕРХ И НИЗ)
+    // 3. ВСТАВКА МЕНЮ
     if (document.querySelectorAll(".nav-placeholder").length < 2) {
         const footerTag = document.querySelector('footer, .final-cta');
         if (footerTag) {
@@ -108,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener('scroll', () => { upBtn.style.display = window.pageYOffset > 500 ? 'block' : 'none'; });
     upBtn.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
-    // 5. САЙДБАР: ПОДАРКИ, 50+ КАТЕГОРИЙ, СТРЕЛКА И РЕКЛАМА
+    // 5. САЙДБАР: ПОДАРКИ И СТРЕЛКА
     const freebieData = [
         { title: "Daily Free Gifts", img: "image/gift-daily.jpg", link: "https://www.creativefabrica.com/daily-gifts/ref/10996753/" },
         { title: "Free Fonts Pack", img: "image/gift-font.jpg", link: "https://www.creativefabrica.com/freebies/free-fonts/ref/10996753/" },
@@ -120,15 +134,12 @@ document.addEventListener("DOMContentLoaded", function() {
         const sidebar = document.querySelector('.sidebar') || document.querySelector('aside');
         if (!sidebar) return;
 
-        // ПРАВКА ТЕКСТА 50+
-        const allSidebarP = sidebar.querySelectorAll('p');
-        allSidebarP.forEach(p => {
+        sidebar.querySelectorAll('p').forEach(p => {
             if (p.innerText.toLowerCase().includes('categories')) {
                 p.innerHTML = '← View All 50+ Categories';
             }
         });
 
-        // БЛОК ПОДАРКОВ
         if (!document.getElementById('daily-gift-box')) {
             const giftWrapper = document.createElement('div');
             giftWrapper.innerHTML = `
@@ -157,7 +168,6 @@ document.addEventListener("DOMContentLoaded", function() {
             setInterval(updateGift, 5000);
         }
 
-        // БАННЕР-СТРЕЛКА
         if (!document.getElementById('side-search-banner')) {
             const arrowBox = document.createElement('div');
             arrowBox.id = 'side-search-banner';
@@ -168,26 +178,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img src="image/search-arrow.jpg" style="width:100%; border-radius: 15px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" onclick="document.querySelector('.search-input').focus()">
             `;
             sidebar.appendChild(arrowBox);
-        }
-
-        // --- НОВЫЙ БЛОК: РЕКЛАМА ЯНДЕКСА ---
-        if (!document.getElementById('yandex_rtb_R-A-18951006-1')) {
-            const yandexBox = document.createElement('div');
-            yandexBox.id = 'yandex-ad-container';
-            yandexBox.style.marginTop = '30px'; // Отступ сверху от наших блоков
-            yandexBox.style.textAlign = 'center';
-            
-            // Вставляем контейнер для рекламы
-            yandexBox.innerHTML = `<div id="yandex_rtb_R-A-18951006-1"></div>`;
-            sidebar.appendChild(yandexBox);
-
-            // Инициализация рендеринга рекламы
-            window.yaContextCb.push(() => {
-                Ya.Context.AdvManager.render({
-                    "blockId": "R-A-18951006-1",
-                    "renderTo": "yandex_rtb_R-A-18951006-1"
-                })
-            });
         }
     }
 
