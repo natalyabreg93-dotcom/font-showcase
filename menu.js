@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page8.html" style="font-weight:bold; border-bottom:1px solid #eee;">KDP Interiors</a>
                         <a href="page8.html#budget-planners">↳ KDP Budget Planner</a>
                         <div style="height:1px; background:#eee; margin:5px 0;"></div>
+                        <a href="page8.html#recipe-interiors">↳ Recipe Book Interiors</a>
                         <a href="page9.html">SVG Cut Files</a>
                         <a href="page9.html#cricut-svg">↳ Cricut SVG</a>
                         <a href="page9.html#baby-svg">↳ Baby & Nursery SVG</a>
