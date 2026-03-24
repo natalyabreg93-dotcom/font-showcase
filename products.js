@@ -45,7 +45,133 @@ const products = [
     {
         "name": "Boho Wedding Script",
         "category": "30+ Premium Elegant Script Fonts",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/03/The-Mega-Font-Bundle-Bundles-129510145-1-2-1.jpg",
+        "img": "https://cdn.creativefabrica.com/2025/01/08/Boho-Wedding-Fonts-113438841-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Summit Planner Font Bundle",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/01/09/Summit-Planner-Bundle-Fonts-113508271-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Overthinking Creative Font",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/01/31/Overthinking-Fonts-141343382-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Small Text Optimized Font",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/01/24/Small-Text-Fonts-140842261-1-1-580x386.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Amsterdam Elegant Serif",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/01/27/Amsterdam-Fonts-141029488-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Mega Handlettered Vol. 2",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2024/07/15/Mega-Handlettered-Vol-2-Fonts-101990457-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Wedding 10 Font Bundle",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2024/07/27/Wedding-10-Bundle-Fonts-102657165-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Mega Notebook Handwriting",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/12/13/Mega-Notebook-Handwriting-Bundle-Fonts-137799115-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Soccer Mom Typography",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/01/31/Soccer-Mom-Typography-Design-with-Soccer-Graphics-115003480-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Tired Moms Club Design",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/03/11/Tired-Moms-Club-Typography-Design-Graphics-144479657-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Feral Wife SVG Typography",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/03/22/Feral-Wife-Typography-Design-Mom-Svg-Graphics-118561192-1-1-580x423.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Modern Serif Font Bundle",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/09/23/Modern-Serif-Bundle-Fonts-131441240-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Hermione Modern Serif",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2023/07/04/Hermione-Modern-Serif-Fonts-73658742-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Wolles Elegant Serif",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/03/02/Wolles-Elegant-Modern-Serif-Fonts-143706226-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Balgind Minimalist Serif",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/10/22/Balgind-Modern-Serif-Fonts-133689818-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Elegant Flowing Script",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/02/25/Elegant-Script-Fonts-143214526-1-1-580x386.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Amerys Unique Display",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/02/23/Amerys-Fonts-143048714-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Alignment Balanced Font",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2025/12/15/Alignment-Fonts-137902730-1-1-580x387.png",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Black Vintage Retro Font",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2026/02/23/Black-Vintage-Fonts-143052776-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Sia Display Typeface",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2022/05/22/Sia-Display-Typeface-Fonts-30974885-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Hello Sailor Display",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2022/02/17/Hello-Sailor-Display-Typeface-Graphics-25429139-1-1-580x387.jpg",
+        "link": "/page1.html"
+    },
+    {
+        "name": "Most Haunted Western",
+        "category": "30+ Premium Elegant Script Fonts",
+        "img": "https://cdn.creativefabrica.com/2023/05/16/Most-Haunted-Western-Display-Typeface-Fonts-69791970-1-1-580x387.jpg",
         "link": "/page1.html"
     },
     {
@@ -193,12 +319,6 @@ const products = [
         "link": "/page10.html"
     },
     {
-        "name": "Halloween Masks Set",
-        "category": "Ultimate Printable Coloring Library",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/01/Halloween-Masks-printable-coloring-pages-Graphics-78236430-1-1-580x386.jpg",
-        "link": "/page10.html"
-    },
-    {
         "name": "Stress Relief Adult Pack",
         "category": "Ultimate Printable Coloring Library",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/02/23/Stress-Relief-Adult-Coloring-Pages-Graphics-62171056-1-1-580x386.jpg",
@@ -277,12 +397,6 @@ const products = [
         "link": "/page10.html"
     },
     {
-        "name": "Pop Art Halloween",
-        "category": "Ultimate Printable Coloring Library",
-        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/15/Pop-Art-Halloween-Coloring-Sheets-Graphics-76924572-1-1-580x387.jpg",
-        "link": "/page10.html"
-    },
-    {
         "name": "500 Kawaii Collection",
         "category": "Ultimate Printable Coloring Library",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/04/06/500-Cute-Kawaii-Coloring-Pages-for-Kids-Graphics-95012319-1-1-580x435.jpg",
@@ -304,6 +418,108 @@ const products = [
         "name": "Zen Doodle Keywords",
         "category": "Ultimate Printable Coloring Library",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/11/23/Zen-doodle-coloring-book-Keywords-Graphics-48051466-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Pop Art Halloween",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/15/Pop-Art-Halloween-Coloring-Sheets-Graphics-76924572-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Halloween Masks Set",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/01/Halloween-Masks-printable-coloring-pages-Graphics-78236430-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Halloween Coloring for Adults",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/08/09/Halloween-Coloring-Pages-for-Adults-Graphics-76522963-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Halloween Cozy Mega Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/10/07/Halloween-Cozy-Coloring-Mega-Bundle-Graphics-132556293-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cozy Christmas Jar Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/12/15/Cozy-Christmas-Jar-Coloring-Book-Graphics-111982674-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Christmas Coloring for Kids",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2021/12/19/Christmas-Coloring-Book-for-Kids-KDP-Graphics-21963312-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Christmas Activity Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/10/03/Christmas-Activity-Book-for-Kids-Graphics-132214872-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Candy Basket Christmas Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/09/24/Candy-Basket-Christmas-Coloring-Book-Graphics-131537539-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold & Easy Halloween Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/09/11/Bold-Easy-Halloween-Coloring-Pages-Graphics-130559425-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Creepy Cutie Halloween Art",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/09/23/Creepy-Cutie-Halloween-Coloring-Pages-Graphics-131423804-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Spooky Halloween for Kids",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/09/17/Spooky-Halloween-Coloring-Pages-for-Kids-Graphics-131022252-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Halloween Activity Book Vol. 4",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/09/20/Halloween-Activity-Book-for-Kids-Vol-4-Graphics-79674758-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold Brush Christmas Tree",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/12/22/Bold-Brush-Christmas-Tree-Art-Graphics-138427477-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Santa & Reindeer PNGs",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/27/Christmas-Cute-Santa-and-Reindeer-PNGs-Graphics-136476500-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Pop Art SantaFaces Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/10/30/Pop-Art-SantaFaces-Festive-Coloring-Graphics-82844163-1-1-580x373.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Pop Art Santa Festive Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/10/30/Pop-Art-Santa-Festive-Coloring-Pages-Graphics-82843142-1-1-580x373.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold & Easy Cute Easter",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/27/Bold-and-Easy-Cute-Easter-Coloring-Pages-Graphics-143418442-1-1-580x403.jpg",
         "link": "/page10.html"
     },
     {
@@ -394,6 +610,114 @@ const products = [
         "name": "Cute Animal Coloring Pages",
         "category": "Ultimate Printable Coloring Library",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/09/17/cute-animal-coloring-pages20-Graphics-17433863-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Pixie Hairstyles Portraits",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/29/Pixie-Hairstyles-Coloring-Book-Graphics-123086261-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Mohawk Styles Portraits",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/26/Mohawk-Hairstyles-Coloring-Book-Graphics-122914950-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Old Gentlemen Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/08/Old-Gentlemen-Coloring-Book-Graphics-121598058-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Tied Hairstyles Portraits",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/28/Tied-Hairstyles-Coloring-Book-Graphics-123021177-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Native American Beauties",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/24/Native-American-Women-Coloring-Pages-Graphics-118654236-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Modern Baddie Portraits Vol. 3",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/06/28/Baddie-Women-Grayscale-Coloring-Pages-Graphics-125061297-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Baddie Women Grayscale",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/31/Baddie-Women-Grayscale-Coloring-pages-Graphics-123220764-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Baddie Women Artistic Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/25/Baddie-Women-Grayscale-Coloring-Book-Graphics-118723821-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Black Beauty Grayscale",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/20/Beautiful-Black-Women-Coloring-Book-Graphics-118451277-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Crazy Grandpa Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/07/Crazy-Grandpa-Coloring-Book-Graphics-121563768-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Anime Christmas Girls",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/04/21/Anime-Christmas-Girls-Coloring-Book-Graphics-120337719-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Boho Beauties Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/03/24/Boho-Beauties-Coloring-Book-Graphics-118712095-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Realistic Shading Master",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/06/24/Beautiful-Portraits-Realistic-coloring-p-Graphics-72901029-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Dragon Portrait Shading",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/07/30/Cute-Dragon-Grayscale-Coloring-Vol-02-Graphics-127310284-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Autumn Fairy Portraits",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/08/27/Cute-Autumn-Fairy-Grayscale-Coloring-03-Graphics-129438821-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "122 Beautiful Girls Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/06/12/122-Beautiful-Girl-Coloring-Pages-Graphics-99572199-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Premium Women Portraits",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/02/27/Beautiful-Women-Coloring-Book-Graphics-91968649-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "200 Realistic Women Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/11/01/200-Beautiful-Women-Coloring-Pages-Graphics-109007909-1-1-580x386.png",
         "link": "/page10.html"
     },
     {
@@ -538,6 +862,312 @@ const products = [
         "name": "32 One Line Art Animals",
         "category": "Ultimate Printable Coloring Library",
         "img": "https://cdn.creativefabrica.com/2022/01/27/One-Line-Art-Animal-Drawings-32-animals-Graphics-24191668-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Motivational Bold & Easy Vol. 2",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/11/12/Motivational-Bold-And-Easy-Coloring-Page-Graphics-109605993-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Motivational Bold & Easy Vol. 1",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/11/10/Motivational-Bold-And-Easy-Coloring-Page-Graphics-109605552-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Floral Motivational Quote Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/12/15/Floral-Motivational-Quote-Coloring-Pages-Graphics-111971938-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Inspirational Quote Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/01/01/Inspirational-Quote-Coloring-Pages-Graphics-113007938-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "49 Motivational Quote Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/05/19/49-Motivational-Quote-Coloring-Pages-Graphics-70044332-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Motivational Quote Mega Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/04/02/Motivational-Quote-Coloring-Pages-Graphics-65982273-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Gratitude for Today Quotes",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/01/15/Gratitude-for-Today-Quote-Coloring-Pages-Graphics-113907777-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bible Verse Quote Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/01/01/Bible-Verse-Quote-Coloring-Pages-Graphics-113015597-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Caring for Your Mind Quotes",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/01/08/Caring-for-Your-Mind-Quote-Coloring-Page-Graphics-113458113-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "48 Christian Quote Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/01/01/48-Christian-Quote-Coloring-Pages-Graphics-112968999-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Inspirational Pages for Girls",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/10/29/Inspirational-Coloring-Pages-For-Girls-Graphics-108858307-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "25 New Year Motivation Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/12/28/25-New-Year-Motivational-Coloring-Pages-Graphics-87285710-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold & Easy Motivational Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/23/Bold-And-Easy-Motivational-Coloring-Book-Graphics-136074053-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Funny Swear Words Adult Art",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/02/26/Swear-Words-Adult-Coloring-Pages-ADULT-Graphics-91907538-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Stress Relief Adult Quotes",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/02/23/Stress-Relief-Adult-Coloring-Pages-Graphics-62171056-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Positive Affirmation Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2021/11/18/Positive-Affirmation-Coloring-Book-Graphics-20374974-1-1-580x387.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold Positive Affirmation Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/12/09/Bold-Positive-Affirmation-Coloring-Pages-Graphics-111639725-1-1-580x381.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "100 Positive Affirmation Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/12/08/100-Positive-Affirmation-Coloring-Pages-Graphics-111556332-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Bold & Easy Boho Floral",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/23/Bold-Easy-Boho-Floral-Coloring-Pages-Graphics-143064899-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Boho Floral Bold & Easy",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/08/01/Boho-Floral-Coloring-Pages-Bold-and-Easy-Graphics-127455124-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Self-Love Floral Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/29/SelfLove-Floral-Coloring-Pages-Graphics-96531479-1-1-580x368.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "60+ Floral Patterns KDP",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/05/11/60-Patterns-Floral-Coloring-Book-KDP-Graphics-69368731-1-1-580x383.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "180 Botanical Pages (Adults)",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/07/180-Botanical-Coloring-Pages-For-Adults-Graphics-97096855-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "239 Botanical Pages (Kids)",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/01/239-Botanical-Coloring-Pages-for-Kids-Graphics-96665218-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "230 Botanical Pages (Kids)",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/05/230-Botanical-Coloring-Pages-for-Kids-Graphics-96967412-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "190 Botanical Pages (Adults)",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/05/190-Botanical-Coloring-Pages-for-Adults-Graphics-96964294-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Pretty Cute Bold & Easy",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/06/10/Pretty-Cute-Bold-and-Easy-Coloring-Pages-Graphics-123826432-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Stained Glass Flower Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/12/25/Stained-Glass-Flower-Coloring-Book-KDP-Graphics-87028837-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Butterfly with Flower Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/12/17/Butterfly-With-Flower-Coloring-Book-Page-Graphics-112104889-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Flower Pages for Adults",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/02/07/Flower-Coloring-Book-Page-for-Adults-Graphics-60287554-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "250 Vintage Flower Pack",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/06/04/250-Vintage-Flower-Coloring-Pages-Graphics-99021192-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Colorful Floral Art Set",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/25/Colorful-Floral-Art-Printable-Set-Graphics-136318442-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Elegant Floral Spring Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/27/Elegant-Floral-Spring-Coloring-Pages-Graphics-143380721-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Mindful Spring Nature Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/27/Mindful-Spring-Nature-Coloring-Book-Page-Graphics-143428126-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Mindful Nature Collection",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/03/03/Mindful-Nature-Coloring-Pages-Graphics-143823163-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Nature Coloring Pages Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/02/02/Nature-Coloring-Pages-Graphics-141552665-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Dot to Dot Kawaii Food",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2021/09/15/Dot-To-Dot-Kawaii-Food-Coloring-Book-Graphics-17343773-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "200 Cute Kawaii Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/01/20/200-Cute-Kawaii-Coloring-Pages-for-Kids-Graphics-89009256-1-1-580x414.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "70+ Cute Kawaii Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2026/03/06/70-CUTE-KAWAII-COLORING-PAGES-for-KIDS-Graphics-144072096-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "500 Kawaii Mega Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/06/500-Cute-Kawaii-Coloring-Pages-for-Kids-Graphics-95012319-1-1-580x435.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Printable Kawaii Unicorns",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/05/05/Printable-Kawaii-Unicorn-Art-Graphics-121350713-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Adorable Animal Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/07/02/Adorable-Animal-Coloring-Book-For-Kids-Graphics-125356393-1-1-580x386.png",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Kawaii Kids Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/10/26/Cute-Kawaii-Kids-Coloring-Pages-Graphics-133999942-1-1-580x377.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Kawaii Valentine Animals",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/11/25/Kawaii-Valentines-Animal-Coloring-Pages-Graphics-136276147-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "300 Kawaii Food Bundle",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/18/300-Cute-Kawaii-Food-Coloring-Pages-Graphics-95695740-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Cute Kawaii Girls Pages",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2025/01/29/Cute-Kawaii-Girls-Coloring-Page-for-Kids-Graphics-114910283-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Kawaii Fashion Girls",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2023/11/01/Cute-Kawaii-Fashion-Girls-Coloring-Pages-Graphics-83008796-1-1-580x414.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Chibi Girls Coloring Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/05/15/Chibi-Girls-Coloring-Book-Graphics-97671675-1-1-580x386.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Kawaii Pocket Room Book",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/26/Kawaii-Coloring-book-Pocket-Room-Graphics-96257459-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Kawaii Pages for Adults",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2024/04/25/Kawaii-Coloring-pages-Printable-Adult-Graphics-96224556-1-1-580x387.jpg",
+        "link": "/page10.html"
+    },
+    {
+        "name": "Kawaii Food Dot to Dot",
+        "category": "Ultimate Printable Coloring Library",
+        "img": "https://cdn.creativefabrica.com/2022/02/08/Kawaii-Food-Dot-To-Dot-Graphics-24887264-2-580x387.png",
         "link": "/page10.html"
     },
     {
@@ -5438,236 +6068,668 @@ const products = [
     },
     {
         "name": "2026 KDP Interior Mega Bundle",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/08/03/2026-KDP-INTERIOR-MEGA-BUNDLE-Graphics-127377691-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Free Music Sheet Paper",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/24/Free-Music-Sheet-Paper-KDP-Interior-Graphics-32114928-580x406.png",
         "link": "/page8.html"
     },
     {
         "name": "Fitness Planner Interior",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/06/14/Fitness-Planner-KDP-Interior-Graphics-32340086-1-1-580x406.png",
         "link": "/page8.html"
     },
     {
         "name": "Password Log Book",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/11/17/Password-Log-Book-KDP-Interior-Graphics-20332320-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "FREE Lined Notebook Blank",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/05/FREE-Lined-Notebook-blank-KDP-Interior-Graphics-24706857-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Purrrfect Love Lined",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/01/28/Amazon-KDP-Template-Purrrfect-Love-Lined-Graphics-24267985-1-1-580x387.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Bird Watching Log Book",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/04/Bird-Watching-Log-Book-KDP-Template-Graphics-73683760-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Manifestation Journal",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/15/Manifestation-Journal-KDP-Interior-Graphics-76962660-1-1-580x387.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Understanding Emotions",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/05/19/Understanding-Emotions-kdp-interior-Graphics-70006569-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Address Book for KDP",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/01/27/Address-Book-for-KDP-Low-Content-Book-Graphics-8127936-1-1-580x415.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Low Content Planner",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/11/09/KDP-Low-Content-Book-Planner-Graphics-83602917-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Flight Log Book",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/02/19/Flight-Log-Book-for-KDP-Low-Content-Book-Graphics-61753935-1-1-580x388.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Anatomy Coloring Book",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/05/10/Anatomy-Coloring-Book-Interior-Canva-Graphics-30353603-1-1-580x435.png",
         "link": "/page8.html"
     },
     {
         "name": "Fashion Doll Coloring",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/08/22/Fashion-Doll-KDP-Coloring-Book-Interior-Graphics-77510178-1-1-580x435.png",
         "link": "/page8.html"
     },
     {
         "name": "Relaxing Coloring Interior",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/07/13/RELAXING-COLORING-PAGES-INTERIOR-Graphics-74441737-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Dog Quotes Coloring",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/01/16/Dog-Quotes-Coloring-Pages-Interior-Graphics-57870627-1-1-580x387.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Bible Study Journal",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/09/28/Bible-Study-Journal-Template-667-Graphics-72595325-580x386.png",
         "link": "/page8.html"
     },
     {
         "name": "Printable Canva Bundle",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/10/07/Printable-Canva-Planner-Template-Bundles-Graphics-87357726-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Canva Planner Bundle",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/03/27/Canva-Planner-Template-Bundle-Printable-Graphics-118900800-1-1-580x435.png",
         "link": "/page8.html"
     },
     {
         "name": "Canva Digital Planner",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/02/04/Canva-Digital-Planner-Template-Graphics-115312328-1-1-580x386.png",
         "link": "/page8.html"
     },
     {
         "name": "Bullet Journal Interior",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/09/25/Bullet-Journal-Interior-Graphics-73160203-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "My Bible Study Interior",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/01/09/My-Bible-Study-Journal-Interior-Graphics-23168162-1-1-580x387.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Budget Planner Excel",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/04/02/Budget-Planner-Excel-Rainbow-Theme-Graphics-110030553-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Gratitude Journal Pack",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/17/Gratitude-Journal-Template-Profits-Pack-Graphics-135680483-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "2026-2027 Planner Template",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/07/09/20262027-Planner-Template-Graphics-125823506-1-1-580x387.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Temperature Logbook",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2020/08/15/Temperature-Logbook-KDP-Ready-to-Upload-Graphics-4982171-1-1-580x382.png",
         "link": "/page8.html"
     },
     {
         "name": "FISHING LOGBOOK",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/07/09/FISHING-LOGBOOK-KDP-INTERIOR-Graphics-33858199-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Space Coloring Vol-11",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/03/05/Space-Coloring-Pages-Vol11-Graphics-26500315-1-1-580x414.jpg",
         "link": "/page8.html"
     },
     {
         "name": "How to Draw Easter",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/02/15/How-To-Draw-Easter-For-kids-Vol3-Graphics-25278630-1-1-580x414.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Word Search Activity",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/11/17/Word-Search-Activity-For-KDP-Business-Graphics-47078080-1-1-580x386.png",
         "link": "/page8.html"
     },
     {
         "name": "2026 Budget Planner Bundle",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/06/24/2026-Budget-Planner-Bundle-Canva-Kdp-Graphics-124794008-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Budget Tracker Interior",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/07/28/Budget-Tracker-KDP-Interior-Graphics-15218022-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Editable Budget Planner",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/11/15/Editable-Budget-Planner-KDP-Interior-Graphics-135542452-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Wedding Budget Planner",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2021/03/23/Wedding-Budget-Planner-KDP-Interior-Graphics-9897289-1-1-580x386.png",
         "link": "/page8.html"
     },
     {
         "name": "Money Savings Challenge",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2025/09/29/2026-Money-Savings-Challenge-KDP-Graphics-131909745-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Daily Expense Tracker",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/05/27/DAILY-expense-tracker-Graphics-98504648-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
         "name": "Debt Payoff Planner V1",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2023/06/30/Debt-Payoff-Planner-Kdp-Interior-Graphics-73346544-1-1-580x387.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Debt Payoff Planner V2",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2024/03/06/Debt-Payoff-Planner-Kdp-Printable-Graphics-92611470-1-1-580x386.jpg",
         "link": "/page8.html"
     },
     {
         "name": "Budget Expense Tracker",
-        "category": "Professional Amazon KDP Interiors",
+        "category": "Professional KDP Interiors & Budget Planners",
         "img": "https://www.creativefabrica.com/wp-content/uploads/2022/08/30/Budget-Expense-Tracker-KDP-Interior-Graphics-37357200-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Family Recipe Book Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2020/05/14/Family-Recipe-Book-Interior-FULL-BLEED-Graphics-4113554-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blank Recipe Book Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/24/Blank-Recipe-Book-Interior-Graphics-8910746-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Recipe Interior with Index",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/23/Blank-Recipe-Book-Interior-with-Index-Graphics-8884231-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Recipe Book Interior KDP",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/02/08/Recipe-Book-Interior-KDP-Graphics-60433801-1-1-580x363.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "100 Editable KDP Templates",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/03/24/100-Editable-KDP-Interior-Canva-Template-Graphics-94033122-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Retirement Planner KDP",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/03/06/Retirement-Planner-Kdp-Interior-Template-Graphics-92611152-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blog Post KDP Planner",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/18/Blog-Post-Planner-KDP-Interior-Template-Graphics-8756355-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Reseller KDP Planner",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/05/16/Reseller-Planner-KDP-Interior-Template-Graphics-69819747-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Fishing Journal KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/06/20/Fishing-Journal-KDP-Interior-Template-Graphics-13615191-1-1-580x406.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Low-Content Book Assets",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2026/02/08/LowContent-Books-Graphics-142026534-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Exploring Boundaries Therapy",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/05/19/Exploring-Boundaries-therapy-self-help-Graphics-70006557-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Culinary Heritage Journal",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/07/15/Culinary-Heritage-Journal-KDPReady-Graphics-102027195-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Cooking Scene Recipe Journal",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/10/14/Cooking-Scene-Recipe-Journal-KDP-Graphics-81565936-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "KDP Meal Planner Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/10/01/Meal-Planner-KDP-Graphics-132050918-1-1-580x441.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Recipe Logbook KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/09/15/Backing-or-recipe-logbook-KDP-interior-Graphics-105856684-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Family Recipe Sign Template",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/08/22/Editable-Family-Recipe-Sign-Template-Graphics-104355006-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Editable Recipe Canva Template",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2026/02/05/Editable-Recipe-Canva-Template-Graphics-141787463-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Cookbook Recipe Canva Pack",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/10/10/Cookbook-Template-Recipe-Book-Canva-Graphics-107543558-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blank Recipe Book to Write In",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2026/02/19/Blank-Recipe-Book-To-Write-in-Graphics-142750931-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blank Recipe Printable KDP",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/08/03/Blank-Recipe-Book-Template-Printable-KDP-Graphics-76090305-1-1-580x386.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blank Recipe Page Canva v2",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/03/23/Blank-Recipe-Page-Canva-Template-2-Graphics-118594558-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blank Recipe Book Journal",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/12/17/Blank-Recipe-Book-journal-KDP-Interior-Graphics-52874468-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Recipe Journal & Cookbook",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/08/12/Recipe-Journal-Cookbook-Kdp-Interior-Graphics-15761955-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Ultimate 2026 Meal Planner",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/11/12/Ultimate-2026-Meal-Planner-KDP-Interior-Graphics-135319924-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Fitness Planner Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/26/Fitness-Planner-Interior-Graphics-8978434-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Daily Fitness Journal Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/23/Daily-Fitness-Journal-Interior-Graphics-8879550-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "KDP Workout Planner Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/01/22/KDP-Workout-Planner-Interior-Graphics-7976637-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Daily Fitness Planner + Cover",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/05/30/Daily-Fitness-Planner-Interior-KdpCOVER-Graphics-70898340-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Workout Log KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/05/Workout-Log-KDP-Interior-Graphics-8366429-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Workout Log KDP Ready",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/04/26/Workout-Log-KDP-Ready-Graphics-68165199-1-1-580x331.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Kids Fitness Log Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/02/16/Kids-fitness-log-kdp-interior-Graphics-61367520-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "2026 Health Tracker Template",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/10/25/2026-Health-Tracker-Template-Graphics-133929778-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "2027 Health Tracker Template",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2026/03/04/2027-Health-Tracker-Template-Graphics-143902153-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Canva Mental Health Planner",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/07/26/nbspCanva-Mental-Health-Digital-Planner-Graphics-67618391-5-580x386.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "100 Editable KDP Templates",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/03/24/100-Editable-KDP-Interior-Canva-Template-Graphics-94033122-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Keto Diet Journal Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/03/31/Keto-Diet-Journal-interior-Graphics-28164286-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Keto Diet Planner (Large)",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/08/01/Keto-Diet-Planner-Large-Graphics-35256913-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Body Measurement Tracker",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/06/13/Printable-Body-Measurement-Tracker-Graphics-71996276-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Body Measurement Template",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/09/03/Body-Measurement-Tracker-Template-Graphics-78446992-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "120 Days Fitness Planner",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/03/05/120-Days-Fitness-workout-planner-Graphics-92566213-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Weight Loss KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/03/22/weight-loss-planner-KDP-interior-Graphics-27635916-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Workout Log Book Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/04/09/Workout-Log-Book-KDP-Interior-Graphics-119623944-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "2026 Self Care Journal",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/09/13/2026-Self-Care-Wellness-Journal-KDP-Graphics-130703094-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Dad’s Fitness & Wellness",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/06/08/Dads-Fitness-and-Wellness-Journal-Kdp-Graphics-99282397-1-1-580x406.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Daily Wellness KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/04/01/DAILY-WELLNESS-JOURNAL-KDP-INTERIOR-Graphics-94596900-1-1-580x363.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Cats Kdp Printables Notebook",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/11/04/Cats-Kdp-Printables-Notebook-Graphics-19684170-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Monthly Budget Planner Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/12/22/Monthly-Budget-Planner-Interior-Graphics-53957184-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Monthly Budget Planner Interior v2",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/10/11/monthly-budget-planner-interior-Graphics-41210044-1-1-580x386.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Kdp Budget Planner Interior Log",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/04/24/Kdp-budget-planner-interior-log-Graphics-29536691-1-1-580x411.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "100 Editable KDP Templates",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/03/24/100-Editable-KDP-Interior-Canva-Template-Graphics-94033122-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Retirement Planner Kdp Template",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/03/06/Retirement-Planner-Kdp-Interior-Template-Graphics-92611152-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Blog Post Planner KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/02/18/Blog-Post-Planner-KDP-Interior-Template-Graphics-8756355-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Reseller Planner KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/05/16/Reseller-Planner-KDP-Interior-Template-Graphics-69819747-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Annual Financial Planner Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/12/10/Annual-Financial-Planner-Printable-Graphics-51375867-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Financial Planner Journal",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/10/07/Financial-planner-printable-journal-Graphics-40521024-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Budget & Finance Tracker",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2024/07/25/Budget-Tracker-Finance-Planner-Finance-Graphics-102556795-1-1-580x435.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Savings Tracker KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/01/03/Savings-Tracker-KDP-Interior-Graphics-7543396-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Savings Tracker KDP Interior v2",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2020/05/04/Savings-Tracker-KDP-Interior-Graphics-4029023-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Envelope Savings Tracker",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/08/16/Envelope-Savings-Tracker-KDP-Interior-Graphics-36351291-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Savings Planner KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/08/15/Savings-PlannerKDP-Interior-Graphics-36259893-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Budget Planner Log Book",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/02/12/KDP-interior-budget-planner-log-book-Graphics-25112928-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Budget Planner (200 Pages)",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/04/06/Kdp-Interior-Budget-Planner-200-PAGES-Graphics-10470397-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Budget Planner (120 Pages)",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2021/04/06/KDP-Interior-Budget-Planner-120-Pages-Graphics-10448254-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Budget Planner KDP Interior",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/02/12/Budget-Planner-KDP-Interior-Graphics-60945569-1-1-580x387.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Printable Budget (4 Sizes)",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2026/01/25/Printable-Budget-Planner-4-Sizes-PDF-Graphics-137561545-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Udget Printable Finance Tracker",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2023/12/17/udget-Planner-Printable-Finance-Tracker-Graphics-86548247-1-1-580x435.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Printable Monthly Budget",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/12/11/Printable-Monthly-Budget-Planner-Graphics-51524253-1-1-580x386.jpg",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Debt Payoff Tracker Excel",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/04/03/Debt-Payoff-Tracker-Excel-amp-Google-Sheet-Graphics-102589325-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Debt Payoff Planner & Tracker",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/04/05/Debt-Payoff-Planner-Tracker-Graphics-119386223-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Debt Payoff Tracker Sheets v2",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2025/04/05/Debt-Payoff-Tracker-Excel-Google-Sheet-Graphics-119387101-1-1-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "Personal Monthly Budget PDF",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2026/01/25/Personal-Monthly-Budget-Template-PDF-Graphics-138945804-580x387.png",
+        "link": "/page8.html"
+    },
+    {
+        "name": "300 Hitori Puzzles for KDP",
+        "category": "Professional KDP Interiors & Budget Planners",
+        "img": "https://cdn.creativefabrica.com/2022/11/23/300-Hitori-Puzzles-for-kdp-publishing-Graphics-48158609-1-1-580x387.png",
         "link": "/page8.html"
     },
     {
@@ -5950,12 +7012,6 @@ const products = [
         "name": "15 Baby Months Bundle",
         "category": "Premium SVG Cut Files & Laser Designs",
         "img": "https://cdn.creativefabrica.com/2023/08/19/Baby-Milestone-SVG-Bundle-15-Baby-Months-Graphics-77270194-1-1-580x387.jpg",
-        "link": "/page9.html"
-    },
-    {
-        "name": "This Kid Can Cook SVG",
-        "category": "Premium SVG Cut Files & Laser Designs",
-        "img": "https://cdn.creativefabrica.com/2022/11/25/this-kid-can-cook-TShirt-Designs-Svg-Graphics-48522391-1-1-580x386.jpg",
         "link": "/page9.html"
     },
     {
