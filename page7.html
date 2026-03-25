@@ -12,20 +12,21 @@
     <style>
     html { scroll-behavior: smooth; }
 
-    /* Контейнер */
+    /* Главный контейнер для сетки и сайдбара */
     .main-container {
         display: flex;
         gap: 25px;
         align-items: flex-start;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 
     main { flex: 3; min-width: 0; }
     .sidebar { flex: 1; min-width: 300px; }
 
-    /* Единый стиль для всех баннеров (Шапка и Разделители) */
-    header, .section-banner {
+    /* СТИЛЬ ШАПКИ (Как на page 1 и page 10) */
+    header {
         text-align: center;
         margin: 40px auto;
         width: 100%;
@@ -34,15 +35,31 @@
         box-sizing: border-box;
     }
 
-    /* Ограничиваем картинки в шапке и разделителях до 900px для аккуратности */
-    header img, .section-banner img, .header-banner {
+    /* Картинка в шапке теперь на всю ширину контейнера (1200px) */
+    header img {
         width: 100%;
-        max-width: 900px; 
         height: auto;
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         display: block;
         margin: 0 auto;
+    }
+
+    /* Стили для разделителей внутри страницы */
+    .section-banner {
+        text-align: center;
+        margin: 50px auto 30px;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .section-banner img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     }
 
     @media (max-width: 992px) {
@@ -51,7 +68,6 @@
     }
 </style>
       
-<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -63,29 +79,27 @@
     ym(106438772, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/106438772" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
-   </head>
+</head>
 <body>
 
- <header>
-    <img src="image/7.png" alt="Social Media & Real Estate Templates">
-    <h1 style="margin-top: 25px; font-size: 2.5rem; color: #222;">Instagram & Marketing Templates</h1>
+<div class="nav-placeholder"></div>
+
+<header>
+    <img src="image/7.jpg" alt="Instagram & Marketing Templates">
+    <h1 style="margin-top: 25px; font-size: 2.5rem; color: #222;">Instagram & Business Marketing Templates</h1>
     <p style="font-size: 1.2rem; color: #666; max-width: 900px; margin: 10px auto;">
         Explore our curated collection of aesthetic feed layouts, engagement stories, and <strong>exclusive Real Estate marketing kits</strong> for professional agents.
     </p>
 </header>
 
-    <div class="nav-placeholder"></div>
-
-    <section class="pro-guide-section" style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+<section class="pro-guide-section" style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
     <div style="background: #fff; border: 1px dashed #6366f1; border-radius: 15px; padding: 25px; display: flex; align-items: center; gap: 20px; box-shadow: 5px 5px 0px #f5f3ff, 6px 6px 0px #6366f1;">
         <div style="font-size: 35px; background: #f5f3ff; padding: 10px; border-radius: 50%;">🚀</div>
         <div>
             <h4 style="margin: 0 0 5px; color: #4f46e5; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px;">Marketing Pro: Visual Authority & Engagement</h4>
             <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">
                 In the digital age, your social media feed is your 24/7 storefront. Our <strong>Marketing Canva Templates</strong> are engineered to boost engagement and establish instant visual authority. 
-                <br><span style="color: #333; font-weight: bold;">Strategy Tip:</span> Mix educational <em>Carousels</em> with high-impact <em>Reels covers</em> to keep your audience scrolling and learning. Consistency is key—use our cohesive branding kits to ensure your brand is recognizable across Instagram, Pinterest, and TikTok.
+                <br><span style="color: #333; font-weight: bold;">Strategy Tip:</span> Mix educational <em>Carousels</em> with high-impact <em>Reels covers</em>. Consistency is key—use our cohesive branding kits to ensure your brand is recognizable across all platforms.
             </p>
         </div>
     </div>
