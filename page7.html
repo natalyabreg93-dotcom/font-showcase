@@ -10,55 +10,46 @@
     <link rel="stylesheet" href="style.css">
      
     <style>
-        html {
-            scroll-behavior: smooth;
-        }
+    html { scroll-behavior: smooth; }
 
-        /* Защита сайдбара и правильная центровка */
-        .main-container {
-            display: flex;
-            gap: 25px;
-            align-items: flex-start;
-        }
+    /* Контейнер */
+    .main-container {
+        display: flex;
+        gap: 25px;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 
-        main {
-            flex: 3;
-            min-width: 0;
-        }
+    main { flex: 3; min-width: 0; }
+    .sidebar { flex: 1; min-width: 300px; }
 
-        .sidebar {
-            flex: 1;
-            min-width: 300px;
-        }
+    /* Единый стиль для всех баннеров (Шапка и Разделители) */
+    header, .section-banner {
+        text-align: center;
+        margin: 40px auto;
+        width: 100%;
+        max-width: 1200px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
 
-        /* Стили для широкого баннера-разделителя */
-        .section-banner {
-            text-align: center;
-            margin: 50px auto 35px;
-            width: 100%;
-            max-width: 1200px;
-            padding: 0 10px;
-            box-sizing: border-box;
-        }
+    /* Ограничиваем картинки в шапке и разделителях до 900px для аккуратности */
+    header img, .section-banner img, .header-banner {
+        width: 100%;
+        max-width: 900px; 
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        display: block;
+        margin: 0 auto;
+    }
 
-        .section-banner img {
-            width: 100%;
-            height: auto;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            display: block;
-        }
-
-        @media (max-width: 992px) {
-            .main-container {
-                flex-direction: column;
-            }
-            .sidebar {
-                width: 100%;
-                min-width: unset;
-            }
-        }
-    </style>
+    @media (max-width: 992px) {
+        .main-container { flex-direction: column; }
+        .sidebar { width: 100%; min-width: unset; }
+    }
+</style>
       
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -77,8 +68,8 @@
    </head>
 <body>
 
- <header style="text-align: center; margin-bottom: 40px;">
-    <img src="image/7.png" alt="Social Media & Real Estate Templates" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+ <header>
+    <img src="image/7.png" alt="Social Media & Real Estate Templates">
     <h1 style="margin-top: 25px; font-size: 2.5rem; color: #222;">Instagram & Marketing Templates</h1>
     <p style="font-size: 1.2rem; color: #666; max-width: 900px; margin: 10px auto;">
         Explore our curated collection of aesthetic feed layouts, engagement stories, and <strong>exclusive Real Estate marketing kits</strong> for professional agents.
