@@ -9,56 +9,33 @@
     <link rel="icon" type="image/png" href="image/favicon.png"> 
     <link rel="stylesheet" href="style.css">
     
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
+    /* Фикс для аккуратных баннеров */
+.section-banner {
+    text-align: center;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 1200px; /* Ограничиваем общую область */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 
-        /* Защита сайдбара и стабильность разметки */
-        .main-container {
-            display: flex;
-            gap: 25px;
-            align-items: flex-start;
-        }
+.section-banner img {
+    width: 100%;
+    max-width: 900px; /* ВОТ ЭТОТ ПАРАМЕТР делает его аккуратным, а не гигантским */
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto; /* Центрируем само изображение */
+}
 
-        main {
-            flex: 3;
-            min-width: 0;
-        }
-
-        .sidebar {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        /* Стили для широких баннеров-разделителей */
-        .section-banner {
-            text-align: center;
-            margin: 60px auto 40px;
-            width: 100%;
-            max-width: 1200px;
-            padding: 0 10px;
-            box-sizing: border-box;
-        }
-
-        .section-banner img {
-            width: 100%;
-            height: auto;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            display: block;
-        }
-
-        @media (max-width: 992px) {
-            .main-container {
-                flex-direction: column;
-            }
-            .sidebar {
-                width: 100%;
-                min-width: unset;
-            }
-        }
-    </style>   
+/* Фикс для футера (final-cta), если там есть картинки */
+.final-cta img {
+    max-width: 300px; /* Чтобы картинки внизу не были на весь экран */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
    
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -86,6 +63,19 @@
 </header>
 
     <div class="nav-placeholder"></div>
+
+    <section class="pro-guide-section" style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+    <div style="background: #fff; border: 1px dashed #6366f1; border-radius: 15px; padding: 25px; display: flex; align-items: center; gap: 20px; box-shadow: 5px 5px 0px #f5f3ff, 6px 6px 0px #6366f1;">
+        <div style="font-size: 35px; background: #f5f3ff; padding: 10px; border-radius: 50%;">🚀</div>
+        <div>
+            <h4 style="margin: 0 0 5px; color: #4f46e5; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px;">Marketing Pro: Visual Authority & Engagement</h4>
+            <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">
+                In the digital age, your social media feed is your 24/7 storefront. Our <strong>Marketing Canva Templates</strong> are engineered to boost engagement and establish instant visual authority. 
+                <br><span style="color: #333; font-weight: bold;">Strategy Tip:</span> Mix educational <em>Carousels</em> with high-impact <em>Reels covers</em> to keep your audience scrolling and learning. Consistency is key—use our cohesive branding kits to ensure your brand is recognizable across Instagram, Pinterest, and TikTok.
+            </p>
+        </div>
+    </div>
+</section>
 
     <div class="main-container">
         <main>
@@ -198,6 +188,47 @@
     </div>
 
     <div class="nav-placeholder"></div>
+
+    <section class="marketing-hub" style="max-width: 1200px; margin: 80px auto; padding: 0 20px; font-family: 'Segoe UI', sans-serif;">
+    <div style="text-align: center; margin-bottom: 50px;">
+        <span style="color: #6366f1; font-weight: bold; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem;">Business Growth Lab</span>
+        <h2 style="color: #222; font-size: 2.2rem; margin: 10px 0; font-weight: 300;">Elevate Your Online Presence & Business Strategy</h2>
+        <div style="width: 60px; height: 3px; background: #6366f1; margin: 20px auto;"></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px;">
+        
+        <div style="border: 1px solid #eee; padding: 30px; border-radius: 0px; position: relative; background: #fff;">
+            <div style="position: absolute; top: -15px; left: 20px; background: #fff; padding: 0 15px; color: #6366f1; font-weight: bold; font-size: 0.9rem;">01. SOCIAL MEDIA SMM</div>
+            <h3 style="font-size: 1.3rem; color: #333; margin-bottom: 15px;">Engagement-Focused Design</h3>
+            <p style="color: #666; line-height: 1.7; font-size: 0.95rem;">
+                Stop the scroll with aesthetic <strong>Instagram Feed & Story packs</strong>. Our <em>SMM Concepts</em> and <em>Engagement Boosters</em> are designed for influencers and brand managers who need high-converting layouts that translate into followers and sales.
+            </p>
+        </div>
+
+        <div style="border: 1px solid #eee; padding: 30px; border-radius: 0px; position: relative; background: #fff;">
+            <div style="position: absolute; top: -15px; left: 20px; background: #fff; padding: 0 15px; color: #6366f1; font-weight: bold; font-size: 0.9rem;">02. REAL ESTATE MARKETING</div>
+            <h3 style="font-size: 1.3rem; color: #333; margin-bottom: 15px;">Professional Agent Branding</h3>
+            <p style="color: #666; line-height: 1.7; font-size: 0.95rem;">
+                Dominate the local market with exclusive <strong>Real Estate Marketing Kits</strong>. From <em>"Just Listed" flyers</em> to <em>digital business cards</em> and <em>Open House invitations</em>, our professional templates help agents build trust and showcase properties with elegance.
+            </p>
+        </div>
+
+        <div style="border: 1px solid #eee; padding: 30px; border-radius: 0px; position: relative; background: #fff;">
+            <div style="position: absolute; top: -15px; left: 20px; background: #fff; padding: 0 15px; color: #6366f1; font-weight: bold; font-size: 0.9rem;">03. COACHING & COURSES</div>
+            <h3 style="font-size: 1.3rem; color: #333; margin-bottom: 15px;">Expert Workbook Design</h3>
+            <p style="color: #666; line-height: 1.7; font-size: 0.95rem;">
+                Transform your expertise into digital products. Our <strong>Coach Workbook Templates</strong> and <strong>Webinar Deck bundles</strong> in Canva are perfect for online course creators. High-quality layouts designed for <em>workbooks, ebooks, and live presentations</em>.
+            </p>
+        </div>
+    </div>
+
+    <div style="margin-top: 60px; padding: 30px; border: 1px solid #f0f0f0; border-radius: 20px; background: linear-gradient(to right, #fff, #f5f3ff); text-align: center;">
+        <p style="margin: 0; color: #777; font-style: italic; font-size: 1rem; font-family: serif;">
+            "Marketing is no longer about the stuff that you make, but the stories you tell." — Tell your brand story with our premium Business Collection.
+        </p>
+    </div>
+</section>
 
     <footer>
         <p>&copy; 2026 <a href="https://creativ-store.site" target="_blank" style="color: #888; text-decoration: none;">CreativVault</a>. Powered by CreativVault.</p>
