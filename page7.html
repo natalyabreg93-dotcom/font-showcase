@@ -8,35 +8,58 @@
     
     <link rel="icon" type="image/png" href="image/favicon.png"> 
     <link rel="stylesheet" href="style.css">
-    
-    /* Фикс для аккуратных баннеров */
-.section-banner {
-    text-align: center;
-    margin: 40px auto;
-    width: 100%;
-    max-width: 1200px; /* Ограничиваем общую область */
-    padding: 0 20px;
-    box-sizing: border-box;
-}
+     
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
 
-.section-banner img {
-    width: 100%;
-    max-width: 900px; /* ВОТ ЭТОТ ПАРАМЕТР делает его аккуратным, а не гигантским */
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    display: block;
-    margin: 0 auto; /* Центрируем само изображение */
-}
+        /* Защита сайдбара и правильная центровка */
+        .main-container {
+            display: flex;
+            gap: 25px;
+            align-items: flex-start;
+        }
 
-/* Фикс для футера (final-cta), если там есть картинки */
-.final-cta img {
-    max-width: 300px; /* Чтобы картинки внизу не были на весь экран */
-    height: auto;
-    margin: 20px auto;
-    display: block;
-}
-   
+        main {
+            flex: 3;
+            min-width: 0;
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        /* Стили для широкого баннера-разделителя */
+        .section-banner {
+            text-align: center;
+            margin: 50px auto 35px;
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .section-banner img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            display: block;
+        }
+
+        @media (max-width: 992px) {
+            .main-container {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                min-width: unset;
+            }
+        }
+    </style>
+      
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
