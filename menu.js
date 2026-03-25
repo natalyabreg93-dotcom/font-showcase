@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <a href="page8.html#recipe-interiors">↳ Recipe Book Interiors</a>
                         <a href="page8.html#fitness-interiors">↳ Fitness & Workout Interiors</a>
                         <a href="page8.html#gratitude-interiors">↳ Gratitude & Mindfulness Interiors</a>
+                        <a href="page8.html#kids-activity-interiors">↳ Kids Activity Interiors</a>
                         <a href="page9.html">SVG Cut Files</a>
                         <a href="page9.html#cricut-svg">↳ Cricut SVG</a>
                         <a href="page9.html#baby-svg">↳ Baby & Nursery SVG</a>
