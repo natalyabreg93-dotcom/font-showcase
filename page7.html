@@ -25,33 +25,31 @@
     main { flex: 3; min-width: 0; }
     .sidebar { flex: 1; min-width: 300px; }
 
-    /* СТИЛЬ ШАПКИ (Как на page 1 и page 10) */
+    /* СТИЛЬ ШАПКИ (В точности как на других страницах) */
     header {
         text-align: center;
         margin: 40px auto;
         width: 100%;
         max-width: 1200px;
-        padding: 0 20px;
+        padding: 0; /* Убираем поля, чтобы картинка была во всю ширину */
         box-sizing: border-box;
     }
 
-    /* Картинка в шапке теперь на всю ширину контейнера (1200px) */
     header img {
         width: 100%;
         height: auto;
         border-radius: 15px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         display: block;
-        margin: 0 auto;
     }
 
-    /* Стили для разделителей внутри страницы */
+    /* Стили для разделителей (баннеров) внутри контента */
     .section-banner {
         text-align: center;
         margin: 50px auto 30px;
         width: 100%;
         max-width: 1200px;
-        padding: 0 20px;
+        padding: 0;
         box-sizing: border-box;
     }
 
@@ -59,7 +57,6 @@
         width: 100%;
         height: auto;
         border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     }
 
     @media (max-width: 992px) {
@@ -82,28 +79,29 @@
 </head>
 <body>
 
-<div class="nav-placeholder"></div>
+    <header>
+        <img src="image/7.jpg" alt="Instagram & Marketing Templates">
+        
+        <div class="nav-placeholder"></div>
 
-<header>
-    <img src="image/7.jpg" alt="Instagram & Marketing Templates">
-    <h1 style="margin-top: 25px; font-size: 2.5rem; color: #222;">Instagram & Business Marketing Templates</h1>
-    <p style="font-size: 1.2rem; color: #666; max-width: 900px; margin: 10px auto;">
-        Explore our curated collection of aesthetic feed layouts, engagement stories, and <strong>exclusive Real Estate marketing kits</strong> for professional agents.
-    </p>
-</header>
+        <h1 style="margin-top: 25px; font-size: 2.5rem; color: #222;">Instagram & Business Marketing Templates</h1>
+        <p style="font-size: 1.2rem; color: #666; max-width: 900px; margin: 10px auto; padding: 0 20px;">
+            Explore our curated collection of aesthetic feed layouts, engagement stories, and <strong>exclusive Real Estate marketing kits</strong> for professional agents.
+        </p>
+    </header>
 
-<section class="pro-guide-section" style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
-    <div style="background: #fff; border: 1px dashed #6366f1; border-radius: 15px; padding: 25px; display: flex; align-items: center; gap: 20px; box-shadow: 5px 5px 0px #f5f3ff, 6px 6px 0px #6366f1;">
-        <div style="font-size: 35px; background: #f5f3ff; padding: 10px; border-radius: 50%;">🚀</div>
-        <div>
-            <h4 style="margin: 0 0 5px; color: #4f46e5; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px;">Marketing Pro: Visual Authority & Engagement</h4>
-            <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">
-                In the digital age, your social media feed is your 24/7 storefront. Our <strong>Marketing Canva Templates</strong> are engineered to boost engagement and establish instant visual authority. 
-                <br><span style="color: #333; font-weight: bold;">Strategy Tip:</span> Mix educational <em>Carousels</em> with high-impact <em>Reels covers</em>. Consistency is key—use our cohesive branding kits to ensure your brand is recognizable across all platforms.
-            </p>
+    <section class="pro-guide-section" style="max-width: 1200px; margin: 30px auto; padding: 0 20px;">
+        <div style="background: #fff; border: 1px dashed #6366f1; border-radius: 15px; padding: 25px; display: flex; align-items: center; gap: 20px; box-shadow: 5px 5px 0px #f5f3ff, 6px 6px 0px #6366f1;">
+            <div style="font-size: 35px; background: #f5f3ff; padding: 10px; border-radius: 50%;">🚀</div>
+            <div>
+                <h4 style="margin: 0 0 5px; color: #4f46e5; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px;">Marketing Pro: Visual Authority & Engagement</h4>
+                <p style="margin: 0; font-size: 0.95rem; color: #555; line-height: 1.6;">
+                    In the digital age, your social media feed is your 24/7 storefront. Our <strong>Marketing Canva Templates</strong> are engineered to boost engagement and establish instant visual authority. 
+                    <br><span style="color: #333; font-weight: bold;">Strategy Tip:</span> Mix educational <em>Carousels</em> with high-impact <em>Reels covers</em>. Consistency is key—use our cohesive branding kits to ensure your brand is recognizable across all platforms.
+                </p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <div class="main-container">
         <main>
