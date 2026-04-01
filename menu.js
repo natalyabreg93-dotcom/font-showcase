@@ -138,6 +138,27 @@ document.addEventListener("DOMContentLoaded", function() {
         const sidebar = document.querySelector('.sidebar') || document.querySelector('aside');
         if (!sidebar) return;
 
+        // --- GLOBAL STUDIO AI EASTER PROMO (ВСТАВКА БАННЕРА) ---
+        if (!document.getElementById('studio-ai-promo-global')) {
+            const promoWrapper = document.createElement('div');
+            promoWrapper.id = 'studio-ai-promo-global';
+            promoWrapper.innerHTML = `
+                <div class="banner-container" style="margin-bottom: 25px; border: 2px solid #7c3aed; border-radius: 12px; overflow: hidden; background: #fff; box-shadow: 0 4px 15px rgba(124, 58, 237, 0.15);">
+                    <h3 style="background: #7c3aed; color: #fff; margin: 0; padding: 10px; font-size: 0.85rem; text-align: center; text-transform: uppercase; letter-spacing: 1px; font-family: sans-serif;">Studio AI Easter Special</h3>
+                    <a href="https://studio.creativefabrica.com/ref/10996753/" target="_blank">
+                        <img src="image/studio-ai-promo.jpg" alt="Studio AI Easter Offer" style="width: 100%; display: block; transition: opacity 0.3s;">
+                    </a>
+                    <div style="padding: 12px; text-align: center; background: #f5f3ff; border-top: 1px solid #ddd; font-family: sans-serif;">
+                        <div style="font-size: 0.75rem; color: #6b7280; margin-bottom: 5px;">EXCLUSIVE EASTER CODE:</div>
+                        <span style="font-size: 1rem; color: #4338ca; font-weight: bold; border: 1px dashed #7c3aed; padding: 3px 10px; border-radius: 4px; display: inline-block;">STUDIOEASTER</span>
+                    </div>
+                </div>
+            `;
+            // Вставляем самым первым элементом в сайдбар
+            sidebar.prepend(promoWrapper);
+        }
+        // --- КОНЕЦ ВСТАВКИ БАННЕРА ---
+
         sidebar.querySelectorAll('p').forEach(p => {
             if (p.innerText.toLowerCase().includes('categories')) {
                 p.innerHTML = '← View All 50+ Categories';
@@ -152,7 +173,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     <div id="daily-gift-box" style="transition: opacity 0.5s ease; min-height: 140px;"></div>
                 </div>
             `;
-            sidebar.prepend(giftWrapper);
+            // Вставляем после баннера Studio AI
+            const studioPromo = document.getElementById('studio-ai-promo-global');
+            if (studioPromo) {
+                studioPromo.after(giftWrapper);
+            } else {
+                sidebar.prepend(giftWrapper);
+            }
 
             const updateGift = () => {
                 const box = document.getElementById('daily-gift-box');
