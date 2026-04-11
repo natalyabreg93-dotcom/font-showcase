@@ -470,3 +470,91 @@ footer a:hover {
     background: #f0f0f0;
     display: block;
 }
+/* --- СТИЛИ ДЛЯ СТРУКТУРЫ СТРАНИЦ (ПРОТИВ РАСПОЛЗАНИЯ) --- */
+html { scroll-behavior: smooth; }
+
+.main-container { 
+    display: flex; 
+    gap: 25px; 
+    align-items: flex-start; 
+    max-width: 1200px; 
+    margin: 30px auto; 
+    padding: 0 20px;
+}
+
+main { 
+    flex: 3; 
+    min-width: 0; 
+}
+
+.sidebar { 
+    flex: 1; 
+    min-width: 300px; 
+}
+
+.section-banner { 
+    text-align: center; 
+    margin: 60px auto 40px; 
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
+}
+
+.section-banner img { 
+    width: 100%; 
+    height: auto; 
+    border-radius: 15px; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    display: block; 
+}
+
+/* --- СТИЛИ ДЛЯ КНОПОК MASTER COLLECTION --- */
+.master-collection-link {
+    display: block;
+    text-align: center;
+    margin: -20px auto 40px;
+    max-width: 800px;
+    padding: 0 15px;
+}
+
+.collection-btn {
+    display: inline-block;
+    background: #111827;
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 18px 32px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 1.15rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 2px solid transparent;
+    line-height: 1.4;
+}
+
+.collection-btn:hover {
+    background: #4f46e5; /* Универсальный синий цвет для наведения */
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(79, 70, 229, 0.3);
+}
+
+.collection-btn span {
+    font-size: 0.9rem;
+    opacity: 0.85;
+    display: block;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+/* --- АДАПТИВНОСТЬ ДЛЯ ВСЕХ СТРАНИЦ --- */
+@media (max-width: 992px) {
+    .main-container { flex-direction: column; }
+    .sidebar { width: 100%; min-width: unset; order: 2; }
+    .product-grid { order: 1; }
+}
+
+@media (max-width: 600px) {
+    .collection-btn { width: 100%; box-sizing: border-box; font-size: 1rem; }
+    .master-collection-link { margin-top: -10px; }
+}
